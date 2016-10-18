@@ -1,0 +1,6882 @@
+ï»¿project gutenberg etext of hamlet by shakespear
+pg ha multipl edit of william shakespear's complet work
+
+
+copyright law ar chang all over the world, be sure to check
+the copyright law for your countri befor post these file!!
+
+pleas take a look at the import inform in thi header.
+we encourag you to keep thi file on your own disk, keep an
+electron path open for the next reader.  do not remov thi.
+
+
+**welcom to the world of free plain vanilla electron text**
+
+**etext readabl by both human and by comput, sinc 1971**
+
+*these etext prepar by hundr of volunt and donat*
+
+inform on contact project gutenberg to get etext, and
+further inform is includ below.  we need your donat.
+
+
+hamlet, princ of denmark
+
+by william shakespear [collin edit]
+
+novemb, 1998 [etext #1524]
+most recent updat: januari 26, 2009
+
+
+project gutenberg etext of hamlet by shakespear
+******thi file should be name 1524.txt or 1524.zip******
+
+thi etext wa prepar by diann bean.
+
+
+project gutenberg etext ar usual creat from multipl edit,
+all of which ar in the public domain in the unit state, unless a
+copyright notic is includ.  therefor, we usual do not! keep
+these book in complianc with ani particular paper edit.
+
+
+we ar now try to releas all our book on month in advanc
+of the offici releas date, leav time for better edit.
+
+pleas note:  neither thi list nor it content ar final till
+midnight of the last dai of the month of ani such announc.
+the offici releas date of all project gutenberg etext is at
+midnight, central time, of the last dai of the state month.  a
+preliminari version mai often be post for suggest, comment
+and edit by those who wish to do so.  to be sure you have an
+up to date first edit [xxxxx10x.xxx] pleas check file size
+in the first week of the next month.  sinc our ftp program ha
+a bug in it that scrambl the date [tri to fix and fail] a
+look at the file size will have to do, but we will try to see a
+new copi ha at least on byte more or less.
+
+
+inform about project gutenberg (on page)
+
+we produc about two million dollar for each hour we work.  the
+time it take us, a rather conserv estim, is fifti hour
+to get ani etext select, enter, proofread, edit, copyright
+search and analyz, the copyright letter written, etc.  thi
+project audienc is on hundr million reader.  if our valu
+per text is nomin estim at on dollar then we produc $2
+million dollar per hour thi year as we releas thirti-six text
+file per month, or 432 more etext in 1999 for a total of 2000+
+if these reach just 10% of the computer popul, then the
+total should reach over 200 billion etext given awai thi year.
+
+the goal of project gutenberg is to give awai on trillion etext
+file by decemb 31, 2001.  [10,000 x 100,000,000 = 1 trillion]
+thi is ten thousand titl each to on hundr million reader,
+which is onli ~5% of the present number of comput user.
+
+at our revis rate of product, we will reach onli on-third
+of that goal by the end of 2001, or about 3,333 etext unless we
+manag to get some real fund; current our fund is mostli
+from michael hart's salari at carnegi-mellon univers, and an
+assort of sporad gift; thi salari is onli good for a few
+more year, so we ar look for someth to replac it, as we
+don't want project gutenberg to be so depend on on person.
+
+we need your donat more than ever!
+
+
+all donat should be made to "project gutenberg/cmu": and ar
+tax deduct to the extent allow by law.  (cmu = carnegi-
+mellon univers).
+
+for these and other matter, pleas mail to:
+
+project gutenberg
+p. o. box  2782
+champaign, il 61825
+
+when all other email fail. . .try our execut director:
+michael s. hart <hart@pobox.com>
+hart@pobox.com forward to hart@prairienet.org and archiv.org
+if your mail bounc from archiv.org, i will still see it, if
+it bounc from prairienet.org, better resend later on. . . .
+
+we would prefer to send you thi inform by email.
+
+******
+
+to access project gutenberg etext, us ani web browser
+to view http://promo.net/pg.  thi site list etext by
+author and by titl, and includ inform about how
+to get involv with project gutenberg.  you could also
+download our past newslett, or subscrib here.  thi
+is on of our major site, pleas email hart@pobox.com,
+for a more complet list of our variou site.
+
+to go directli to the etext collect, us ftp or ani
+web browser to visit a project gutenberg mirror (mirror
+site ar avail on 7 contin; mirror ar list
+at http://promo.net/pg).
+
+mac user, do not point and click, type work better.
+
+exampl ftp session:
+
+ftp sunsit.unc.edu
+login: anonym
+password: your@login
+cd pub/doc/book/gutenberg
+cd etext90 through etext99
+dir [to see file]
+get or mget [to get file. . .set bin for zip file]
+get gutindex.??  [to get a year's list of book, e.g., gutindex.99]
+get gutindex.all [to get a list of all book]
+
+***
+
+**inform prepar by the project gutenberg legal advisor**
+
+(three page)
+
+
+***start**the small print!**for public domain etext**start***
+why is thi "small print!" statement here?  you know: lawyer.
+thei tell us you might sue us if there is someth wrong with
+your copi of thi etext, even if you got it for free from
+someon other than us, and even if what's wrong is not our
+fault.  so, among other thing, thi "small print!" statement
+disclaim most of our liabil to you.  it also tell you how
+you can distribut copi of thi etext if you want to.
+
+*befor!* you us or read thi etext
+by us or read ani part of thi project gutenberg-tm
+etext, you indic that you understand, agre to and accept
+thi "small print!" statement.  if you do not, you can receiv
+a refund of the monei (if ani) you paid for thi etext by
+send a request within 30 dai of receiv it to the person
+you got it from.  if you receiv thi etext on a physic
+medium (such as a disk), you must return it with your request.
+
+about project gutenberg-tm etext
+thi project gutenberg-tm etext, like most project gutenberg-
+tm etext, is a "public domain" work distribut by professor
+michael s. hart through the project gutenberg associ at
+carnegi-mellon univers (the "project").  among other
+thing, thi mean that no on own a unit state copyright
+on or for thi work, so the project (and you!) can copi and
+distribut it in the unit state without permiss and
+without pai copyright royalti.  special rule, set forth
+below, appli if you wish to copi and distribut thi etext
+under the project's "project gutenberg" trademark.
+
+to creat these etext, the project expend consider
+effort to identifi, transcrib and proofread public domain
+work.  despit these effort, the project's etext and ani
+medium thei mai be on mai contain "defect".  among other
+thing, defect mai take the form of incomplet, inaccur or
+corrupt data, transcript error, a copyright or other
+intellectu properti infring, a defect or damag
+disk or other etext medium, a comput viru, or comput
+code that damag or cannot be read by your equip.
+
+limit warranti; disclaim of damag
+but for the "right of replac or refund" describ below,
+[1] the project (and ani other parti you mai receiv thi
+etext from as a project gutenberg-tm etext) disclaim all
+liabil to you for damag, cost and expens, includ
+legal fee, and [2] you have no remedi for neglig or
+under strict liabil, or for breach of warranti or contract,
+includ but not limit to indirect, consequenti, punit
+or incident damag, even if you give notic of the
+possibl of such damag.
+
+if you discov a defect in thi etext within 90 dai of
+receiv it, you can receiv a refund of the monei (if ani)
+you paid for it by send an explanatori note within that
+time to the person you receiv it from.  if you receiv it
+on a physic medium, you must return it with your note, and
+such person mai choos to altern give you a replac
+copi.  if you receiv it electron, such person mai
+choos to altern give you a second opportun to
+receiv it electron.
+
+thi etext is otherwis provid to you "as-is".  no other
+warranti of ani kind, express or impli, ar made to you as
+to the etext or ani medium it mai be on, includ but not
+limit to warranti of merchant or fit for a
+particular purpos.
+
+some state do not allow disclaim of impli warranti or
+the exclus or limit of consequenti damag, so the
+abov disclaim and exclus mai not appli to you, and you
+mai have other legal right.
+
+indemn
+you will indemnifi and hold the project, it director,
+offic, member and agent harmless from all liabil, cost
+and expens, includ legal fee, that aris directli or
+indirectli from ani of the follow that you do or caus:
+[1] distribut of thi etext, [2] alter, modif,
+or addit to the etext, or [3] ani defect.
+
+distribut under "project gutenberg-tm"
+you mai distribut copi of thi etext electron, or by
+disk, book or ani other medium if you either delet thi
+"small print!" and all other refer to project gutenberg,
+or:
+
+[1]  onli give exact copi of it.  among other thing, thi
+     requir that you do not remov, alter or modifi the
+     etext or thi "small print!" statement.  you mai howev,
+     if you wish, distribut thi etext in machin readabl
+     binari, compress, mark-up, or proprietari form,
+     includ ani form result from convers by word pro-
+     cess or hypertext softwar, but onli so long as
+     *either*:
+
+     [*]  the etext, when displai, is clearli readabl, and
+          doe *not* contain charact other than those
+          intend by the author of the work, although tild
+          (~), asterisk (*) and underlin (_) charact mai
+          be us to convei punctuat intend by the
+          author, and addit charact mai be us to
+          indic hypertext link; or
+
+     [*]  the etext mai be readili convert by the reader at
+          no expens into plain ascii, ebcdic or equival
+          form by the program that displai the etext (as is
+          the case, for instanc, with most word processor);
+          or
+
+     [*]  you provid, or agre to also provid on request at
+          no addit cost, fee or expens, a copi of the
+          etext in it origin plain ascii form (or in ebcdic
+          or other equival proprietari form).
+
+[2]  honor the etext refund and replac provis of thi
+     "small print!" statement.
+
+[3]  pai a trademark licens fee to the project of 20% of the
+     net profit you deriv calcul us the method you
+     alreadi us to calcul your applic tax.  if you
+     don't deriv profit, no royalti is due.  royalti ar
+     payabl to "project gutenberg associ/carnegi-mellon
+     univers" within the 60 dai follow each
+     date you prepar (or were legal requir to prepar)
+     your annual (or equival period) tax return.
+
+what if you *want* to send monei even if you don't have to?
+the project gratefulli accept contribut in monei, time,
+scan machin, ocr softwar, public domain etext, royalti
+free copyright licens, and everi other sort of contribut
+you can think of.  monei should be paid to "project gutenberg
+associ / carnegi-mellon univers".
+
+*end*the small print! for public domain etext*ver.04.29.93*end*
+
+
+
+
+
+thi etext wa prepar by diann bean.
+
+
+
+
+
+hamlet, princ of denmark
+
+by william shakespear
+
+
+
+
+person repres.
+
+claudiu, king of denmark.
+hamlet, son to the former, and nephew to the present king.
+poloniu, lord chamberlain.
+horatio, friend to hamlet.
+laert, son to poloniu.
+voltimand, courtier.
+corneliu, courtier.
+rosencrantz, courtier.
+guildenstern, courtier.
+osric, courtier.
+a gentleman, courtier.
+a priest.
+marcellu, offic.
+bernardo, offic.
+francisco, a soldier
+reynaldo, servant to poloniu.
+player.
+two clown, grave-digger.
+fortinbra, princ of norwai.
+a captain.
+english ambassador.
+ghost of hamlet's father.
+
+gertrud, queen of denmark, and mother of hamlet.
+ophelia, daughter to poloniu.
+
+lord, ladi, offic, soldier, sailor, messeng, and other
+attend.
+
+scene. elsinor.
+
+
+
+act i.
+
+scene i. elsinor. a platform befor the castl.
+
+[francisco at hi post. enter to him bernardo.]
+
+ber.
+who's there?
+
+fran.
+nai, answer me: stand, and unfold yourself.
+
+ber.
+long live the king!
+
+fran.
+bernardo?
+
+ber.
+he.
+
+fran.
+you come most carefulli upon your hour.
+
+ber.
+'ti now struck twelv. get thee to bed, francisco.
+
+fran.
+for thi relief much thank: 'ti bitter cold,
+and i am sick at heart.
+
+ber.
+have you had quiet guard?
+
+fran.
+not a mous stir.
+
+ber.
+well, good night.
+if you do meet horatio and marcellu,
+the rival of my watch, bid them make hast.
+
+fran.
+i think i hear them.--stand, ho! who is there?
+
+[enter horatio and marcellu.]
+
+hor.
+friend to thi ground.
+
+mar.
+and liegemen to the dane.
+
+fran.
+give you good-night.
+
+mar.
+o, farewel, honest soldier;
+who hath reliev'd you?
+
+fran.
+bernardo ha my place.
+give you good-night.
+
+[exit.]
+
+mar.
+holla! bernardo!
+
+ber.
+sai.
+what, is horatio there?
+
+hor.
+a piec of him.
+
+ber.
+welcom, horatio:--welcom, good marcellu.
+
+mar.
+what, ha thi thing appear'd again to-night?
+
+ber.
+i have seen noth.
+
+mar.
+horatio sai 'ti but our fantasi,
+and will not let belief take hold of him
+touch thi dread sight, twice seen of us:
+therefor i have entreat him along
+with us to watch the minut of thi night;
+that, if again thi apparit come
+he mai approv our ey and speak to it.
+
+hor.
+tush, tush, 'twill not appear.
+
+ber.
+sit down awhil,
+and let us onc again assail your ear,
+that ar so fortifi against our stori,
+what we two night have seen.
+
+hor.
+well, sit we down,
+and let us hear bernardo speak of thi.
+
+ber.
+last night of all,
+when yond same star that's westward from the pole
+had made hi cours to illum that part of heaven
+where now it burn, marcellu and myself,
+the bell then beat on,--
+
+mar.
+peac, break thee off; look where it come again!
+
+[enter ghost, arm.]
+
+ber.
+in the same figur, like the king that's dead.
+
+mar.
+thou art a scholar; speak to it, horatio.
+
+ber.
+look it not like the king? mark it, horatio.
+
+hor.
+most like:--it harrow me with fear and wonder.
+
+ber.
+it would be spoke to.
+
+mar.
+question it, horatio.
+
+hor.
+what art thou, that usurp'st thi time of night,
+togeth with that fair and warlik form
+in which the majesti of buri denmark
+did sometim march? by heaven i charg thee, speak!
+
+mar.
+it is offend.
+
+ber.
+see, it stalk awai!
+
+hor.
+stai! speak, speak! i charg thee speak!
+
+[exit ghost.]
+
+mar.
+'ti gone, and will not answer.
+
+ber.
+how now, horatio! you trembl and look pale:
+is not thi someth more than fantasi?
+what think you on't?
+
+hor.
+befor my god, i might not thi believ
+without the sensibl and true avouch
+of mine own ey.
+
+mar.
+is it not like the king?
+
+hor.
+as thou art to thyself:
+such wa the veri armour he had on
+when he the ambiti norwai combat;
+so frown'd he onc when, in an angri parl,
+he smote the sled polack on the ic.
+'ti strang.
+
+mar.
+thu twice befor, and jump at thi dead hour,
+with martial stalk hath he gone by our watch.
+
+hor.
+in what particular thought to work i know not;
+but, in the gross and scope of my opinion,
+thi bode some strang erupt to our state.
+
+mar.
+good now, sit down, and tell me, he that know,
+why thi same strict and most observ watch
+so nightli toil the subject of the land;
+and why such daili cast of brazen cannon,
+and foreign mart for implement of war;
+why such impress of shipwright, whose sore task
+doe not divid the sundai from the week;
+what might be toward, that thi sweati hast
+doth make the night joint-labour with the dai:
+who is't that can inform me?
+
+hor.
+that can i;
+at least, the whisper goe so. our last king,
+whose imag even but now appear'd to us,
+wa, as you know, by fortinbra of norwai,
+thereto prick'd on by a most emul pride,
+dar'd to the combat; in which our valiant hamlet,--
+for so thi side of our known world esteem'd him,--
+did slai thi fortinbra; who, by a seal'd compact,
+well ratifi by law and heraldri,
+did forfeit, with hi life, all those hi land,
+which he stood seiz'd of, to the conqueror:
+against the which, a moieti compet
+wa gage by our king; which had return'd
+to the inherit of fortinbra,
+had he been vanquish; as by the same cov'nant,
+and carriag of the articl design'd,
+hi fell to hamlet. now, sir, young fortinbra,
+of unimprov mettl hot and full,
+hath in the skirt of norwai, here and there,
+shark'd up a list of lawless resolut,
+for food and diet, to some enterpris
+that hath a stomach in't; which is no other,--
+as it doth well appear unto our state,--
+but to recov of us, by strong hand,
+and term compulsatori, those foresaid land
+so by hi father lost: and thi, i take it,
+is the main motiv of our prepar,
+the sourc of thi our watch, and the chief head
+of thi post-hast and romag in the land.
+
+ber.
+i think it be no other but e'en so:
+well mai it sort, that thi portent figur
+come arm through our watch; so like the king
+that wa and is the question of these war.
+
+hor.
+a mote it is to troubl the mind's ey.
+in the most high and palmi state of rome,
+a littl er the mightiest juliu fell,
+the grave stood tenantless, and the sheet dead
+did squeak and gibber in the roman street;
+as, star with train of fire and dew of blood,
+disast in the sun; and the moist star,
+upon whose influenc neptun's empir stand,
+wa sick almost to doomsdai with eclips:
+and even the like precurs of fierc event,--
+as harbing preced still the fate,
+and prologu to the omen come on,--
+have heaven and earth togeth demonstr
+unto our climatur and countrymen.--
+but, soft, behold! lo, where it come again!
+
+[re-enter ghost.]
+
+i'll cross it, though it blast me.--stai, illus!
+if thou hast ani sound, or us of voic,
+speak to me:
+if there be ani good thing to be done,
+that mai to thee do eas, and, race to me,
+speak to me:
+if thou art privi to thy countri's fate,
+which, happili, foreknow mai avoid,
+o, speak!
+or if thou hast uphoard in thy life
+extort treasur in the womb of earth,
+for which, thei sai, you spirit oft walk in death,
+[the cock crow.]
+speak of it:--stai, and speak!--stop it, marcellu!
+
+mar.
+shall i strike at it with my partisan?
+
+hor.
+do, if it will not stand.
+
+ber.
+'ti here!
+
+hor.
+'ti here!
+
+mar.
+'ti gone!
+
+[exit ghost.]
+
+we do it wrong, be so majest,
+to offer it the show of violenc;
+for it is, as the air, invulner,
+and our vain blow malici mockeri.
+
+ber.
+it wa about to speak, when the cock crew.
+
+hor.
+and then it start, like a guilti thing
+upon a fear summon. i have heard
+the cock, that is the trumpet to the morn,
+doth with hi lofti and shrill-sound throat
+awak the god of dai; and at hi warn,
+whether in sea or fire, in earth or air,
+the extravag and er spirit hi
+to hi confin: and of the truth herein
+thi present object made probat.
+
+mar.
+it fade on the crow of the cock.
+some sai that ever 'gainst that season come
+wherein our saviour's birth is celebr,
+the bird of dawn singeth all night long;
+and then, thei sai, no spirit dare stir abroad;
+the night ar wholesom; then no planet strike,
+no fairi take, nor witch hath power to charm;
+so hallow'd and so graciou is the time.
+
+hor.
+so have i heard, and do in part believ it.
+but, look, the morn, in russet mantl clad,
+walk o'er the dew of yon high eastward hill:
+break we our watch up: and by my advic,
+let us impart what we have seen to-night
+unto young hamlet; for, upon my life,
+thi spirit, dumb to us, will speak to him:
+do you consent we shall acquaint him with it,
+as need in our love, fit our duti?
+
+mar.
+let's do't, i prai; and i thi morn know
+where we shall find him most conveni.
+
+[exeunt.]
+
+
+
+scene ii. elsinor. a room of state in the castl.
+
+[enter the king, queen, hamlet, poloniu, laert, voltimand,
+corneliu, lord, and attend.]
+
+king.
+though yet of hamlet our dear brother's death
+the memori be green, and that it us befit
+to bear our heart in grief, and our whole kingdom
+to be contract in on brow of woe;
+yet so far hath discret fought with natur
+that we with wisest sorrow think on him,
+togeth with remembr of ourselv.
+therefor our sometim sister, now our queen,
+th' imperi jointress to thi warlik state,
+have we, as 'twere with a defeat joi,--
+with an auspici and on drop ey,
+with mirth in funer, and with dirg in marriag,
+in equal scale weigh delight and dole,--
+taken to wife; nor have we herein barr'd
+your better wisdom, which have freeli gone
+with thi affair along:--or all, our thank.
+now follow, that you know, young fortinbra,
+hold a weak suppos of our worth,
+or think by our late dear brother's death
+our state to be disjoint and out of frame,
+colleagu with thi dream of hi advantag,
+he hath not fail'd to pester us with messag,
+import the surrend of those land
+lost by hi father, with all bond of law,
+to our most valiant brother. so much for him,--
+now for ourself and for thi time of meet:
+thu much the busi is:--we have here writ
+to norwai, uncl of young fortinbra,--
+who, impot and bed-rid, scarc hear
+of thi hi nephew's purpos,--to suppress
+hi further gait herein; in that the levi,
+the list, and full proport ar all made
+out of hi subject:--and we here dispatch
+you, good corneliu, and you, voltimand,
+for bearer of thi greet to old norwai;
+give to you no further person power
+to busi with the king, more than the scope
+of these dilat articl allow.
+farewel; and let your hast commend your duti.
+
+cor. and volt.
+in that and all thing will we show our duti.
+
+king.
+we doubt it noth: heartili farewel.
+
+[exeunt voltimand and corneliu.]
+
+and now, laert, what's the new with you?
+you told us of some suit; what is't, laert?
+you cannot speak of reason to the dane,
+and lose your voic: what wouldst thou beg, laert,
+that shall not be my offer, not thy ask?
+the head is not more nativ to the heart,
+the hand more instrument to the mouth,
+than is the throne of denmark to thy father.
+what wouldst thou have, laert?
+
+laer.
+dread my lord,
+your leav and favour to return to franc;
+from whenc though willingli i came to denmark,
+to show my duti in your coron;
+yet now, i must confess, that duti done,
+my thought and wish bend again toward franc,
+and bow them to your graciou leav and pardon.
+
+king.
+have you your father's leav? what sai poloniu?
+
+pol.
+he hath, my lord, wrung from me my slow leav
+by laboursom petit; and at last
+upon hi will i seal'd my hard consent:
+i do beseech you, give him leav to go.
+
+king.
+take thy fair hour, laert; time be thine,
+and thy best grace spend it at thy will!--
+but now, my cousin hamlet, and my son--
+
+ham.
+[asid.] a littl more than kin, and less than kind!
+
+king.
+how is it that the cloud still hang on you?
+
+ham.
+not so, my lord; i am too much i' the sun.
+
+queen.
+good hamlet, cast thy night colour off,
+and let thine ey look like a friend on denmark.
+do not for ever with thy vail lid
+seek for thy nobl father in the dust:
+thou know'st 'ti common,--all that live must die,
+pass through natur to etern.
+
+ham.
+ay, madam, it is common.
+
+queen.
+if it be,
+why seem it so particular with thee?
+
+ham.
+seem, madam! nai, it is; i know not seem.
+'ti not alon my inki cloak, good mother,
+nor customari suit of solemn black,
+nor windi suspir of forc'd breath,
+no, nor the fruit river in the ey,
+nor the deject 'havior of the visag,
+togeth with all form, mood, show of grief,
+that can denot me truli: these, inde, seem;
+for thei ar action that a man might plai;
+but i have that within which passeth show;
+these but the trap and the suit of woe.
+
+king.
+'ti sweet and commend in your natur, hamlet,
+to give these mourn duti to your father;
+but, you must know, your father lost a father;
+that father lost, lost hi; and the survivor bound,
+in filial oblig, for some term
+to do obsequi sorrow: but to persever
+in obstin condol is a cours
+of impiou stubborn; 'ti unmanli grief;
+it show a will most incorrect to heaven;
+a heart unfortifi, a mind impati;
+an understand simpl and unschool'd;
+for what we know must be, and is as common
+as ani the most vulgar thing to sens,
+why should we, in our peevish opposit,
+take it to heart? fie! 'ti a fault to heaven,
+a fault against the dead, a fault to natur,
+to reason most absurd; whose common theme
+is death of father, and who still hath cri,
+from the first cors till he that di to-dai,
+'thi must be so.' we prai you, throw to earth
+thi unprevail woe; and think of us
+as of a father: for let the world take note
+you ar the most immedi to our throne;
+and with no less nobil of love
+than that which dearest father bear hi son
+do i impart toward you. for your intent
+in go back to school in wittenberg,
+it is most retrograd to our desir:
+and we beseech you bend you to remain
+here in the cheer and comfort of our ey,
+our chiefest courtier, cousin, and our son.
+
+queen.
+let not thy mother lose her prayer, hamlet:
+i prai thee stai with us; go not to wittenberg.
+
+ham.
+i shall in all my best obei you, madam.
+
+king.
+why, 'ti a love and a fair repli:
+be as ourself in denmark.--madam, come;
+thi gentl and unforc'd accord of hamlet
+sit smile to my heart: in grace whereof,
+no jocund health that denmark drink to-dai
+but the great cannon to the cloud shall tell;
+and the king's rous the heaven shall bruit again,
+re-speak earthli thunder. come awai.
+
+[exeunt all but hamlet.]
+
+ham.
+o that thi too too solid flesh would melt,
+thaw, and resolv itself into a dew!
+or that the everlast had not fix'd
+hi canon 'gainst self-slaughter! o god! o god!
+how weari, stale, flat, and unprofit
+seem to me all the us of thi world!
+fie on't! o fie! 'ti an unweed garden,
+that grow to seed; thing rank and gross in natur
+possess it mere. that it should come to thi!
+but two month dead!--nai, not so much, not two:
+so excel a king; that wa, to thi,
+hyperion to a satyr; so love to my mother,
+that he might not beteem the wind of heaven
+visit her face too roughli. heaven and earth!
+must i rememb? why, she would hang on him
+as if increas of appetit had grown
+by what it fed on: and yet, within a month,--
+let me not think on't,--frailti, thy name is woman!--
+a littl month; or er those shoe were old
+with which she follow my poor father's bodi
+like niob, all tear;--why she, even she,--
+o god! a beast that want discours of reason,
+would have mourn'd longer,--marri with mine uncl,
+my father's brother; but no more like my father
+than i to hercul: within a month;
+er yet the salt of most unright tear
+had left the flush in her gall ey,
+she marri:-- o, most wick speed, to post
+with such dexter to incestu sheet!
+it is not, nor it cannot come to good;
+but break my heart,--for i must hold my tongu!
+
+[enter horatio, marcellu, and bernardo.]
+
+hor.
+hail to your lordship!
+
+ham.
+i am glad to see you well:
+horatio,--or i do forget myself.
+
+hor.
+the same, my lord, and your poor servant ever.
+
+ham.
+sir, my good friend; i'll chang that name with you:
+and what make you from wittenberg, horatio?--
+marcellu?
+
+mar.
+my good lord,--
+
+ham.
+i am veri glad to see you.--good even, sir.--
+but what, in faith, make you from wittenberg?
+
+hor.
+a truant disposit, good my lord.
+
+ham.
+i would not hear your enemi sai so;
+nor shall you do my ear that violenc,
+to make it truster of your own report
+against yourself: i know you ar no truant.
+but what is your affair in elsinor?
+we'll teach you to drink deep er you depart.
+
+hor.
+my lord, i came to see your father's funer.
+
+ham.
+i prithe do not mock me, fellow-student.
+i think it wa to see my mother's wed.
+
+hor.
+inde, my lord, it follow'd hard upon.
+
+ham.
+thrift, thrift, horatio! the funer bak'd meat
+did coldli furnish forth the marriag tabl.
+would i had met my dearest foe in heaven
+or ever i had seen that dai, horatio!--
+my father,--methink i see my father.
+
+hor.
+where, my lord?
+
+ham.
+in my mind's ey, horatio.
+
+hor.
+i saw him onc; he wa a goodli king.
+
+ham.
+he wa a man, take him for all in all,
+i shall not look upon hi like again.
+
+hor.
+my lord, i think i saw him yesternight.
+
+ham.
+saw who?
+
+hor.
+my lord, the king your father.
+
+ham.
+the king my father!
+
+hor.
+season your admir for awhil
+with an attent ear, till i mai deliv,
+upon the wit of these gentlemen,
+thi marvel to you.
+
+ham.
+for god's love let me hear.
+
+hor.
+two night togeth had these gentlemen,
+marcellu and bernardo, on their watch
+in the dead vast and middl of the night,
+been thu encount'd. a figur like your father,
+arm at point exactli, cap-a-pe,
+appear befor them and with solemn march
+goe slow and state by them: thrice he walk'd
+by their oppress'd and fear-surpris ey,
+within hi truncheon's length; whilst thei, distil'd
+almost to jelli with the act of fear,
+stand dumb, and speak not to him. thi to me
+in dread secreci impart thei did;
+and i with them the third night kept the watch:
+where, as thei had deliv'd, both in time,
+form of the thing, each word made true and good,
+the apparit come: i knew your father;
+these hand ar not more like.
+
+ham.
+but where wa thi?
+
+mar.
+my lord, upon the platform where we watch'd.
+
+ham.
+did you not speak to it?
+
+hor.
+my lord, i did;
+but answer made it none: yet onc methought
+it lift up it head, and did address
+itself to motion, like as it would speak:
+but even then the morn cock crew loud,
+and at the sound it shrunk in hast awai,
+and vanish'd from our sight.
+
+ham.
+'ti veri strang.
+
+hor.
+as i do live, my honour'd lord, 'ti true;
+and we did think it writ down in our duti
+to let you know of it.
+
+ham.
+inde, inde, sir, but thi troubl me.
+hold you the watch to-night?
+
+mar. and ber.
+we do, my lord.
+
+ham.
+arm'd, sai you?
+
+both.
+arm'd, my lord.
+
+ham.
+from top to toe?
+
+both.
+my lord, from head to foot.
+
+ham.
+then saw you not hi face?
+
+hor.
+o, ye, my lord: he wore hi beaver up.
+
+ham.
+what, look'd he frowningli?
+
+hor.
+a counten more in sorrow than in anger.
+
+ham.
+pale or red?
+
+hor.
+nai, veri pale.
+
+ham.
+and fix'd hi ey upon you?
+
+hor.
+most constantli.
+
+ham.
+i would i had been there.
+
+hor.
+it would have much amaz'd you.
+
+ham.
+veri like, veri like. stai'd it long?
+
+hor.
+while on with moder hast might tell a hundr.
+
+mar. and ber.
+longer, longer.
+
+hor.
+not when i saw't.
+
+ham.
+hi beard wa grizzl,--no?
+
+hor.
+it wa, as i have seen it in hi life,
+a sabl silver'd.
+
+ham.
+i will watch to-night;
+perchanc 'twill walk again.
+
+hor.
+i warr'nt it will.
+
+ham.
+if it assum my nobl father's person,
+i'll speak to it, though hell itself should gape
+and bid me hold my peac. i prai you all,
+if you have hitherto conceal'd thi sight,
+let it be tenabl in your silenc still;
+and whatsoev els shall hap to-night,
+give it an understand, but no tongu:
+i will requit your love. so, fare ye well:
+upon the platform, 'twixt eleven and twelv,
+i'll visit you.
+
+all.
+our duti to your honour.
+
+ham.
+your love, as mine to you: farewel.
+
+[exeunt horatio, marcellu, and bernardo.]
+
+my father's spirit in arm! all is not well;
+i doubt some foul plai: would the night were come!
+till then sit still, my soul: foul deed will rise,
+though all the earth o'erwhelm them, to men's ey.
+
+[exit.]
+
+
+
+scene iii. a room in poloniu's hous.
+
+[enter laert and ophelia.]
+
+laer.
+my necessari ar embark'd: farewel:
+and, sister, as the wind give benefit
+and convoi is assist, do not sleep,
+but let me hear from you.
+
+oph.
+do you doubt that?
+
+laer.
+for hamlet, and the trifl of hi favour,
+hold it a fashion, and a toi in blood:
+a violet in the youth of primi natur,
+forward, not perman, sweet, not last;
+the perfum and supplianc of a minut;
+no more.
+
+oph.
+no more but so?
+
+laer.
+think it no more:
+for natur, crescent, doe not grow alon
+in thew and bulk; but as thi templ wax,
+the inward servic of the mind and soul
+grow wide withal. perhap he love you now;
+and now no soil nor cautel doth besmirch
+the virtu of hi will: but you must fear,
+hi great weigh'd, hi will is not hi own;
+for he himself is subject to hi birth:
+he mai not, as unvalu'd person do,
+carv for himself; for on hi choic depend
+the safeti and health of thi whole state;
+and therefor must hi choic be circumscrib'd
+unto the voic and yield of that bodi
+whereof he is the head. then if he sai he love you,
+it fit your wisdom so far to believ it
+as he in hi particular act and place
+mai give hi sai deed; which is no further
+than the main voic of denmark goe withal.
+then weigh what loss your honour mai sustain
+if with too credent ear you list hi song,
+or lose your heart, or your chast treasur open
+to hi unmast'd importun.
+fear it, ophelia, fear it, my dear sister;
+and keep you in the rear of your affect,
+out of the shot and danger of desir.
+the chariest maid is prodig enough
+if she unmask her beauti to the moon:
+virtu itself scope not calumni stroke:
+the canker gall the infant of the spring
+too oft befor their button be disclo'd:
+and in the morn and liquid dew of youth
+contagi blastment ar most immin.
+be wari then; best safeti li in fear:
+youth to itself rebel, though none els near.
+
+oph.
+i shall th' effect of thi good lesson keep
+as watchman to my heart. but, good my brother,
+do not, as some ungraci pastor do,
+show me the steep and thorni wai to heaven;
+whilst, like a puff'd and reckless libertin,
+himself the primros path of dallianc tread
+and reck not hi own read.
+
+laer.
+o, fear me not.
+i stai too long:--but here my father come.
+
+[enter poloniu.]
+
+a doubl bless is a doubl grace;
+occas smile upon a second leav.
+
+pol.
+yet here, laert! aboard, aboard, for shame!
+the wind sit in the shoulder of your sail,
+and you ar stai'd for. there,--my bless with thee!
+
+[lai hi hand on laert's head.]
+
+and these few precept in thy memori
+look thou charact. give thy thought no tongu,
+nor ani unproport'd thought hi act.
+be thou familiar, but by no mean vulgar.
+those friend thou hast, and their adopt tri,
+grappl them unto thy soul with hoop of steel;
+but do not dull thy palm with entertain
+of each new-hatch'd, unfledg'd comrad. bewar
+of entranc to a quarrel; but, be in,
+bear't that the oppos mai bewar of thee.
+give everi man thine ear, but few thy voic:
+take each man's censur, but reserv thy judgment.
+costli thy habit as thy purs can bui,
+but not express'd in fanci; rich, not gaudi:
+for the apparel oft proclaim the man;
+and thei in franc of the best rank and station
+ar most select and gener chief in that.
+neither a borrow nor a lender be:
+for loan oft lose both itself and friend;
+and borrow dull the edg of husbandri.
+thi abov all,--to thine own self be true;
+and it must follow, as the night the dai,
+thou canst not then be fals to ani man.
+farewel: my bless season thi in thee!
+
+laer.
+most humbl do i take my leav, my lord.
+
+pol.
+the time invit you; go, your servant tend.
+
+laer.
+farewel, ophelia; and rememb well
+what i have said to you.
+
+oph.
+'ti in my memori lock'd,
+and you yourself shall keep the kei of it.
+
+laer.
+farewel.
+
+[exit.]
+
+pol.
+what is't, ophelia, he hath said to you?
+
+oph.
+so pleas you, someth touch the lord hamlet.
+
+pol.
+marri, well bethought:
+'ti told me he hath veri oft of late
+given privat time to you; and you yourself
+have of your audienc been most free and bounteou;
+if it be so,--as so 'ti put on me,
+and that in wai of caution,--i must tell you
+you do not understand yourself so clearli
+as it behoov my daughter and your honour.
+what is between you? give me up the truth.
+
+oph.
+he hath, my lord, of late made mani tender
+of hi affect to me.
+
+pol.
+affect! pooh! you speak like a green girl,
+unsift in such peril circumst.
+do you believ hi tender, as you call them?
+
+oph.
+i do not know, my lord, what i should think.
+
+pol.
+marri, i'll teach you: think yourself a babi;
+that you have ta'en these tender for true pai,
+which ar not sterl. tender yourself more dearli;
+or,--not to crack the wind of the poor phrase,
+wrong it thu,--you'll tender me a fool.
+
+oph.
+my lord, he hath importun'd me with love
+in honour fashion.
+
+pol.
+ay, fashion you mai call it; go to, go to.
+
+oph.
+and hath given counten to hi speech, my lord,
+with almost all the holi vow of heaven.
+
+pol.
+ay, spring to catch woodcock. i do know,
+when the blood burn, how prodig the soul
+lend the tongu vow: these blaze, daughter,
+give more light than heat,--extinct in both,
+even in their promis, as it is a-make,--
+you must not take for fire. from thi time
+be someth scanter of your maiden presenc;
+set your entreat at a higher rate
+than a command to parlei. for lord hamlet,
+believ so much in him, that he is young;
+and with a larger tether mai he walk
+than mai be given you: in few, ophelia,
+do not believ hi vow; for thei ar broker,--
+not of that dye which their invest show,
+but mere implor of unholi suit,
+breath like sanctifi and piou bawd,
+the better to beguil. thi is for all,--
+i would not, in plain term, from thi time forth
+have you so slander ani moment leisur
+as to give word or talk with the lord hamlet.
+look to't, i charg you; come your wai.
+
+oph.
+i shall obei, my lord.
+
+[exeunt.]
+
+
+
+scene iv. the platform.
+
+[enter hamlet, horatio, and marcellu.]
+
+ham.
+the air bite shrewdli; it is veri cold.
+
+hor.
+it is a nip and an eager air.
+
+ham.
+what hour now?
+
+hor.
+i think it lack of twelv.
+
+mar.
+no, it is struck.
+
+hor.
+inde? i heard it not: then draw near the season
+wherein the spirit held hi wont to walk.
+
+[a flourish of trumpet, and ordnanc shot off within.]
+
+what doe thi mean, my lord?
+
+ham.
+the king doth wake to-night and take hi rous,
+keep wassail, and the swagger up-spring reel;
+and, as he drain hi draught of rhenish down,
+the kettl-drum and trumpet thu brai out
+the triumph of hi pledg.
+
+hor.
+is it a custom?
+
+ham.
+ay, marri, is't;
+but to my mind,--though i am nativ here,
+and to the manner born,--it is a custom
+more honour'd in the breach than the observ.
+thi heavi-head revel east and west
+make us traduc'd and tax'd of other nation:
+thei clepe us drunkard, and with swinish phrase
+soil our addit; and, inde, it take
+from our achiev, though perform'd at height,
+the pith and marrow of our attribut.
+so oft it chanc in particular men
+that, for some viciou mole of natur in them,
+as in their birth,--wherein thei ar not guilti,
+sinc natur cannot choos hi origin,--
+by the o'ergrowth of some complexion,
+oft break down the pale and fort of reason;
+or by some habit, that too much o'er-leaven
+the form of plausiv manner;--that these men,--
+carri, i sai, the stamp of on defect,
+be natur's liveri, or fortun's star,--
+their virtu els,--be thei as pure as grace,
+as infinit as man mai undergo,--
+shall in the gener censur take corrupt
+from that particular fault: the dram of eal
+doth all the nobl substanc often doubt
+to hi own scandal.
+
+hor.
+look, my lord, it come!
+
+[enter ghost.]
+
+ham.
+angel and minist of grace defend us!--
+be thou a spirit of health or goblin damn'd,
+bring with thee air from heaven or blast from hell,
+be thy intent wick or charit,
+thou com'st in such a question shape
+that i will speak to thee: i'll call thee hamlet,
+king, father, royal dane; o, answer me!
+let me not burst in ignor; but tell
+why thy canoniz'd bone, hears in death,
+have burst their cerement; why the sepulchr,
+wherein we saw thee quietli in-urn'd,
+hath op'd hi ponder and marbl jaw
+to cast thee up again! what mai thi mean,
+that thou, dead cors, again in complet steel,
+revisit'st thu the glimps of the moon,
+make night hideou, and we fool of natur
+so horridli to shake our disposit
+with thought beyond the reach of our soul?
+sai, why is thi? wherefor? what should we do?
+
+[ghost beckon hamlet.]
+
+hor.
+it beckon you to go awai with it,
+as if it some impart did desir
+to you alon.
+
+mar.
+look with what courteou action
+it wave you to a more remov ground:
+but do not go with it!
+
+hor.
+no, by no mean.
+
+ham.
+it will not speak; then will i follow it.
+
+hor.
+do not, my lord.
+
+ham.
+why, what should be the fear?
+i do not set my life at a pin's fee;
+and for my soul, what can it do to that,
+be a thing immort as itself?
+it wave me forth again;--i'll follow it.
+
+hor.
+what if it tempt you toward the flood, my lord,
+or to the dread summit of the cliff
+that beetl o'er hi base into the sea,
+and there assum some other horribl form
+which might depriv your sovereignti of reason,
+and draw you into mad? think of it:
+the veri place put toi of desper,
+without more motiv, into everi brain
+that look so mani fadom to the sea
+and hear it roar beneath.
+
+ham.
+it wave me still.--
+go on; i'll follow thee.
+
+mar.
+you shall not go, my lord.
+
+ham.
+hold off your hand.
+
+hor.
+be rul'd; you shall not go.
+
+ham.
+my fate cri out,
+and make each petti arteri in thi bodi
+as hardi as the nemean lion's nerv.--
+
+[ghost beckon.]
+
+still am i call'd;--unhand me, gentlemen;--
+
+[break free from them.]
+
+by heaven, i'll make a ghost of him that let me!--
+i sai, awai!--go on; i'll follow thee.
+
+[exeunt ghost and hamlet.]
+
+hor.
+he wax desper with imagin.
+
+mar.
+let's follow; 'ti not fit thu to obei him.
+
+hor.
+have after.--to what issu will thi come?
+
+mar.
+someth is rotten in the state of denmark.
+
+hor.
+heaven will direct it.
+
+mar.
+nai, let's follow him.
+
+[exeunt.]
+
+
+
+scene v. a more remot part of the castl.
+
+[enter ghost and hamlet.]
+
+ham.
+whither wilt thou lead me? speak! i'll go no further.
+
+ghost.
+mark me.
+
+ham.
+i will.
+
+ghost.
+my hour is almost come,
+when i to sulph'uou and torment flame
+must render up myself.
+
+ham.
+ala, poor ghost!
+
+ghost.
+piti me not, but lend thy seriou hear
+to what i shall unfold.
+
+ham.
+speak; i am bound to hear.
+
+ghost.
+so art thou to reveng, when thou shalt hear.
+
+ham.
+what?
+
+ghost.
+i am thy father's spirit;
+doom'd for a certain term to walk the night,
+and for the dai confin'd to wastein fire,
+till the foul crime done in my dai of natur
+ar burnt and purg'd awai. but that i am forbid
+to tell the secret of my prison-hous,
+i could a tale unfold whose lightest word
+would harrow up thy soul; freez thy young blood;
+make thy two ey, like star, start from their sphere;
+thy knot and combin lock to part,
+and each particular hair to stand on end
+like quill upon the fret porcupin:
+but thi etern blazon must not be
+to ear of flesh and blood.--list, list, o, list!--
+if thou didst ever thy dear father love--
+
+ham.
+o god!
+
+ghost.
+reveng hi foul and most unnatur murder.
+
+ham.
+murder!
+
+ghost.
+murder most foul, as in the best it is;
+but thi most foul, strang, and unnatur.
+
+ham.
+hast me to know't, that i, with wing as swift
+as medit or the thought of love,
+mai sweep to my reveng.
+
+ghost.
+i find thee apt;
+and duller shouldst thou be than the fat weed
+that rot itself in eas on leth wharf,
+wouldst thou not stir in thi. now, hamlet, hear.
+'ti given out that, sleep in my orchard,
+a serpent stung me; so the whole ear of denmark
+is by a forg process of my death
+rankli abu'd; but know, thou nobl youth,
+the serpent that did sting thy father's life
+now wear hi crown.
+
+ham.
+o my prophet soul!
+mine uncl!
+
+ghost.
+ay, that incestu, that adulter beast,
+with witchcraft of hi wit, with traitor gift,--
+o wick wit and gift, that have the power
+so to seduc!--won to hi shame lust
+the will of my most seem-virtuou queen:
+o hamlet, what a fall-off wa there!
+from me, whose love wa of that digniti
+that it went hand in hand even with the vow
+i made to her in marriag; and to declin
+upon a wretch whose natur gift were poor
+to those of mine!
+but virtu, as it never will be mov'd,
+though lewd court it in a shape of heaven;
+so lust, though to a radiant angel link'd,
+will sate itself in a celesti bed
+and prei on garbag.
+but soft! methink i scent the morn air;
+brief let me be.--sleep within my orchard,
+my custom alwai of the afternoon,
+upon my secur hour thy uncl stole,
+with juic of curs hebenon in a vial,
+and in the porch of my ear did pour
+the leper distil; whose effect
+hold such an enmiti with blood of man
+that, swift as quicksilv, it cours through
+the natur gate and allei of the bodi;
+and with a sudden vigour it doth posset
+and curd, like eager drop into milk,
+the thin and wholesom blood; so did it mine;
+and a most instant tetter bark'd about,
+most lazar-like, with vile and loathsom crust
+all my smooth bodi.
+thu wa i, sleep, by a brother's hand,
+of life, of crown, of queen, at onc dispatch'd:
+cut off even in the blossom of my sin,
+unhou'led, disappoint, unanel'd;
+no reckon made, but sent to my account
+with all my imperfect on my head:
+o, horribl! o, horribl! most horribl!
+if thou hast natur in thee, bear it not;
+let not the royal bed of denmark be
+a couch for luxuri and damn incest.
+but, howsoev thou pursu'st thi act,
+taint not thy mind, nor let thy soul contriv
+against thy mother aught: leav her to heaven,
+and to those thorn that in her bosom lodg,
+to prick and sting her. fare thee well at onc!
+the glowworm show the matin to be near,
+and 'gin to pale hi uneffectu fire:
+adieu, adieu! hamlet, rememb me.
+
+[exit.]
+
+ham.
+o all you host of heaven! o earth! what els?
+and shall i coupl hell? o, fie!--hold, my heart;
+and you, my sinew, grow not instant old,
+but bear me stiffli up.--rememb thee!
+ay, thou poor ghost, while memori hold a seat
+in thi distract globe. rememb thee!
+yea, from the tabl of my memori
+i'll wipe awai all trivial fond record,
+all saw of book, all form, all pressur past,
+that youth and observ copi there;
+and thy command all alon shall live
+within the book and volum of my brain,
+unmix'd with baser matter: ye, by heaven!--
+o most pernici woman!
+o villain, villain, smile, damn villain!
+my tabl,--meet it is i set it down,
+that on mai smile, and smile, and be a villain;
+at least, i am sure, it mai be so in denmark:
+
+[write.]
+
+so, uncl, there you ar. now to my word;
+it is 'adieu, adieu! rememb me:'
+i have sworn't.
+
+hor.
+[within.] my lord, my lord,--
+
+mar.
+[within.] lord hamlet,--
+
+hor.
+[within.] heaven secur him!
+
+ham.
+so be it!
+
+mar.
+[within.] illo, ho, ho, my lord!
+
+ham.
+hillo, ho, ho, boi! come, bird, come.
+
+[enter horatio and marcellu.]
+
+mar.
+how is't, my nobl lord?
+
+hor.
+what new, my lord?
+
+ham.
+o, wonder!
+
+hor.
+good my lord, tell it.
+
+ham.
+no; you'll reveal it.
+
+hor.
+not i, my lord, by heaven.
+
+mar.
+nor i, my lord.
+
+ham.
+how sai you then; would heart of man onc think it?--
+but you'll be secret?
+
+hor. and mar.
+ay, by heaven, my lord.
+
+ham.
+there's ne'er a villain dwell in all denmark
+but he's an arrant knave.
+
+hor.
+there need no ghost, my lord, come from the grave
+to tell us thi.
+
+ham.
+why, right; you ar i' the right;
+and so, without more circumst at all,
+i hold it fit that we shake hand and part:
+you, as your busi and desir shall point you,--
+for everi man hath busi and desir,
+such as it is;--and for my own poor part,
+look you, i'll go prai.
+
+hor.
+these ar but wild and whirl word, my lord.
+
+ham.
+i'm sorri thei offend you, heartili;
+ye, faith, heartili.
+
+hor.
+there's no offenc, my lord.
+
+ham.
+ye, by saint patrick, but there is, horatio,
+and much offenc too. touch thi vision here,--
+it is an honest ghost, that let me tell you:
+for your desir to know what is between us,
+o'ermast't as you mai. and now, good friend,
+as you ar friend, scholar, and soldier,
+give me on poor request.
+
+hor.
+what is't, my lord? we will.
+
+ham.
+never make known what you have seen to-night.
+
+hor. and mar.
+my lord, we will not.
+
+ham.
+nai, but swear't.
+
+hor.
+in faith,
+my lord, not i.
+
+mar.
+nor i, my lord, in faith.
+
+ham.
+upon my sword.
+
+mar.
+we have sworn, my lord, alreadi.
+
+ham.
+inde, upon my sword, inde.
+
+ghost.
+[beneath.] swear.
+
+ham.
+ha, ha boi! sai'st thou so? art thou there, truepenni?--
+come on!--you hear thi fellow in the cellarag,--
+consent to swear.
+
+hor.
+propos the oath, my lord.
+
+ham.
+never to speak of thi that you have seen,
+swear by my sword.
+
+ghost.
+[beneath.] swear.
+
+ham.
+hic et ubiqu? then we'll shift our ground.--
+come hither, gentlemen,
+and lai your hand again upon my sword:
+never to speak of thi that you have heard,
+swear by my sword.
+
+ghost.
+[beneath.] swear.
+
+ham.
+well said, old mole! canst work i' the earth so fast?
+a worthi pioner!--onc more remov, good friend.
+
+hor.
+o dai and night, but thi is wondrou strang!
+
+ham.
+and therefor as a stranger give it welcom.
+there ar more thing in heaven and earth, horatio,
+than ar dreamt of in your philosophi.
+but come;--
+here, as befor, never, so help you merci,
+how strang or odd soe'er i bear myself,--
+as i, perchanc, hereaft shall think meet
+to put an antic disposit on,--
+that you, at such time see me, never shall,
+with arm encumb'd thu, or thi head-shake,
+or by pronounc of some doubt phrase,
+as 'well, well, we know'; or 'we could, an if we would';--
+or 'if we list to speak'; or 'there be, an if thei might';--
+or such ambigu give out, to note
+that you know aught of me:--thi is not to do,
+so grace and merci at your most need help you,
+swear.
+
+ghost.
+[beneath.] swear.
+
+ham.
+rest, rest, perturb spirit!--so, gentlemen,
+with all my love i do commend me to you:
+and what so poor a man as hamlet is
+mai do, to express hi love and friend to you,
+god will, shall not lack. let us go in togeth;
+and still your finger on your lip, i prai.
+the time is out of joint:--o curs spite,
+that ever i wa born to set it right!--
+nai, come, let's go togeth.
+
+[exeunt.]
+
+
+
+act ii.
+
+scene i. a room in poloniu's hous.
+
+[enter poloniu and reynaldo.]
+
+pol.
+give him thi monei and these note, reynaldo.
+
+rei.
+i will, my lord.
+
+pol.
+you shall do marvel wise, good reynaldo,
+befor you visit him, to make inquiri
+of hi behaviour.
+
+rei.
+my lord, i did intend it.
+
+pol.
+marri, well said; veri well said. look you, sir,
+enquir me first what dansker ar in pari;
+and how, and who, what mean, and where thei keep,
+what compani, at what expens; and find,
+by thi encompass and drift of question,
+that thei do know my son, come you more nearer
+than your particular demand will touch it:
+take you, as 'twere, some distant knowledg of him;
+as thu, 'i know hi father and hi friend,
+and in part him;--do you mark thi, reynaldo?
+
+rei.
+ay, veri well, my lord.
+
+pol.
+'and in part him;--but,' you mai sai, 'not well:
+but if't be he i mean, he's veri wild;
+addict so and so;' and there put on him
+what forgeri you pleas; marri, none so rank
+as mai dishonour him; take heed of that;
+but, sir, such wanton, wild, and usual slip
+as ar companion note and most known
+to youth and liberti.
+
+rei.
+as game, my lord.
+
+pol.
+ay, or drink, fenc, swear, quarrel,
+drab:--you mai go so far.
+
+rei.
+my lord, that would dishonour him.
+
+pol.
+faith, no; as you mai season it in the charg.
+you must not put anoth scandal on him,
+that he is open to incontin;
+that's not my mean: but breath hi fault so quaintli
+that thei mai seem the taint of liberti;
+the flash and outbreak of a fieri mind;
+a savag in unreclaim blood,
+of gener assault.
+
+rei.
+but, my good lord,--
+
+pol.
+wherefor should you do thi?
+
+rei.
+ay, my lord,
+i would know that.
+
+pol.
+marri, sir, here's my drift;
+and i believ it is a fetch of warrant:
+you lai these slight sulli on my son
+as 'twere a thing a littl soil'd i' the work,
+mark you,
+your parti in convers, him you would sound,
+have ever seen in the prenomin crime
+the youth you breath of guilti, be assur'd
+he close with you in thi consequ;
+'good sir,' or so; or 'friend,' or 'gentleman'--
+accord to the phrase or the addit
+of man and countri.
+
+rei.
+veri good, my lord.
+
+pol.
+and then, sir, doe he thi,--he doe--what wa i about to sai?--
+by the mass, i wa about to sai someth:--where did i leav?
+
+rei.
+at 'close in the consequ,' at 'friend or so,' and
+gentleman.'
+
+pol.
+at--close in the consequ'--ay, marri!
+he close with you thu:--'i know the gentleman;
+i saw him yesterdai, or t'other dai,
+or then, or then; with such, or such; and, as you sai,
+there wa he game; there o'ertook in's rous;
+there fall out at tenni': or perchanc,
+'i saw him enter such a hous of sale,'--
+videlicet, a brothel,--or so forth.--
+see you now;
+your bait of falsehood take thi carp of truth:
+and thu do we of wisdom and of reach,
+with windlac, and with assai of bia,
+by indirect find direct out:
+so, by my former lectur and advic,
+shall you my son. you have me, have you not?
+
+rei.
+my lord, i have.
+
+pol.
+god b' wi' you, fare you well.
+
+rei.
+good my lord!
+
+pol.
+observ hi inclin in yourself.
+
+rei.
+i shall, my lord.
+
+pol.
+and let him ply hi music.
+
+rei.
+well, my lord.
+
+pol.
+farewel!
+
+[exit reynaldo.]
+
+[enter ophelia.]
+
+how now, ophelia! what's the matter?
+
+oph.
+ala, my lord, i have been so affright!
+
+pol.
+with what, i' the name of god?
+
+oph.
+my lord, as i wa sew in my chamber,
+lord hamlet,--with hi doublet all unbrac'd;
+no hat upon hi head; hi stock foul'd,
+ungart'red, and down-gyve to hi ankl;
+pale as hi shirt; hi knee knock each other;
+and with a look so piteou in purport
+as if he had been loos out of hell
+to speak of horror,--he come befor me.
+
+pol.
+mad for thy love?
+
+oph.
+my lord, i do not know;
+but truli i do fear it.
+
+pol.
+what said he?
+
+oph.
+he took me by the wrist, and held me hard;
+then goe he to the length of all hi arm;
+and with hi other hand thu o'er hi brow,
+he fall to such perus of my face
+as he would draw it. long stai'd he so;
+at last,--a littl shake of mine arm,
+and thrice hi head thu wave up and down,--
+he rai'd a sigh so piteou and profound
+as it did seem to shatter all hi bulk
+and end hi be: that done, he let me go:
+and, with hi head over hi shoulder turn'd
+he seem'd to find hi wai without hi ey;
+for out o' door he went without their help,
+and to the last bend their light on me.
+
+pol.
+come, go with me: i will go seek the king.
+thi is the veri ecstasi of love;
+whose violent properti fordo itself,
+and lead the will to desper undertak,
+as oft as ani passion under heaven
+that doe afflict our natur. i am sorri,--
+what, have you given him ani hard word of late?
+
+oph.
+no, my good lord; but, as you did command,
+i did repel hi letter and deni
+hi access to me.
+
+pol.
+that hath made him mad.
+i am sorri that with better heed and judgment
+i had not quot him: i fear'd he did but trifl,
+and meant to wreck thee; but beshrew my jealousi!
+it seem it as proper to our ag
+to cast beyond ourselv in our opinion
+as it is common for the younger sort
+to lack discret. come, go we to the king:
+thi must be known; which, be kept close, might move
+more grief to hide than hate to utter love.
+
+[exeunt.]
+
+
+
+scene ii. a room in the castl.
+
+[enter king, rosencrantz, guildenstern, and attend.]
+
+king.
+welcom, dear rosencrantz and guildenstern!
+moreov that we much did long to see you,
+the need we have to us you did provok
+our hasti send. someth have you heard
+of hamlet's transform; so i call it,
+sinc nor the exterior nor the inward man
+resembl that it wa. what it should be,
+more than hi father's death, that thu hath put him
+so much from the understand of himself,
+i cannot dream of: i entreat you both
+that, be of so young dai brought up with him,
+and sinc so neighbour'd to hi youth and humour,
+that you vouchsaf your rest here in our court
+some littl time: so by your compani
+to draw him on to pleasur, and to gather,
+so much as from occas you mai glean,
+whether aught, to us unknown, afflict him thu,
+that, open'd, li within our remedi.
+
+queen.
+good gentlemen, he hath much talk'd of you,
+and sure i am two men there ar not live
+to whom he more adher. if it will pleas you
+to show us so much gentri and good-will
+as to expend your time with us awhil,
+for the suppli and profit of our hope,
+your visit shall receiv such thank
+as fit a king's remembr.
+
+ro.
+both your majesti
+might, by the sovereign power you have of us,
+put your dread pleasur more into command
+than to entreati.
+
+guil.
+we both obei,
+and here give up ourselv, in the full bent,
+to lai our servic freeli at your feet,
+to be command.
+
+king.
+thank, rosencrantz and gentl guildenstern.
+
+queen.
+thank, guildenstern and gentl rosencrantz:
+and i beseech you instantli to visit
+my too-much-chang son.--go, some of you,
+and bring these gentlemen where hamlet is.
+
+guil.
+heaven make our presenc and our practic
+pleasant and help to him!
+
+queen.
+ay, amen!
+
+[exeunt rosencrantz, guildenstern, and some attend].
+
+[enter poloniu.]
+
+pol.
+th' ambassador from norwai, my good lord,
+ar joyfulli return'd.
+
+king.
+thou still hast been the father of good new.
+
+pol.
+have i, my lord? assur you, my good lieg,
+i hold my duti, as i hold my soul,
+both to my god and to my graciou king:
+and i do think,--or els thi brain of mine
+hunt not the trail of polici so sure
+as it hath us'd to do,--that i have found
+the veri caus of hamlet's lunaci.
+
+king.
+o, speak of that; that do i long to hear.
+
+pol.
+give first admitt to the ambassador;
+my new shall be the fruit to that great feast.
+
+king.
+thyself do grace to them, and bring them in.
+
+[exit poloniu.]
+
+he tell me, my sweet queen, he hath found
+the head and sourc of all your son's distemp.
+
+queen.
+i doubt it is no other but the main,--
+hi father's death and our o'erhasti marriag.
+
+king.
+well, we shall sift him.
+
+[enter poloniu, with voltimand and corneliu.]
+
+welcom, my good friend!
+sai, voltimand, what from our brother norwai?
+
+volt.
+most fair return of greet and desir.
+upon our first, he sent out to suppress
+hi nephew's levi; which to him appear'd
+to be a prepar 'gainst the polack;
+but, better look'd into, he truli found
+it wa against your high; whereat griev'd,--
+that so hi sick, ag, and impot
+wa fals born in hand,--send out arrest
+on fortinbra; which he, in brief, obei;
+receiv rebuk from norwai; and, in fine,
+make vow befor hi uncl never more
+to give th' assai of arm against your majesti.
+whereon old norwai, overcom with joi,
+give him three thousand crown in annual fee;
+and hi commiss to emploi those soldier,
+so levi as befor, against the polack:
+with an entreati, herein further shown,
+[give a paper.]
+that it might pleas you to give quiet pass
+through your dominion for thi enterpris,
+on such regard of safeti and allow
+as therein ar set down.
+
+king.
+it like us well;
+and at our more consid'd time we'll read,
+answer, and think upon thi busi.
+meantim we thank you for your well-took labour:
+go to your rest; at night we'll feast togeth:
+most welcom home!
+
+[exeunt voltimand and corneliu.]
+
+pol.
+thi busi is well end.--
+my lieg, and madam,--to expostul
+what majesti should be, what duti is,
+why dai is dai, night is night, and time is time.
+were noth but to wast night, dai, and time.
+therefor, sinc breviti is the soul of wit,
+and tedious the limb and outward flourish,
+i will be brief:--your nobl son is mad:
+mad call i it; for to defin true mad,
+what is't but to be noth els but mad?
+but let that go.
+
+queen.
+more matter, with less art.
+
+pol.
+madam, i swear i us no art at all.
+that he is mad, 'ti true: 'ti true 'ti piti;
+and piti 'ti 'ti true: a foolish figur;
+but farewel it, for i will us no art.
+mad let us grant him then: and now remain
+that we find out the caus of thi effect;
+or rather sai, the caus of thi defect,
+for thi effect defect come by caus:
+thu it remain, and the remaind thu.
+perpend.
+i have a daughter,--have whilst she is mine,--
+who, in her duti and obedi, mark,
+hath given me thi: now gather, and surmis.
+[read.]
+'to the celesti, and my soul's idol, the most beautifi
+ophelia,'--
+that's an ill phrase, a vile phrase; 'beautifi' is a vile
+phrase: but you shall hear. thu:
+[read.]
+'in her excel white bosom, these, &c.'
+
+queen.
+came thi from hamlet to her?
+
+pol.
+good madam, stai awhil; i will be faith.
+[read.]
+  'doubt thou the star ar fire;
+     doubt that the sun doth move;
+   doubt truth to be a liar;
+     but never doubt i love.
+'o dear ophelia, i am ill at these number; i have not art to
+reckon my groan: but that i love thee best, o most best, believ
+it. adieu.
+  'thine evermor, most dear ladi, whilst thi machin is to him,
+     hamlet.'
+thi, in obedi, hath my daughter show'd me;
+and more abov, hath hi solicit,
+as thei fell out by time, by mean, and place,
+all given to mine ear.
+
+king.
+but how hath she
+receiv'd hi love?
+
+pol.
+what do you think of me?
+
+king.
+as of a man faith and honour.
+
+pol.
+i would fain prove so. but what might you think,
+when i had seen thi hot love on the wing,--
+as i perceiv'd it, i must tell you that,
+befor my daughter told me,-- what might you,
+or my dear majesti your queen here, think,
+if i had plai'd the desk or tabl-book,
+or given my heart a wink, mute and dumb;
+or look'd upon thi love with idl sight;--
+what might you think? no, i went round to work,
+and my young mistress thu i did bespeak:
+'lord hamlet is a princ, out of thy sphere;
+thi must not be:' and then i precept gave her,
+that she should lock herself from hi resort,
+admit no messeng, receiv no token.
+which done, she took the fruit of my advic;
+and he, repuls,--a short tale to make,--
+fell into a sad; then into a fast;
+thenc to a watch; thenc into a weak;
+thenc to a light; and, by thi declens,
+into the mad wherein now he rave,
+and all we wail for.
+
+king.
+do you think 'ti thi?
+
+queen.
+it mai be, veri like.
+
+pol.
+hath there been such a time,--i'd fain know that--
+that i have posit said ''ti so,'
+when it prov'd otherwis?
+
+king.
+not that i know.
+
+pol.
+take thi from thi, if thi be otherwis:
+[point to hi head and shoulder.]
+if circumst lead me, i will find
+where truth is hid, though it were hid inde
+within the centr.
+
+king.
+how mai we try it further?
+
+pol.
+you know sometim he walk for hour togeth
+here in the lobbi.
+
+queen.
+so he doe inde.
+
+pol.
+at such a time i'll loos my daughter to him:
+be you and i behind an arra then;
+mark the encount: if he love her not,
+and he not from hi reason fall'n thereon
+let me be no assist for a state,
+but keep a farm and carter.
+
+king.
+we will try it.
+
+queen.
+but look where sadli the poor wretch come read.
+
+pol.
+awai, i do beseech you, both awai
+i'll board him present:--o, give me leav.
+
+[exeunt king, queen, and attend.]
+
+[enter hamlet, read.]
+
+how doe my good lord hamlet?
+
+ham.
+well, god-a-merci.
+
+pol.
+do you know me, my lord?
+
+ham.
+excel well; you're a fishmong.
+
+pol.
+not i, my lord.
+
+ham.
+then i would you were so honest a man.
+
+pol.
+honest, my lord!
+
+ham.
+ay, sir; to be honest, as thi world goe, is to be on man
+pick out of ten thousand.
+
+pol.
+that's veri true, my lord.
+
+ham.
+for if the sun breed maggot in a dead dog, be a god-kiss
+carrion,--have you a daughter?
+
+pol.
+i have, my lord.
+
+ham.
+let her not walk i' the sun: concept is a bless, but not
+as your daughter mai conceiv:--friend, look to't.
+
+pol.
+how sai you by that?--[asid.] still harp on my daughter:--yet
+he knew me not at first; he said i wa a fishmong: he is far
+gone, far gone: and truli in my youth i suffer much extrem
+for love; veri near thi. i'll speak to him again.--what do you
+read, my lord?
+
+ham.
+word, word, word.
+
+pol.
+what is the matter, my lord?
+
+ham.
+between who?
+
+pol.
+i mean, the matter that you read, my lord.
+
+ham.
+slander, sir: for the satir slave sai here that old men
+have grei beard; that their face ar wrinkl; their ey
+purg thick amber and plum-tree gum; and that thei have a
+plenti lack of wit, togeth with most weak ham: all which,
+sir, though i most powerfulli and potent believ, yet i hold it
+not honesti to have it thu set down; for you yourself, sir,
+should be old as i am, if, like a crab, you could go backward.
+
+pol.
+[asid.] though thi be mad, yet there is a method in't.--
+will you walk out of the air, my lord?
+
+ham.
+into my grave?
+
+pol.
+inde, that is out o' the air. [asid.] how pregnant sometim
+hi repli ar! a happi that often mad hit on, which
+reason and saniti could not so prosper be deliv of. i
+will leav him and suddenli contriv the mean of meet between
+him and my daughter.--my honour lord, i will most humbl take
+my leav of you.
+
+ham.
+you cannot, sir, take from me anyth that i will more
+willingli part withal,--except my life, except my life, except my
+life.
+
+pol.
+fare you well, my lord.
+
+ham.
+these tediou old fool!
+
+[enter rosencrantz and guildenstern.]
+
+pol.
+you go to seek the lord hamlet; there he is.
+
+ro.
+[to poloniu.] god save you, sir!
+
+[exit poloniu.]
+
+guil.
+my honour lord!
+
+ro.
+my most dear lord!
+
+ham.
+my excel good friend! how dost thou, guildenstern? ah,
+rosencrantz! good lad, how do ye both?
+
+ro.
+as the indiffer children of the earth.
+
+guil.
+happi in that we ar not over-happi;
+on fortun's cap we ar not the veri button.
+
+ham.
+nor the sole of her shoe?
+
+ro.
+neither, my lord.
+
+ham.
+then you live about her waist, or in the middl of her
+favour?
+
+guil.
+faith, her privat we.
+
+ham.
+in the secret part of fortun? o, most true; she is a
+strumpet. what's the new?
+
+ro.
+none, my lord, but that the world's grown honest.
+
+ham.
+then is doomsdai near; but your new is not true. let me
+question more in particular: what have you, my good friend,
+deserv at the hand of fortun, that she send you to prison
+hither?
+
+guil.
+prison, my lord!
+
+ham.
+denmark's a prison.
+
+ro.
+then is the world on.
+
+ham.
+a goodli on; in which there ar mani confin, ward, and
+dungeon, denmark be on o' the worst.
+
+ro.
+we think not so, my lord.
+
+ham.
+why, then 'ti none to you; for there is noth either good
+or bad but think make it so: to me it is a prison.
+
+ro.
+why, then, your ambit make it on; 'ti too narrow for your
+mind.
+
+ham.
+o god, i could be bound in a nutshel, and count myself a
+king of infinit space, were it not that i have bad dream.
+
+guil.
+which dream, inde, ar ambit; for the veri substanc of
+the ambiti is mere the shadow of a dream.
+
+ham.
+a dream itself is but a shadow.
+
+ro.
+truli, and i hold ambit of so airi and light a qualiti that
+it is but a shadow's shadow.
+
+ham.
+then ar our beggar bodi, and our monarch and outstretch'd
+hero the beggar' shadow. shall we to the court? for, by my
+fai, i cannot reason.
+
+ro. and guild.
+we'll wait upon you.
+
+ham.
+no such matter: i will not sort you with the rest of my
+servant; for, to speak to you like an honest man, i am most
+dreadfulli attend. but, in the beaten wai of friendship, what
+make you at elsinor?
+
+ro.
+to visit you, my lord; no other occas.
+
+ham.
+beggar that i am, i am even poor in thank; but i thank you:
+and sure, dear friend, my thank ar too dear a halfpenni. were
+you not sent for? is it your own inclin? is it a free
+visit? come, deal justli with me: come, come; nai, speak.
+
+guil.
+what should we sai, my lord?
+
+ham.
+why, anyth--but to the purpos. you were sent for; and
+there is a kind of confess in your look, which your modesti
+have not craft enough to colour: i know the good king and queen
+have sent for you.
+
+ro.
+to what end, my lord?
+
+ham.
+that you must teach me. but let me conjur you, by the right
+of our fellowship, by the conson of our youth, by the
+oblig of our ever-preserv love, and by what more dear a
+better propos could charg you withal, be even and direct with
+me, whether you were sent for or no.
+
+ro.
+[to guildenstern.] what sai you?
+
+ham.
+[asid.] nai, then, i have an ey of you.--if you love me, hold
+not off.
+
+guil.
+my lord, we were sent for.
+
+ham.
+i will tell you why; so shall my anticip prevent your
+discoveri, and your secreci to the king and queen moult no
+feather. i have of late,--but wherefor i know not,--lost all my
+mirth, forgon all custom of exercis; and inde, it goe so
+heavili with my disposit that thi goodli frame, the earth,
+seem to me a steril promontori; thi most excel canopi, the
+air, look you, thi brave o'erhang firmament, thi majest
+roof fret with golden fire,--why, it appear no other thing
+to me than a foul and pestil congreg of vapour. what a
+piec of work is man! how nobl in reason! how infinit in
+faculti! in form and move, how express and admir! in
+action how like an angel! in apprehens, how like a god! the
+beauti of the world! the paragon of anim! and yet, to me, what
+is thi quintess of dust? man delight not me; no, nor woman
+neither, though by your smile you seem to sai so.
+
+ro.
+my lord, there wa no such stuff in my thought.
+
+ham.
+why did you laugh then, when i said 'man delight not me'?
+
+ro.
+to think, my lord, if you delight not in man, what lenten
+entertain the player shall receiv from you: we cote them
+on the wai; and hither ar thei come to offer you servic.
+
+ham.
+he that plai the king shall be welcom,--hi majesti shall
+have tribut of me; the adventur knight shall us hi foil and
+target; the lover shall not sigh grati; the humor man shall
+end hi part in peac; the clown shall make those laugh whose
+lung ar tickl o' the sere; and the ladi shall sai her mind
+freeli, or the blank vers shall halt for't. what player ar
+thei?
+
+ro.
+even those you were wont to take such delight in,--the
+tragedian of the citi.
+
+ham.
+how chanc it thei travel? their resid, both in
+reput and profit, wa better both wai.
+
+ro.
+i think their inhibit come by the mean of the late
+innov.
+
+ham.
+do thei hold the same estim thei did when i wa in the
+citi? ar thei so follow?
+
+ro.
+no, inde, ar thei not.
+
+ham.
+how come it? do thei grow rusti?
+
+ro.
+nai, their endeavour keep in the wont pace: but there is,
+sir, an aeri of children, littl eyas, that cry out on the top
+of question, and ar most tyrann clap for't: these ar
+now the fashion; and so berattl the common stage,--so thei call
+them,--that mani wear rapier ar afraid of goos-quill and
+dare scarc come thither.
+
+ham.
+what, ar thei children? who maintain 'em? how ar thei
+escot? will thei pursu the qualiti no longer than thei can
+sing? will thei not sai afterward, if thei should grow
+themselv to common player,--as it is most like, if their mean
+ar no better,--their writer do them wrong to make them exclaim
+against their own success?
+
+ro.
+faith, there ha been much to do on both side; and the nation
+hold it no sin to tarr them to controversi: there wa, for
+awhil, no monei bid for argument unless the poet and the player
+went to cuff in the question.
+
+ham.
+is't possibl?
+
+guil.
+o, there ha been much throw about of brain.
+
+ham.
+do the boi carri it awai?
+
+ro.
+ay, that thei do, my lord; hercul and hi load too.
+
+ham.
+it is not veri strang; for my uncl is king of denmark, and
+those that would make mouth at him while my father live, give
+twenti, forti, fifti, a hundr ducat a-piec for hi pictur in
+littl. 'sblood, there is someth in thi more than natur, if
+philosophi could find it out.
+
+[flourish of trumpet within.]
+
+guil.
+there ar the player.
+
+ham.
+gentlemen, you ar welcom to elsinor. your hand, come: the
+appurten of welcom is fashion and ceremoni: let me compli
+with you in thi garb; lest my extent to the player, which i
+tell you must show fairli outward, should more appear like
+entertain than your. you ar welcom: but my uncl-father
+and aunt-mother ar deceiv.
+
+guil.
+in what, my dear lord?
+
+ham.
+i am but mad north-north-west: when the wind is southerli i
+know a hawk from a handsaw.
+
+[enter poloniu.]
+
+pol.
+well be with you, gentlemen!
+
+ham.
+hark you, guildenstern;--and you too;--at each ear a hearer: that
+great babi you see there is not yet out of hi swaddl clout.
+
+ro.
+happili he's the second time come to them; for thei sai an old
+man is twice a child.
+
+ham.
+i will prophesi he come to tell me of the player; mark it.--you
+sai right, sir: o' mondai morn; 'twa so inde.
+
+pol.
+my lord, i have new to tell you.
+
+ham.
+my lord, i have new to tell you. when rosciu wa an actor in
+rome,--
+
+pol.
+the actor ar come hither, my lord.
+
+ham.
+buzz, buzz!
+
+pol.
+upon my honour,--
+
+ham.
+then came each actor on hi ass,--
+
+pol.
+the best actor in the world, either for tragedi, comedi,
+histori, pastor, pastor-comic, histor-pastor,
+tragic-histor, tragic-comic-histor-pastor, scene
+individ, or poem unlimit: seneca cannot be too heavi nor
+plautu too light. for the law of writ and the liberti, these ar
+the onli men.
+
+ham.
+o jephthah, judg of israel, what a treasur hadst thou!
+
+pol.
+what treasur had he, my lord?
+
+ham.
+why--
+   'on fair daughter, and no more,
+   the which he love pass well.'
+
+
+pol.
+[asid.] still on my daughter.
+
+ham.
+am i not i' the right, old jephthah?
+
+pol.
+if you call me jephthah, my lord, i have a daughter that i
+love pass well.
+
+ham.
+nai, that follow not.
+
+pol.
+what follow, then, my lord?
+
+ham.
+why--
+   'as by lot, god wot,'
+and then, you know,
+   'it came to pass, as most like it wa--'
+the first row of the piou chanson will show you more; for look
+where my abridg come.
+
+[enter four or five player.]
+
+you ar welcom, master; welcom, all:--i am glad to see thee
+well.--welcom, good friend.--o, my old friend! thy face is
+valanc'd sinc i saw thee last; comest thou to beard me in
+denmark?--what, my young ladi and mistress! by'r ladi, your
+ladyship is nearer to heaven than when i saw you last, by the
+altitud of a chopin. prai god, your voic, like a piec of
+uncurr gold, be not crack within the ring.--master, you ar
+all welcom. we'll e'en to't like french falcon, fly at
+anyth we see: we'll have a speech straight: come, give us a
+tast of your qualiti: come, a passion speech.
+
+i plai.
+what speech, my lord?
+
+ham.
+i heard thee speak me a speech onc,--but it wa never act;
+or if it wa, not abov onc; for the plai, i rememb, pleas
+not the million, 'twa caviar to the gener; but it wa,--as i
+receiv it, and other, whose judgment in such matter cri in
+the top of mine,--an excel plai, well digest in the scene,
+set down with as much modesti as cun. i rememb, on said
+there were no sallet in the line to make the matter savouri,
+nor no matter in the phrase that might indit the author of
+affect; but call it an honest method, as wholesom as
+sweet, and by veri much more handsom than fine. on speech in it
+i chiefli love: 'twa aenea' tale to dido, and thereabout of it
+especi where he speak of priam's slaughter: if it live in
+your memori, begin at thi line;--let me see, let me see:--
+
+the rug pyrrhu, like th' hyrcanian beast,--
+
+it is not so:-- it begin with pyrrhu:--
+
+  'the rug pyrrhu,--he whose sabl arm,
+   black as hi purpos, did the night resembl
+   when he lai couch in the omin hors,--
+   hath now thi dread and black complexion smear'd
+   with heraldri more dismal; head to foot
+   now is he total gule; horridli trick'd
+   with blood of father, mother, daughter, son,
+   bak'd and impast with the parch street,
+   that lend a tyrann and a damn light
+   to their vile murder: roast in wrath and fire,
+   and thu o'ersiz with coagul gore,
+   with ey like carbuncl, the hellish pyrrhu
+   old grandsir priam seek.'
+
+so, proce you.
+
+pol.
+'fore god, my lord, well spoken, with good accent and good
+discret.
+
+i plai.
+   anon he find him,
+   strike too short at greek: hi antiqu sword,
+   rebelli to hi arm, li where it fall,
+   repugn to command: unequ match'd,
+   pyrrhu at priam drive; in rage strike wide;
+   but with the whiff and wind of hi fell sword
+   the unnerv father fall. then senseless ilium,
+   seem to feel thi blow, with flame top
+   stoop to hi base; and with a hideou crash
+   take prison pyrrhu' ear: for lo! hi sword,
+   which wa declin on the milki head
+   of reverend priam, seem'd i' the air to stick:
+   so, as a paint tyrant, pyrrhu stood;
+   and, like a neutral to hi will and matter,
+   did noth.
+   but as we often see, against some storm,
+   a silenc in the heaven, the rack stand still,
+   the bold wind speechless, and the orb below
+   as hush as death, anon the dread thunder
+   doth rend the region; so, after pyrrhu' paus,
+   a rous vengeanc set him new a-work;
+   and never did the cyclop' hammer fall
+   on mar's armour, forg'd for proof etern,
+   with less remors than pyrrhu' bleed sword
+   now fall on priam.--
+   out, out, thou strumpet, fortun! all you god,
+   in gener synod, take awai her power;
+   break all the spoke and felli from her wheel,
+   and bowl the round nave down the hill of heaven,
+   as low as to the fiend!
+
+pol.
+thi is too long.
+
+ham.
+it shall to the barber's, with your beard.--pr'ythee sai on.--
+he's for a jig or a tale of bawdri, or he sleep:--sai on; come
+to hecuba.
+
+i plai.
+   but who, o who, had seen the mobl queen,--
+
+ham.
+'the mobl queen'?
+
+pol.
+that's good! 'mobl queen' is good.
+
+i plai.
+   run barefoot up and down, threaten the flame
+   with bisson rheum; a clout upon that head
+   where late the diadem stood, and for a robe,
+   about her lank and all o'erteem loin,
+   a blanket, in the alarm of fear caught up;--
+   who thi had seen, with tongu in venom steep'd,
+   'gainst fortun's state would treason have pronounc'd:
+   but if the god themselv did see her then,
+   when she saw pyrrhu make malici sport
+   in minc with hi sword her husband's limb,
+   the instant burst of clamour that she made,--
+   unless thing mortal move them not at all,--
+   would have made milch the burn ey of heaven,
+   and passion in the god.
+
+pol.
+look, whether he ha not turn'd hi colour, and ha tear in's
+ey.--prai you, no more!
+
+ham.
+'ti well. i'll have thee speak out the rest of thi soon.--
+good my lord, will you see the player well bestow? do you
+hear? let them be well us; for thei ar the abstract and brief
+chronicl of the time; after your death you were better have a
+bad epitaph than their ill report while you live.
+
+pol.
+my lord, i will us them accord to their desert.
+
+ham.
+odd's bodikin, man, better: us everi man after hi
+desert, and who should scape whip? us them after your own
+honour and digniti: the less thei deserv, the more merit is in
+your bounti. take them in.
+
+pol.
+come, sir.
+
+ham.
+follow him, friend: we'll hear a plai to-morrow.
+
+[exeunt poloniu with all the player but the first.]
+
+dost thou hear me, old friend? can you plai 'the murder of
+gonzago'?
+
+i plai.
+ay, my lord.
+
+ham.
+we'll ha't to-morrow night. you could, for a need, studi a
+speech of some dozen or sixteen line which i would set down and
+insert in't? could you not?
+
+i plai.
+ay, my lord.
+
+ham.
+veri well.--follow that lord; and look you mock him not.
+
+[exit first player.]
+
+--my good friend [to ro. and guild.], i'll leav you till
+night: you ar welcom to elsinor.
+
+ro.
+good my lord!
+
+[exeunt rosencrantz and guildenstern.]
+
+ham.
+ay, so, god b' wi' ye!
+now i am alon.
+o, what a rogu and peasant slave am i!
+is it not monstrou that thi player here,
+but in a fiction, in a dream of passion,
+could forc hi soul so to hi own conceit
+that from her work all hi visag wan'd;
+tear in hi ey, distract in's aspect,
+a broken voic, and hi whole function suit
+with form to hi conceit? and all for noth!
+for hecuba?
+what's hecuba to him, or he to hecuba,
+that he should weep for her? what would he do,
+had he the motiv and the cue for passion
+that i have? he would drown the stage with tear
+and cleav the gener ear with horrid speech;
+make mad the guilti, and appal the free;
+confound the ignor, and amaz, inde,
+the veri faculti of ey and ear.
+yet i,
+a dull and muddi-mettl rascal, peak,
+like john-a-dream, unpregn of my caus,
+and can sai noth; no, not for a king
+upon whose properti and most dear life
+a damn'd defeat wa made. am i a coward?
+who call me villain? break my pate across?
+pluck off my beard and blow it in my face?
+tweak me by the nose? give me the lie i' the throat
+as deep as to the lung? who doe me thi, ha?
+'swound, i should take it: for it cannot be
+but i am pigeon-liver'd, and lack gall
+to make oppress bitter; or er thi
+i should have fat all the region kite
+with thi slave's offal: bloodi, bawdi villain!
+remorseless, treacher, lecher, kindless villain!
+o, vengeanc!
+why, what an ass am i! thi is most brave,
+that i, the son of a dear father murder'd,
+prompt to my reveng by heaven and hell,
+must, like a whore, unpack my heart with word
+and fall a-curs like a veri drab,
+a scullion!
+fie upon't! foh!--about, my brain! i have heard
+that guilti creatur, sit at a plai,
+have by the veri cun of the scene
+been struck so to the soul that present
+thei have proclaim'd their malefact;
+for murder, though it have no tongu, will speak
+with most miracul organ, i'll have these player
+plai someth like the murder of my father
+befor mine uncl: i'll observ hi look;
+i'll tent him to the quick: if he but blench,
+i know my cours. the spirit that i have seen
+mai be the devil: and the devil hath power
+to assum a pleas shape; yea, and perhap
+out of my weak and my melancholi,--
+as he is veri potent with such spirit,--
+abus me to damn me: i'll have ground
+more rel than thi.--the plai's the thing
+wherein i'll catch the conscienc of the king.
+
+[exit.]
+
+
+
+
+act iii.
+
+scene i. a room in the castl.
+
+[enter king, queen, poloniu, ophelia, rosencrantz, and
+guildenstern.]
+
+king.
+and can you, by no drift of circumst,
+get from him why he put on thi confus,
+grate so harshli all hi dai of quiet
+with turbul and danger lunaci?
+
+ro.
+he doe confess he feel himself distract,
+but from what caus he will by no mean speak.
+
+guil.
+nor do we find him forward to be sound,
+but, with a crafti mad, keep aloof
+when we would bring him on to some confess
+of hi true state.
+
+queen.
+did he receiv you well?
+
+ro.
+most like a gentleman.
+
+guil.
+but with much forc of hi disposit.
+
+ro.
+niggard of question; but, of our demand,
+most free in hi repli.
+
+queen.
+did you assai him
+to ani pastim?
+
+ro.
+madam, it so fell out that certain player
+we o'er-raught on the wai: of these we told him,
+and there did seem in him a kind of joi
+to hear of it: thei ar about the court,
+and, as i think, thei have alreadi order
+thi night to plai befor him.
+
+pol.
+'ti most true;
+and he beseech'd me to entreat your majesti
+to hear and see the matter.
+
+king.
+with all my heart; and it doth much content me
+to hear him so inclin'd.--
+good gentlemen, give him a further edg,
+and drive hi purpos on to these delight.
+
+ro.
+we shall, my lord.
+
+[exeunt rosencrantz and guildenstern.]
+
+king.
+sweet gertrud, leav us too;
+for we have close sent for hamlet hither,
+that he, as 'twere by accid, mai here
+affront ophelia:
+her father and myself,--law espial,--
+will so bestow ourselv that, see, unseen,
+we mai of their encount frankli judg;
+and gather by him, as he is behav'd,
+if't be the afflict of hi love or no
+that thu he suffer for.
+
+queen.
+i shall obei you:--
+and for your part, ophelia, i do wish
+that your good beauti be the happi caus
+of hamlet's wild: so shall i hope your virtu
+will bring him to hi wont wai again,
+to both your honour.
+
+oph.
+madam, i wish it mai.
+
+[exit queen.]
+
+pol.
+ophelia, walk you here.--graciou, so pleas you,
+we will bestow ourselv.--[to ophelia.] read on thi book;
+that show of such an exercis mai colour
+your loneli.--we ar oft to blame in thi,--
+'ti too much prov'd,--that with devot's visag
+and piou action we do sugar o'er
+the devil himself.
+
+king.
+[asid.] o, 'ti too true!
+how smart a lash that speech doth give my conscienc!
+the harlot's cheek, beauti with plaster art,
+is not more ugli to the thing that help it
+than is my deed to my most paint word:
+o heavi burden!
+
+pol.
+i hear him come: let's withdraw, my lord.
+
+[exeunt king and poloniu.]
+
+[enter hamlet.]
+
+ham.
+to be, or not to be,--that is the question:--
+whether 'ti nobler in the mind to suffer
+the sling and arrow of outrag fortun
+or to take arm against a sea of troubl,
+and by oppos end them?--to die,--to sleep,--
+no more; and by a sleep to sai we end
+the heartach, and the thousand natur shock
+that flesh is heir to,--'ti a consumm
+devoutli to be wish'd. to die,--to sleep;--
+to sleep! perchanc to dream:--ay, there's the rub;
+for in that sleep of death what dream mai come,
+when we have shuffl off thi mortal coil,
+must give us paus: there's the respect
+that make calam of so long life;
+for who would bear the whip and scorn of time,
+the oppressor's wrong, the proud man's contum,
+the pang of despi'd love, the law's delai,
+the insol of offic, and the spurn
+that patient merit of the unworthi take,
+when he himself might hi quietu make
+with a bare bodkin? who would these fardel bear,
+to grunt and sweat under a weari life,
+but that the dread of someth after death,--
+the undiscov'd countri, from whose bourn
+no travel return,--puzzl the will,
+and make us rather bear those ill we have
+than fly to other that we know not of?
+thu conscienc doe make coward of us all;
+and thu the nativ hue of resolut
+is sickli o'er with the pale cast of thought;
+and enterpris of great pith and moment,
+with thi regard, their current turn awri,
+and lose the name of action.--soft you now!
+the fair ophelia!--nymph, in thy orison
+be all my sin rememb'd.
+
+oph.
+good my lord,
+how doe your honour for thi mani a dai?
+
+ham.
+i humbl thank you; well, well, well.
+
+oph.
+my lord, i have remembr of your
+that i have long long to re-deliv.
+i prai you, now receiv them.
+
+ham.
+no, not i;
+i never gave you aught.
+
+oph.
+my honour'd lord, you know right well you did;
+and with them word of so sweet breath compo'd
+as made the thing more rich; their perfum lost,
+take these again; for to the nobl mind
+rich gift wax poor when giver prove unkind.
+there, my lord.
+
+ham.
+ha, ha! ar you honest?
+
+oph.
+my lord?
+
+ham.
+ar you fair?
+
+oph.
+what mean your lordship?
+
+ham.
+that if you be honest and fair, your honesti should admit no
+discours to your beauti.
+
+oph.
+could beauti, my lord, have better commerc than with honesti?
+
+ham.
+ay, truli; for the power of beauti will sooner transform
+honesti from what it is to a bawd than the forc of honesti can
+translat beauti into hi like: thi wa sometim a paradox,
+but now the time give it proof. i did love you onc.
+
+oph.
+inde, my lord, you made me believ so.
+
+ham.
+you should not have believ'd me; for virtu cannot so
+inocul our old stock but we shall relish of it: i love you
+not.
+
+oph.
+i wa the more deceiv.
+
+ham.
+get thee to a nunneri: why wouldst thou be a breeder of
+sinner? i am myself indiffer honest; but yet i could accus
+me of such thing that it were better my mother had not born me:
+i am veri proud, reveng, ambiti; with more offenc at my
+beck than i have thought to put them in, imagin to give
+them shape, or time to act them in. what should such fellow as i
+do crawl between earth and heaven? we ar arrant knave, all;
+believ none of us. go thy wai to a nunneri. where's your
+father?
+
+oph.
+at home, my lord.
+
+ham.
+let the door be shut upon him, that he mai plai the fool
+nowher but in's own hous. farewel.
+
+oph.
+o, help him, you sweet heaven!
+
+ham.
+if thou dost marri, i'll give thee thi plagu for thy dowri,--
+be thou as chast as ic, as pure as snow, thou shalt not escap
+calumni. get thee to a nunneri, go: farewel. or, if thou wilt
+need marri, marri a fool; for wise men know well enough what
+monster you make of them. to a nunneri, go; and quickli too.
+farewel.
+
+oph.
+o heavenli power, restor him!
+
+ham.
+i have heard of your paint too, well enough; god hath
+given you on face, and you make yourselv anoth: you jig, you
+ambl, and you lisp, and nicknam god's creatur, and make your
+wanton your ignor. go to, i'll no more on't; it hath made
+me mad. i sai, we will have no more marriag: those that ar
+marri alreadi, all but on, shall live; the rest shall keep as
+thei ar. to a nunneri, go.
+
+[exit.]
+
+oph.
+o, what a nobl mind is here o'erthrown!
+the courtier's, scholar's, soldier's, ey, tongu, sword,
+the expect and rose of the fair state,
+the glass of fashion and the mould of form,
+the observ'd of all observ,--quit, quit down!
+and i, of ladi most deject and wretch
+that suck'd the honei of hi music vow,
+now see that nobl and most sovereign reason,
+like sweet bell jangl, out of tune and harsh;
+that unmatch'd form and featur of blown youth
+blast with ecstasi: o, woe is me,
+to have seen what i have seen, see what i see!
+
+[re-enter king and poloniu.]
+
+king.
+love! hi affect do not that wai tend;
+nor what he spake, though it lack'd form a littl,
+wa not like mad. there's someth in hi soul
+o'er which hi melancholi sit on brood;
+and i do doubt the hatch and the disclos
+will be some danger: which for to prevent,
+i have in quick determin
+thu set it down:--he shall with speed to england
+for the demand of our neglect tribut:
+hapli the sea, and countri differ,
+with variabl object, shall expel
+thi someth-settl matter in hi heart;
+whereon hi brain still beat put him thu
+from fashion of himself. what think you on't?
+
+pol.
+it shall do well: but yet do i believ
+the origin and commenc of hi grief
+sprung from neglect love.--how now, ophelia!
+you need not tell us what lord hamlet said;
+we heard it all.--my lord, do as you pleas;
+but if you hold it fit, after the plai,
+let hi queen mother all alon entreat him
+to show hi grief: let her be round with him;
+and i'll be plac'd, so pleas you, in the ear
+of all their confer. if she find him not,
+to england send him; or confin him where
+your wisdom best shall think.
+
+king.
+it shall be so:
+mad in great on must not unwatch'd go.
+
+[exeunt.]
+
+
+
+scene ii. a hall in the castl.
+
+[enter hamlet and certain player.]
+
+ham.
+speak the speech, i prai you, as i pronounc it to you,
+trippingli on the tongu: but if you mouth it, as mani of your
+player do, i had as lief the town crier spoke my line. nor do
+not saw the air too much with your hand, thu, but us all
+gentli: for in the veri torrent, tempest, and, as i mai sai,
+whirlwind of passion, you must acquir and beget a
+temper that mai give it smooth. o, it offend me to the
+soul, to hear a robusti periwig-pate fellow tear a passion to
+tatter, to veri rag, to split the ear of the groundl, who,
+for the most part, ar capabl of noth but inexplic dumb
+show and nois: i would have such a fellow whip for o'erdo
+termag; it out-herod herod: prai you avoid it.
+
+i player.
+i warrant your honour.
+
+ham.
+be not too tame neither; but let your own discret be your
+tutor: suit the action to the word, the word to the action; with
+thi special observ, that you o'erstep not the modesti of
+natur: for anyth so overdon is from the purpos of plai,
+whose end, both at the first and now, wa and is, to hold, as
+'twere, the mirror up to natur; to show virtu her own imag,
+scorn her own imag, and the veri ag and bodi of the time hi
+form and pressur. now, thi overdon, or come tardi off, though
+it make the unskil laugh, cannot but make the judici
+griev; the censur of the which on must in your allow,
+o'erweigh a whole theatr of other. o, there be player that i
+have seen plai,--and heard other prais, and that highli,--not
+to speak it profan, that, neither have the accent of
+christian, nor the gait of christian, pagan, nor man, have so
+strut and bellow that i have thought some of natur's
+journeymen had made men, and not made them well, thei imit
+human so abomin.
+
+i player.
+i hope we have reform'd that indiffer with us, sir.
+
+ham.
+o, reform it altogeth. and let those that plai your clown
+speak no more than is set down for them: for there be of them
+that will themselv laugh, to set on some quantiti of barren
+spectat to laugh too, though in the meantim some necessari
+question of the plai be then to be consid: that's villan
+and show a most piti ambit in the fool that us it. go
+make you readi.
+
+[exeunt player.]
+
+[enter poloniu, rosencrantz, and guildenstern.]
+
+how now, my lord! will the king hear thi piec of work?
+
+pol.
+and the queen too, and that present.
+
+ham.
+bid the player make hast.
+
+[exit poloniu.]
+
+will you two help to hasten them?
+
+ro. and guil.
+we will, my lord.
+
+[exeunt ro. and guil.]
+
+ham.
+what, ho, horatio!
+
+[enter horatio.]
+
+hor.
+here, sweet lord, at your servic.
+
+ham.
+horatio, thou art e'en as just a man
+as e'er my convers cop'd withal.
+
+hor.
+o, my dear lord,--
+
+ham.
+nai, do not think i flatter;
+for what advanc mai i hope from thee,
+that no revenu hast, but thy good spirit,
+to feed and cloth thee? why should the poor be flatter'd?
+no, let the candi tongu lick absurd pomp;
+and crook the pregnant hing of the knee
+where thrift mai follow fawn. dost thou hear?
+sinc my dear soul wa mistress of her choic,
+and could of men distinguish, her elect
+hath seal'd thee for herself: for thou hast been
+as on, in suffer all, that suffer noth;
+a man that fortun's buffet and reward
+hast ta'en with equal thank: and ble'd ar those
+whose blood and judgment ar so well commingl
+that thei ar not a pipe for fortun's finger
+to sound what stop she pleas. give me that man
+that is not passion's slave, and i will wear him
+in my heart's core, ay, in my heart of heart,
+as i do thee.--someth too much of thi.--
+there is a plai to-night befor the king;
+on scene of it come near the circumst,
+which i have told thee, of my father's death:
+i pr'ythee, when thou see'st that act a-foot,
+even with the veri comment of thy soul
+observ mine uncl: if hi occult guilt
+do not itself unkennel in on speech,
+it is a damn ghost that we have seen;
+and my imagin ar as foul
+as vulcan's stithi. give him heed note;
+for i mine ey will rivet to hi face;
+and, after, we will both our judgment join
+in censur of hi seem.
+
+hor.
+well, my lord:
+if he steal aught the whilst thi plai is plai,
+and scape detect, i will pai the theft.
+
+ham.
+thei ar come to the plai. i must be idl:
+get you a place.
+
+[danish march. a flourish. enter king, queen, poloniu, ophelia,
+rosencrantz, guildenstern, and other.]
+
+king.
+how fare our cousin hamlet?
+
+ham.
+excel, i' faith; of the chameleon's dish: i eat the air,
+promis-cram: you cannot feed capon so.
+
+king.
+i have noth with thi answer, hamlet; these word ar not
+mine.
+
+ham.
+no, nor mine now. my lord, you plai'd onc i' the univers, you
+sai? [to poloniu.]
+
+pol.
+that did i, my lord, and wa account a good actor.
+
+ham.
+what did you enact?
+
+pol.
+i did enact juliu caesar; i wa kill'd i' the capitol; brutu
+kill me.
+
+ham.
+it wa a brute part of him to kill so capit a calf there.--be
+the player readi?
+
+ro.
+ay, my lord; thei stai upon your patienc.
+
+queen.
+come hither, my dear hamlet, sit by me.
+
+ham.
+no, good mother, here's metal more attract.
+
+pol.
+o, ho! do you mark that? [to the king.]
+
+ham.
+ladi, shall i lie in your lap?
+[ly down at ophelia's feet.]
+
+oph.
+no, my lord.
+
+ham.
+i mean, my head upon your lap?
+
+oph.
+ay, my lord.
+
+ham.
+do you think i meant countri matter?
+
+oph.
+i think noth, my lord.
+
+ham.
+that's a fair thought to lie between maid' leg.
+
+oph.
+what is, my lord?
+
+ham.
+noth.
+
+oph.
+you ar merri, my lord.
+
+ham.
+who, i?
+
+oph.
+ay, my lord.
+
+ham.
+o, your onli jig-maker! what should a man do but be merri?
+for look you how cheerfulli my mother look, and my father di
+within 's two hour.
+
+oph.
+nai, 'ti twice two month, my lord.
+
+ham.
+so long? nai then, let the devil wear black, for i'll have a
+suit of sabl. o heaven! die two month ago, and not forgotten
+yet? then there's hope a great man's memori mai outliv hi life
+half a year: but, by'r ladi, he must build church then; or els
+shall he suffer not think on, with the hobbi-hors, whose
+epitaph is 'for, o, for, o, the hobbi-hors is forgot!'
+
+[trumpet sound. the dumb show enter.]
+
+[enter a king and a queen veri lovingli; the queen embrac
+him and he her. she kneel, and make show of protest
+unto him. he take her up, and declin hi head upon her
+neck: lai him down upon a bank of flower: she, see
+him asleep, leav him. anon come in a fellow, take off hi
+crown, kiss it, pour poison in the king's ear, and exit. the
+queen return, find the king dead, and make passion action.
+the poison with some three or four mute, come in again,
+seem to lament with her. the dead bodi is carri awai. the
+poison wooe the queen with gift; she seem loth and unwil
+awhil, but in the end accept hi love.]
+
+[exeunt.]
+
+oph.
+what mean thi, my lord?
+
+ham.
+marri, thi is mich mallecho; it mean mischief.
+
+oph.
+belik thi show import the argument of the plai.
+
+[enter prologu.]
+
+ham.
+we shall know by thi fellow: the player cannot keep counsel;
+thei'll tell all.
+
+oph.
+will he tell us what thi show meant?
+
+ham.
+ay, or ani show that you'll show him: be not you asham to
+show, he'll not shame to tell you what it mean.
+
+oph.
+you ar naught, you ar naught: i'll mark the plai.
+
+pro.
+   for us, and for our tragedi,
+   here stoop to your clemenc,
+   we beg your hear patient.
+
+ham.
+is thi a prologu, or the posi of a ring?
+
+oph.
+'ti brief, my lord.
+
+ham.
+as woman's love.
+
+[enter a king and a queen.]
+
+p. king.
+full thirti time hath phoebu' cart gone round
+neptun's salt wash and tellu' orb ground,
+and thirti dozen moon with borrow'd sheen
+about the world have time twelv thirti been,
+sinc love our heart, and hymen did our hand,
+unit commutu in most sacr band.
+
+p. queen.
+so mani journei mai the sun and moon
+make us again count o'er er love be done!
+but, woe is me, you ar so sick of late,
+so far from cheer and from your former state.
+that i distrust you. yet, though i distrust,
+discomfort you, my lord, it noth must:
+for women's fear and love hold quantiti;
+in neither aught, or in extrem.
+now, what my love is, proof hath made you know;
+and as my love is siz'd, my fear is so:
+where love is great, the littlest doubt ar fear;
+where littl fear grow great, great love grow there.
+
+p. king.
+faith, i must leav thee, love, and shortli too;
+my oper power their function leav to do:
+and thou shalt live in thi fair world behind,
+honour'd, belov'd, and hapli on as kind
+for husband shalt thou,--
+
+p. queen.
+o, confound the rest!
+such love must need be treason in my breast:
+in second husband let me be accurst!
+none wed the second but who kill'd the first.
+
+ham.
+[asid.] wormwood, wormwood!
+
+p. queen.
+the instanc that second marriag move
+ar base respect of thrift, but none of love.
+a second time i kill my husband dead
+when second husband kiss me in bed.
+
+p. king.
+i do believ you think what now you speak;
+but what we do determin oft we break.
+purpos is but the slave to memori;
+of violent birth, but poor valid:
+which now, like fruit unrip, stick on the tree;
+but fall unshaken when thei mellow be.
+most necessari 'ti that we forget
+to pai ourselv what to ourselv is debt:
+what to ourselv in passion we propos,
+the passion end, doth the purpos lose.
+the violenc of either grief or joi
+their own enactur with themselv destroi:
+where joi most revel, grief doth most lament;
+grief joi, joi griev, on slender accid.
+thi world is not for ay; nor 'ti not strang
+that even our love should with our fortun chang;
+for 'ti a question left us yet to prove,
+whether love lead fortun, or els fortun love.
+the great man down, you mark hi favourit fli,
+the poor advanc'd make friend of enemi;
+and hitherto doth love on fortun tend:
+for who not need shall never lack a friend;
+and who in want a hollow friend doth try,
+directli season him hi enemi.
+but, orderli to end where i begun,--
+our will and fate do so contrari run
+that our devic still ar overthrown;
+our thought ar our, their end none of our own:
+so think thou wilt no second husband wed;
+but die thy thought when thy first lord is dead.
+
+p. queen.
+nor earth to me give food, nor heaven light!
+sport and repos lock from me dai and night!
+to desper turn my trust and hope!
+an anchor's cheer in prison be my scope!
+each opposit that blank the face of joi
+meet what i would have well, and it destroi!
+both here and henc pursu me last strife,
+if, onc a widow, ever i be wife!
+
+ham.
+if she should break it now! [to ophelia.]
+
+p. king.
+'ti deepli sworn. sweet, leav me here awhil;
+my spirit grow dull, and fain i would beguil
+the tediou dai with sleep.
+[sleep.]
+
+p. queen.
+sleep rock thy brain,
+and never come mischanc between us twain!
+
+[exit.]
+
+ham.
+madam, how like you thi plai?
+
+queen.
+the ladi protest too much, methink.
+
+ham.
+o, but she'll keep her word.
+
+king.
+have you heard the argument? is there no offenc in't?
+
+ham.
+no, no! thei do but jest, poison in jest; no offenc i' the
+world.
+
+king.
+what do you call the plai?
+
+ham.
+the mous-trap. marri, how? tropic. thi plai is the
+imag of a murder done in vienna: gonzago is the duke's name;
+hi wife, baptista: you shall see anon; 'ti a knavish piec of
+work: but what o' that? your majesti, and we that have free
+soul, it touch us not: let the gall'd jade winc; our wither
+ar unwrung.
+
+[enter lucianu.]
+
+thi is on lucianu, nephew to the king.
+
+oph.
+you ar a good choru, my lord.
+
+ham.
+i could interpret between you and your love, if i could see
+the puppet dalli.
+
+oph.
+you ar keen, my lord, you ar keen.
+
+ham.
+it would cost you a groan to take off my edg.
+
+oph.
+still better, and wors.
+
+ham.
+so you must take your husband.--begin, murder; pox, leav
+thy damnabl face, and begin. come:--'the croak raven doth
+bellow for reveng.'
+
+luc.
+thought black, hand apt, drug fit, and time agre;
+confeder season, els no creatur see;
+thou mixtur rank, of midnight weed collect,
+with hecat's ban thrice blast, thrice infect,
+thy natur magic and dire properti
+on wholesom life usurp immedi.
+
+[pour the poison into the sleeper's ear.]
+
+ham.
+he poison him i' the garden for's estat. hi name's gonzago:
+the stori is extant, and written in veri choic italian; you
+shall see anon how the murder get the love of gonzago's wife.
+
+oph.
+the king rise.
+
+ham.
+what, fright with fals fire!
+
+queen.
+how fare my lord?
+
+pol.
+give o'er the plai.
+
+king.
+give me some light:--awai!
+
+all.
+light, light, light!
+
+[exeunt all but hamlet and horatio.]
+
+ham.
+   why, let the strucken deer go weep,
+     the hart ungal plai;
+   for some must watch, while some must sleep:
+     so run the world awai.--
+would not thi, sir, and a forest of feather--if the rest of my
+fortun turn turk with me,--with two provinci rose on my
+raze shoe, get me a fellowship in a cry of player, sir?
+
+hor.
+half a share.
+
+ham.
+     a whole on, i.
+   for thou dost know, o damon dear,
+     thi realm dismantl wa
+   of jove himself; and now reign here
+     a veri, veri--pajock.
+
+hor.
+you might have rhyme.
+
+ham.
+o good horatio, i'll take the ghost's word for a thousand
+pound! didst perceiv?
+
+hor.
+veri well, my lord.
+
+ham.
+upon the talk of the poison?--
+
+hor.
+i did veri well note him.
+
+ham.
+ah, ha!--come, some music! come, the record!--
+   for if the king like not the comedi,
+   why then, belik he like it not, perdi.
+come, some music!
+
+[enter rosencrantz and guildenstern.]
+
+guil.
+good my lord, vouchsaf me a word with you.
+
+ham.
+sir, a whole histori.
+
+guil.
+the king, sir--
+
+ham.
+ay, sir, what of him?
+
+guil.
+is, in hi retir, marvel distemp.
+
+ham.
+with drink, sir?
+
+guil.
+no, my lord; rather with choler.
+
+ham.
+your wisdom should show itself more richer to signifi thi to
+the doctor; for me to put him to hi purgat would perhap
+plung him into far more choler.
+
+guil.
+good my lord, put your discours into some frame, and start
+not so wildli from my affair.
+
+ham.
+i am tame, sir:--pronounc.
+
+guil.
+the queen, your mother, in most great afflict of spirit,
+hath sent me to you.
+
+ham.
+you ar welcom.
+
+guil.
+nai, good my lord, thi courtesi is not of the right breed.
+if it shall pleas you to make me a wholesom answer, i will do
+your mother's command: if not, your pardon and my return
+shall be the end of my busi.
+
+ham.
+sir, i cannot.
+
+guil.
+what, my lord?
+
+ham.
+make you a wholesom answer; my wit's diseas: but, sir, such
+answer as i can make, you shall command; or rather, as you sai,
+my mother: therefor no more, but to the matter: my mother, you
+sai,--
+
+ro.
+then thu she sai: your behaviour hath struck her into
+amaz and admir.
+
+ham.
+o wonder son, that can so stonish a mother!--but is there no
+sequel at the heel of thi mother's admir?
+
+ro.
+she desir to speak with you in her closet er you go to bed.
+
+ham.
+we shall obei, were she ten time our mother. have you ani
+further trade with us?
+
+ro.
+my lord, you onc did love me.
+
+ham.
+and so i do still, by these picker and stealer.
+
+ro.
+good my lord, what is your caus of distemp? you do, sure,
+bar the door upon your own liberti if you deni your grief to
+your friend.
+
+ham.
+sir, i lack advanc.
+
+ro.
+how can that be, when you have the voic of the king himself
+for your success in denmark?
+
+ham.
+ay, sir, but 'while the grass grow'--the proverb is someth
+musti.
+
+[re-enter the player, with record.]
+
+o, the record:--let me see on.--to withdraw with you:--why do
+you go about to recov the wind of me, as if you would drive me
+into a toil?
+
+guil.
+o my lord, if my duti be too bold, my love is too unmannerli.
+
+ham.
+i do not well understand that. will you plai upon thi pipe?
+
+guil.
+my lord, i cannot.
+
+ham.
+i prai you.
+
+guil.
+believ me, i cannot.
+
+ham.
+i do beseech you.
+
+guil.
+i know, no touch of it, my lord.
+
+ham.
+'ti as easi as ly: govern these ventag with your
+finger and thumb, give it breath with your mouth, and it will
+discours most eloqu music. look you, these ar the stop.
+
+guil.
+but these cannot i command to ani utter of harmoni; i
+have not the skill.
+
+ham.
+why, look you now, how unworthi a thing you make of me! you
+would plai upon me; you would seem to know my stop; you would
+pluck out the heart of my mysteri; you would sound me from my
+lowest note to the top of my compass; and there is much music,
+excel voic, in thi littl organ, yet cannot you make it
+speak. 'sblood, do you think i am easier to be plai on than a
+pipe? call me what instrument you will, though you can fret me,
+you cannot plai upon me.
+
+[enter poloniu.]
+
+god bless you, sir!
+
+pol.
+my lord, the queen would speak with you, and present.
+
+ham.
+do you see yonder cloud that's almost in shape of a camel?
+
+pol.
+by the mass, and 'ti like a camel inde.
+
+ham.
+methink it is like a weasel.
+
+pol.
+it is back like a weasel.
+
+ham.
+or like a whale.
+
+pol.
+veri like a whale.
+
+ham.
+then will i come to my mother by and by.--thei fool me to the
+top of my bent.--i will come by and by.
+
+pol.
+i will sai so.
+
+[exit.]
+
+ham.
+by-and-by is easili said.
+
+[exit poloniu.]
+
+--leav me, friend.
+
+[exeunt ro, guil., hor., and player.]
+
+'ti now the veri witch time of night,
+when churchyard yawn, and hell itself breath out
+contagion to thi world: now could i drink hot blood,
+and do such bitter busi as the dai
+would quak to look on. soft! now to my mother.--
+o heart, lose not thy natur; let not ever
+the soul of nero enter thi firm bosom:
+let me be cruel, not unnatur;
+i will speak dagger to her, but us none;
+my tongu and soul in thi be hypocrit,--
+how in my word somev she be shent,
+to give them seal never, my soul, consent!
+
+[exit.]
+
+
+
+scene iii. a room in the castl.
+
+[enter king, rosencrantz, and guildenstern.]
+
+king.
+i like him not; nor stand it safe with us
+to let hi mad rang. therefor prepar you;
+i your commiss will forthwith dispatch,
+and he to england shall along with you:
+the term of our estat mai not endur
+hazard so near us as doth hourli grow
+out of hi lunaci.
+
+guil.
+we will ourselv provid:
+most holi and religi fear it is
+to keep those mani mani bodi safe
+that live and feed upon your majesti.
+
+ro.
+the singl and peculiar life is bound,
+with all the strength and armour of the mind,
+to keep itself from 'noyanc; but much more
+that spirit upon whose weal depend and rest
+the live of mani. the ceas of majesti
+di not alon; but like a gulf doth draw
+what's near it with it: it is a massi wheel,
+fix'd on the summit of the highest mount,
+to whose huge spoke ten thousand lesser thing
+ar morti'd and adjoin'd; which, when it fall,
+each small annex, petti consequ,
+attend the boister ruin. never alon
+did the king sigh, but with a gener groan.
+
+king.
+arm you, i prai you, to thi speedi voyag;
+for we will fetter put upon thi fear,
+which now goe too free-foot.
+
+ro and guil.
+we will hast us.
+
+[exeunt ro. and guil.]
+
+[enter poloniu.]
+
+pol.
+my lord, he's go to hi mother's closet:
+behind the arra i'll convei myself
+to hear the process; i'll warrant she'll tax him home:
+and, as you said, and wise wa it said,
+'ti meet that some more audienc than a mother,
+sinc natur make them partial, should o'erhear
+the speech, of vantag. fare you well, my lieg:
+i'll call upon you er you go to bed,
+and tell you what i know.
+
+king.
+thank, dear my lord.
+
+[exit poloniu.]
+
+o, my offenc is rank, it smell to heaven;
+it hath the primal eldest curs upon't,--
+a brother's murder!--prai can i not,
+though inclin be as sharp as will:
+my stronger guilt defeat my strong intent;
+and, like a man to doubl busi bound,
+i stand in paus where i shall first begin,
+and both neglect. what if thi curs hand
+were thicker than itself with brother's blood,--
+is there not rain enough in the sweet heaven
+to wash it white as snow? whereto serv merci
+but to confront the visag of offenc?
+and what's in prayer but thi twofold forc,--
+to be forestal er we come to fall,
+or pardon'd be down? then i'll look up;
+my fault is past. but, o, what form of prayer
+can serv my turn? forgiv me my foul murder!--
+that cannot be; sinc i am still possess'd
+of those effect for which i did the murder,--
+my crown, mine own ambit, and my queen.
+mai on be pardon'd and retain the offenc?
+in the corrupt current of thi world
+offenc's gild hand mai shove by justic;
+and oft 'ti seen the wick prize itself
+bui out the law; but 'ti not so abov;
+there is no shuffl;--there the action li
+in hi true natur; and we ourselv compel'd,
+even to the teeth and forehead of our fault,
+to give in evid. what then? what rest?
+try what repent can: what can it not?
+yet what can it when on cannot repent?
+o wretch state! o bosom black as death!
+o lime soul, that, struggl to be free,
+art more engag'd! help, angel! make assai:
+bow, stubborn knee; and, heart, with string of steel,
+be soft as sinew of the new-born babe!
+all mai be well.
+
+[retir and kneel.]
+
+[enter hamlet.]
+
+ham.
+now might i do it pat, now he is prai;
+and now i'll do't;--and so he goe to heaven;
+and so am i reveng'd.--that would be scann'd:
+a villain kill my father; and for that,
+i, hi sole son, do thi same villain send
+to heaven.
+o, thi is hire and salari, not reveng.
+he took my father grossli, full of bread;
+with all hi crime broad blown, as flush as mai;
+and how hi audit stand, who know save heaven?
+but in our circumst and cours of thought,
+'ti heavi with him: and am i, then, reveng'd,
+to take him in the purg of hi soul,
+when he is fit and season'd for hi passag?
+no.
+up, sword, and know thou a more horrid hent:
+when he is drunk asleep; or in hi rage;
+or in the incestu pleasur of hi bed;
+at game, swear; or about some act
+that ha no relish of salvat in't;--
+then trip him, that hi heel mai kick at heaven;
+and that hi soul mai be as damn'd and black
+as hell, whereto it goe. my mother stai:
+thi physic but prolong thy sickli dai.
+
+[exit.]
+
+[the king rise and advanc.]
+
+king.
+my word fly up, my thought remain below:
+word without thought never to heaven go.
+
+[exit.]
+
+
+
+scene iv. anoth room in the castl.
+
+[enter queen and poloniu.]
+
+pol.
+he will come straight. look you lai home to him:
+tell him hi prank have been too broad to bear with,
+and that your grace hath screen'd and stood between
+much heat and him. i'll silenc me e'en here.
+prai you, be round with him.
+
+ham.
+[within.] mother, mother, mother!
+
+queen.
+i'll warrant you:
+fear me not:--withdraw; i hear him come.
+
+[poloniu goe behind the arra.]
+
+[enter hamlet.]
+
+ham.
+now, mother, what's the matter?
+
+queen.
+hamlet, thou hast thy father much offend.
+
+ham.
+mother, you have my father much offend.
+
+queen.
+come, come, you answer with an idl tongu.
+
+ham.
+go, go, you question with a wick tongu.
+
+queen.
+why, how now, hamlet!
+
+ham.
+what's the matter now?
+
+queen.
+have you forgot me?
+
+ham.
+no, by the rood, not so:
+you ar the queen, your husband's brother's wife,
+and,--would it were not so!--you ar my mother.
+
+queen.
+nai, then, i'll set those to you that can speak.
+
+ham.
+come, come, and sit you down; you shall not budg;
+you go not till i set you up a glass
+where you mai see the inmost part of you.
+
+queen.
+what wilt thou do? thou wilt not murder me?--
+help, help, ho!
+
+pol.
+[behind.] what, ho! help, help, help!
+
+ham.
+how now? a rat? [draw.]
+dead for a ducat, dead!
+
+[make a pass through the arra.]
+
+pol.
+[behind.] o, i am slain!
+
+[fall and di.]
+
+queen.
+o me, what hast thou done?
+
+ham.
+nai, i know not: is it the king?
+
+[draw forth poloniu.]
+
+queen.
+o, what a rash and bloodi deed is thi!
+
+ham.
+a bloodi deed!--almost as bad, good mother,
+as kill a king and marri with hi brother.
+
+queen.
+as kill a king!
+
+ham.
+ay, ladi, 'twa my word.--
+thou wretch, rash, intrud fool, farewel!
+[to poloniu.]
+i took thee for thy better: take thy fortun;
+thou find'st to be too busi is some danger.--
+leav wring of your hand: peac! sit you down,
+and let me wring your heart: for so i shall,
+if it be made of penetr stuff;
+if damn custom have not braz'd it so
+that it is proof and bulwark against sens.
+
+queen.
+what have i done, that thou dar'st wag thy tongu
+in nois so rude against me?
+
+ham.
+such an act
+that blur the grace and blush of modesti;
+call virtu hypocrit; take off the rose
+from the fair forehead of an innoc love,
+and set a blister there; make marriag-vow
+as fals as dicer' oath: o, such a deed
+as from the bodi of contract pluck
+the veri soul, and sweet religion make
+a rhapsodi of word: heaven's face doth glow;
+yea, thi solid and compound mass,
+with trist visag, as against the doom,
+is thought-sick at the act.
+
+queen.
+ah me, what act,
+that roar so loud, and thunder in the index?
+
+ham.
+look here upon thi pictur, and on thi,--
+the counterfeit present of two brother.
+see what a grace wa seat on thi brow;
+hyperion's curl; the front of jove himself;
+an ey like mar, to threaten and command;
+a station like the herald mercuri
+new light on a heaven-kiss hill:
+a combin and a form, inde,
+where everi god did seem to set hi seal,
+to give the world assur of a man;
+thi wa your husband.--look you now what follow:
+here is your husband, like a milldew'd ear
+blast hi wholesom brother. have you ey?
+could you on thi fair mountain leav to feed,
+and batten on thi moor? ha! have you ey?
+you cannot call it love; for at your ag
+the hei-dai in the blood is tame, it's humbl,
+and wait upon the judgment: and what judgment
+would step from thi to thi? sens, sure, you have,
+els could you not have motion: but sure that sens
+is apoplex'd; for mad would not err;
+nor sens to ecstaci wa ne'er so thrall'd
+but it reserv'd some quantiti of choic
+to serv in such a differ. what devil wa't
+that thu hath cozen'd you at hoodman-blind?
+ey without feel, feel without sight,
+ear without hand or ey, smell san all,
+or but a sickli part of on true sens
+could not so mope.
+o shame! where is thy blush? rebelli hell,
+if thou canst mutin in a matron's bone,
+to flame youth let virtu be as wax,
+and melt in her own fire: proclaim no shame
+when the compuls ardour give the charg,
+sinc frost itself as activ doth burn,
+and reason pander will.
+
+queen.
+o hamlet, speak no more:
+thou turn'st mine ey into my veri soul;
+and there i see such black and grain spot
+as will not leav their tinct.
+
+ham.
+nai, but to live
+in the rank sweat of an enseam bed,
+stew'd in corrupt, honei and make love
+over the nasti sty,--
+
+queen.
+o, speak to me no more;
+these word like dagger enter in mine ear;
+no more, sweet hamlet.
+
+ham.
+a murder and a villain;
+a slave that is not twentieth part the tith
+of your preced lord; a vice of king;
+a cutpurs of the empir and the rule,
+that from a shelf the preciou diadem stole
+and put it in hi pocket!
+
+queen.
+no more.
+
+ham.
+a king of shred and patch!--
+
+[enter ghost.]
+
+save me and hover o'er me with your wing,
+you heavenli guard!--what would your graciou figur?
+
+queen.
+ala, he's mad!
+
+ham.
+do you not come your tardi son to chide,
+that, lap'd in time and passion, let go by
+the import act of your dread command?
+o, sai!
+
+ghost.
+do not forget. thi visit
+is but to whet thy almost blunt purpos.
+but, look, amaz on thy mother sit:
+o, step between her and her fight soul,--
+conceit in weakest bodi strongest work,--
+speak to her, hamlet.
+
+ham.
+how is it with you, ladi?
+
+queen.
+ala, how is't with you,
+that you do bend your ey on vacanc,
+and with the incorpor air do hold discours?
+forth at your ey your spirit wildli peep;
+and, as the sleep soldier in the alarm,
+your bed hair, like life in excrement,
+start up and stand an end. o gentl son,
+upon the heat and flame of thy distemp
+sprinkl cool patienc! whereon do you look?
+
+ham.
+on him, on him! look you how pale he glare!
+hi form and caus conjoin'd, preach to stone,
+would make them capabl.--do not look upon me;
+lest with thi piteou action you convert
+my stern effect: then what i have to do
+will want true colour; tear perchanc for blood.
+
+queen.
+to whom do you speak thi?
+
+ham.
+do you see noth there?
+
+queen.
+noth at all; yet all that is i see.
+
+ham.
+nor did you noth hear?
+
+queen.
+no, noth but ourselv.
+
+ham.
+why, look you there! look how it steal awai!
+my father, in hi habit as he liv'd!
+look, where he goe, even now out at the portal!
+
+[exit ghost.]
+
+queen.
+thi is the veri coinag of your brain:
+thi bodiless creation ecstasi
+is veri cun in.
+
+ham.
+ecstasi!
+my puls, as your, doth temper keep time,
+and make as health music: it is not mad
+that i have utter'd: bring me to the test,
+and i the matter will re-word; which mad
+would gambol from. mother, for love of grace,
+lai not that flatter unction to your soul
+that not your trespass, but my mad speak:
+it will but skin and film the ulcer place,
+whilst rank corrupt, mine all within,
+infect unseen. confess yourself to heaven;
+repent what's past; avoid what is to come;
+and do not spread the compost on the weed,
+to make them ranker. forgiv me thi my virtu;
+for in the fat of these pursi time
+virtu itself of vice must pardon beg,
+yea, curb and woo for leav to do him good.
+
+queen.
+o hamlet, thou hast cleft my heart in twain.
+
+ham.
+o, throw awai the worser part of it,
+and live the purer with the other half.
+good night: but go not to mine uncl's bed;
+assum a virtu, if you have it not.
+that monster custom, who all sens doth eat,
+of habit evil, is angel yet in thi,--
+that to the us of action fair and good
+he likewis give a frock or liveri
+that aptli is put on. refrain to-night;
+and that shall lend a kind of easi
+to the next abstin: the next more easi;
+for us almost can chang the stamp of natur,
+and either curb the devil, or throw him out
+with wondrou potenc. onc more, good-night:
+and when you ar desir to be ble'd,
+i'll bless beg of you.--for thi same lord
+[point to poloniu.]
+i do repent; but heaven hath plea'd it so,
+to punish me with thi, and thi with me,
+that i must be their scourg and minist.
+i will bestow him, and will answer well
+the death i gave him. so again, good-night.--
+i must be cruel, onli to be kind:
+thu bad begin, and wors remain behind.--
+on word more, good ladi.
+
+queen.
+what shall i do?
+
+ham.
+not thi, by no mean, that i bid you do:
+let the bloat king tempt you again to bed;
+pinch wanton on your cheek; call you hi mous;
+and let him, for a pair of reechi kiss,
+or paddl in your neck with hi damn'd finger,
+make you to ravel all thi matter out,
+that i essenti am not in mad,
+but mad in craft. 'twere good you let him know;
+for who that's but a queen, fair, sober, wise,
+would from a paddock, from a bat, a gib,
+such dear concern hide? who would do so?
+no, in despit of sens and secreci,
+unpeg the basket on the hous's top,
+let the bird fly, and, like the famou ap,
+to try conclus, in the basket creep
+and break your own neck down.
+
+queen.
+be thou assur'd, if word be made of breath,
+and breath of life, i have no life to breath
+what thou hast said to me.
+
+ham.
+i must to england; you know that?
+
+queen.
+alack,
+i had forgot: 'ti so conclud on.
+
+ham.
+there's letter seal'd: and my two schoolfellow,--
+whom i will trust as i will adder fang'd,--
+thei bear the mandat; thei must sweep my wai
+and marshal me to knaveri. let it work;
+for 'ti the sport to have the engin
+hoist with hi own petard: and 't shall go hard
+but i will delv on yard below their mine
+and blow them at the moon: o, 'ti most sweet,
+when in on line two craft directli meet.--
+thi man shall set me pack:
+i'll lug the gut into the neighbour room.--
+mother, good-night.--inde, thi counsellor
+is now most still, most secret, and most grave,
+who wa in life a foolish peat knave.
+come, sir, to draw toward an end with you:--
+good night, mother.
+
+[exeunt sever; hamlet, drag out poloniu.]
+
+
+
+act iv.
+
+scene i. a room in the castl.
+
+[enter king, queen, rosencrantz and guildenstern.]
+
+king.
+there's matter in these sigh. these profound heav
+you must translat: 'ti fit we understand them.
+where is your son?
+
+queen.
+bestow thi place on us a littl while.
+
+[to rosencrantz and guildenstern, who go out.]
+
+ah, my good lord, what have i seen to-night!
+
+king.
+what, gertrud? how doe hamlet?
+
+queen.
+mad as the sea and wind, when both contend
+which is the mightier: in hi lawless fit
+behind the arra hear someth stir,
+whip out hi rapier, cri 'a rat, a rat!'
+and in thi brainish apprehens, kill
+the unseen good old man.
+
+king.
+o heavi deed!
+it had been so with us, had we been there:
+hi liberti is full of threat to all;
+to you yourself, to us, to everi on.
+ala, how shall thi bloodi deed be answer'd?
+it will be laid to us, whose provid
+should have kept short, restrain'd, and out of haunt
+thi mad young man. but so much wa our love
+we would not understand what wa most fit;
+but, like the owner of a foul diseas,
+to keep it from divulg, let it feed
+even on the pith of life. where is he gone?
+
+queen.
+to draw apart the bodi he hath kill'd:
+o'er whom hi veri mad, like some or
+among a miner of metal base,
+show itself pure: he weep for what is done.
+
+king.
+o gertrud, come awai!
+the sun no sooner shall the mountain touch
+but we will ship him henc: and thi vile deed
+we must with all our majesti and skill
+both counten and excus.--ho, guildenstern!
+
+[re-enter rosencrantz and guildenstern.]
+
+friend both, go join you with some further aid:
+hamlet in mad hath poloniu slain,
+and from hi mother's closet hath he dragg'd him:
+go seek him out; speak fair, and bring the bodi
+into the chapel. i prai you, hast in thi.
+
+[exeunt rosencrantz and guildenstern.]
+
+come, gertrud, we'll call up our wisest friend;
+and let them know both what we mean to do
+and what's untim done: so hapli slander,--
+whose whisper o'er the world's diamet,
+as level as the cannon to hi blank,
+transport hi poison'd shot,--mai miss our name,
+and hit the woundless air.--o, come awai!
+my soul is full of discord and dismai.
+
+[exeunt.]
+
+scene ii. anoth room in the castl.
+
+[enter hamlet.]
+
+ham.
+safe stow.
+
+ro. and guil.
+[within.] hamlet! lord hamlet!
+
+ham.
+what nois? who call on hamlet? o, here thei come.
+
+[enter rosencrantz and guildenstern.]
+
+ro.
+what have you done, my lord, with the dead bodi?
+
+ham.
+compound it with dust, whereto 'ti kin.
+
+ro.
+tell us where 'ti, that we mai take it thenc,
+and bear it to the chapel.
+
+ham.
+do not believ it.
+
+ro.
+believ what?
+
+ham.
+that i can keep your counsel, and not mine own. besid, to be
+demand of a spong!--what replic should be made by the son
+of a king?
+
+ro.
+take you me for a spong, my lord?
+
+ham.
+ay, sir; that soak up the king's counten, hi reward,
+hi author. but such offic do the king best servic in
+the end: he keep them, like an ap, in the corner of hi jaw;
+first mouth, to be last swallow: when he need what you have
+glean, it is but squeez you, and, spong, you shall be dry
+again.
+
+ro.
+i understand you not, my lord.
+
+ham.
+i am glad of it: a knavish speech sleep in a foolish ear.
+
+ro.
+my lord, you must tell us where the bodi is and go with us to
+the king.
+
+ham.
+the bodi is with the king, but the king is not with the bodi.
+the king is a thing,--
+
+guil.
+a thing, my lord!
+
+ham.
+of noth: bring me to him. hide fox, and all after.
+
+[exeunt.]
+
+
+
+scene iii. anoth room in the castl.
+
+[enter king,attend.]
+
+king.
+i have sent to seek him and to find the bodi.
+how danger is it that thi man goe loos!
+yet must not we put the strong law on him:
+he's lov'd of the distract multitud,
+who like not in their judgment, but their ey;
+and where 'ti so, the offend's scourg is weigh'd,
+but never the offenc. to bear all smooth and even,
+thi sudden send him awai must seem
+deliber paus: diseas desper grown
+by desper applianc ar reliev'd,
+or not at all.
+
+[enter rosencrantz.]
+
+how now! what hath befal'n?
+
+ro.
+where the dead bodi is bestow'd, my lord,
+we cannot get from him.
+
+king.
+but where is he?
+
+ro.
+without, my lord; guard, to know your pleasur.
+
+king.
+bring him befor us.
+
+ro.
+ho, guildenstern! bring in my lord.
+
+[enter hamlet and guildenstern.]
+
+king.
+now, hamlet, where's poloniu?
+
+ham.
+at supper.
+
+king.
+at supper! where?
+
+ham.
+not where he eat, but where he is eaten: a certain
+convoc of polit worm ar e'en at him. your worm is your
+onli emperor for diet: we fat all creatur els to fat us, and
+we fat ourselv for maggot: your fat king and your lean beggar
+is but variabl servic,--two dish, but to on tabl: that's
+the end.
+
+king.
+ala, ala!
+
+ham.
+a man mai fish with the worm that hath eat of a king, and eat
+of the fish that hath fed of that worm.
+
+king.
+what dost thou mean by thi?
+
+ham.
+noth but to show you how a king mai go a progress through
+the gut of a beggar.
+
+king.
+where is poloniu?
+
+ham.
+in heaven: send thither to see: if your messeng find him not
+there, seek him i' the other place yourself. but, inde, if you
+find him not within thi month, you shall nose him as you go up
+the stair into the lobbi.
+
+king.
+go seek him there. [to some attend.]
+
+ham.
+he will stai till you come.
+
+[exeunt attend.]
+
+king.
+hamlet, thi deed, for thine especi safeti,--
+which we do tender, as we dearli griev
+for that which thou hast done,--must send thee henc
+with fieri quick: therefor prepar thyself;
+the bark is readi, and the wind at help,
+the associ tend, and everyth is bent
+for england.
+
+ham.
+for england!
+
+king.
+ay, hamlet.
+
+ham.
+good.
+
+king.
+so is it, if thou knew'st our purpos.
+
+ham.
+i see a cherub that see them.--but, come; for england!--
+farewel, dear mother.
+
+king.
+thy love father, hamlet.
+
+ham.
+my mother: father and mother is man and wife; man and wife is
+on flesh; and so, my mother.--come, for england!
+
+[exit.]
+
+king.
+follow him at foot; tempt him with speed aboard;
+delai it not; i'll have him henc to-night:
+awai! for everyth is seal'd and done
+that els lean on the affair: prai you, make hast.
+
+[exeunt rosencrantz and guildenstern.]
+
+and, england, if my love thou hold'st at aught,--
+as my great power thereof mai give thee sens,
+sinc yet thy cicatric look raw and red
+after the danish sword, and thy free aw
+pai homag to us,--thou mayst not coldli set
+our sovereign process; which import at full,
+by letter conjur to that effect,
+the present death of hamlet. do it, england;
+for like the hectic in my blood he rage,
+and thou must cure me: till i know 'ti done,
+how'er my hap, my joi were ne'er begun.
+
+[exit.]
+
+
+
+scene iv. a plain in denmark.
+
+[enter fortinbra, and forc march.]
+
+for.
+go, captain, from me greet the danish king:
+tell him that, by hi licens, fortinbra
+crave the convey of a promi'd march
+over hi kingdom. you know the rendezv.
+if that hi majesti would aught with us,
+we shall express our duti in hi ey;
+and let him know so.
+
+capt.
+i will do't, my lord.
+
+for.
+go softli on.
+
+[exeunt all for. and forc.]
+
+[enter hamlet, rosencrantz, guildenstern, &c.]
+
+ham.
+good sir, whose power ar these?
+
+capt.
+thei ar of norwai, sir.
+
+ham.
+how purpo'd, sir, i prai you?
+
+capt.
+against some part of poland.
+
+ham.
+who command them, sir?
+
+capt.
+the nephew to old norwai, fortinbra.
+
+ham.
+goe it against the main of poland, sir,
+or for some frontier?
+
+capt.
+truli to speak, and with no addit,
+we go to gain a littl patch of ground
+that hath in it no profit but the name.
+to pai five ducat, five, i would not farm it;
+nor will it yield to norwai or the pole
+a ranker rate, should it be sold in fee.
+
+ham.
+why, then the polack never will defend it.
+
+capt.
+ye, it is alreadi garrison'd.
+
+ham.
+two thousand soul and twenti thousand ducat
+will not debat the question of thi straw:
+thi is the imposthum of much wealth and peac,
+that inward break, and show no caus without
+why the man di.--i humbl thank you, sir.
+
+capt.
+god b' wi' you, sir.
+
+[exit.]
+
+ro.
+will't pleas you go, my lord?
+
+ham.
+i'll be with you straight. go a littl befor.
+
+[exeunt all but hamlet.]
+
+how all occas do inform against me
+and spur my dull reveng! what is a man,
+if hi chief good and market of hi time
+be but to sleep and feed? a beast, no more.
+sure he that made us with such larg discours,
+look befor and after, gave us not
+that capabl and godlik reason
+to fust in us unu'd. now, whether it be
+bestial oblivion, or some craven scrupl
+of think too precis on the event,--
+a thought which, quarter'd, hath but on part wisdom
+and ever three part coward,--i do not know
+why yet i live to sai 'thi thing's to do;'
+sith i have caus, and will, and strength, and mean
+to do't. exampl, gross as earth, exhort me:
+wit thi armi, of such mass and charg,
+led by a delic and tender princ;
+whose spirit, with divin ambit puff'd,
+make mouth at the invis event;
+expos what is mortal and unsur
+to all that fortun, death, and danger dare,
+even for an egg-shell. rightli to be great
+is not to stir without great argument,
+but greatli to find quarrel in a straw
+when honour's at the stake. how stand i, then,
+that have a father kill'd, a mother stain'd,
+excit of my reason and my blood,
+and let all sleep? while, to my shame, i see
+the immin death of twenti thousand men
+that, for a fantasi and trick of fame,
+go to their grave like bed; fight for a plot
+whereon the number cannot try the caus,
+which is not tomb enough and contin
+to hide the slain?--o, from thi time forth,
+my thought be bloodi, or be noth worth!
+
+[exit.]
+
+
+
+scene v. elsinor. a room in the castl.
+
+[enter queen and horatio.]
+
+queen.
+i will not speak with her.
+
+gent.
+she is importun; inde distract:
+her mood will need be piti.
+
+queen.
+what would she have?
+
+gent.
+she speak much of her father; sai she hear
+there's trick i' the world, and hem, and beat her heart;
+spurn envious at straw; speak thing in doubt,
+that carri but half sens: her speech is noth,
+yet the unshap us of it doth move
+the hearer to collect; thei aim at it,
+and botch the word up fit to their own thought;
+which, as her wink, and nod, and gestur yield them,
+inde would make on think there might be thought,
+though noth sure, yet much unhappili.
+'twere good she were spoken with; for she mai strew
+danger conjectur in ill-breed mind.
+
+queen.
+let her come in.
+
+[exit horatio.]
+
+to my sick soul, as sin's true natur is,
+each toi seem prologu to some great amiss:
+so full of artless jealousi is guilt,
+it spill itself in fear to be spilt.
+
+[re-enter horatio with ophelia.]
+
+oph.
+where is the beauteou majesti of denmark?
+
+queen.
+how now, ophelia?
+
+oph. [sing.]
+   how should i your true love know
+     from anoth on?
+   by hi cockl bat and' staff
+     and hi sandal shoon.
+
+queen.
+ala, sweet ladi, what import thi song?
+
+oph.
+sai you? nai, prai you, mark.
+[sing.]
+   he is dead and gone, ladi,
+     he is dead and gone;
+   at hi head a grass green turf,
+     at hi heel a stone.
+
+queen.
+nai, but ophelia--
+
+oph.
+prai you, mark.
+[sing.]
+   white hi shroud as the mountain snow,
+
+[enter king.]
+
+queen.
+ala, look here, my lord!
+
+oph.
+[sing.]
+     lard all with sweet flower;
+   which bewept to the grave did go
+     with true-love shower.
+
+king.
+how do you, pretti ladi?
+
+oph.
+well, god dild you! thei sai the owl wa a baker's daughter.
+lord, we know what we ar, but know not what we mai be. god be at
+your tabl!
+
+king.
+conceit upon her father.
+
+oph.
+prai you, let's have no word of thi; but when thei ask you what
+it mean, sai you thi:
+[sing.]
+   to-morrow is saint valentin's dai
+     all in the morn bedtim,
+   and i a maid at your window,
+     to be your valentin.
+
+   then up he rose and donn'd hi cloth,
+     and dupp'd the chamber door,
+   let in the maid, that out a maid
+     never depart more.
+
+king.
+pretti ophelia!
+
+oph.
+inde, la, without an oath, i'll make an end on't:
+[sing.]
+   by gi and by saint chariti,
+     alack, and fie for shame!
+   young men will do't if thei come to't;
+     by cock, thei ar to blame.
+
+   quoth she, befor you tumbl me,
+     you promi'd me to wed.
+   so would i ha' done, by yonder sun,
+     an thou hadst not come to my bed.
+
+king.
+how long hath she been thu?
+
+oph.
+i hope all will be well. we must be patient: but i cannot
+choos but weep, to think thei would lai him i' the cold ground.
+my brother shall know of it: and so i thank you for your good
+counsel.--come, my coach!--good night, ladi; good night, sweet
+ladi; good night, good night.
+
+[exit.]
+
+king.
+follow her close; give her good watch, i prai you.
+
+[exit horatio.]
+
+o, thi is the poison of deep grief; it spring
+all from her father's death. o gertrud, gertrud,
+when sorrow come, thei come not singl spi,
+but in battalion! first, her father slain:
+next, your son gone; and he most violent author
+of hi own just remov: the peopl muddi,
+thick and and unwholesom in their thought and whisper
+for good poloniu' death; and we have done but greenli
+in hugger-mugger to inter him: poor ophelia
+divid from herself and her fair judgment,
+without the which we ar pictur or mere beast:
+last, and as much contain as all these,
+her brother is in secret come from franc;
+feed on hi wonder, keep himself in cloud,
+and want not buzzer to infect hi ear
+with pestil speech of hi father's death;
+wherein necess, of matter beggar'd,
+will noth stick our person to arraign
+in ear and ear. o my dear gertrud, thi,
+like to a murder piec, in mani place
+give, me superflu death.
+
+[a nois within.]
+
+queen.
+alack, what nois is thi?
+
+king.
+where ar my switzer? let them guard the door.
+
+[enter a gentleman.]
+
+what is the matter?
+
+gent.
+save yourself, my lord:
+the ocean, overp of hi list,
+eat not the flat with more impetu hast
+than young laert, in a riotou head,
+o'erbear your offic. the rabbl call him lord;
+and, as the world were now but to begin,
+antiqu forgot, custom not known,
+the ratifi and prop of everi word,
+thei cry 'choos we! laert shall be king!'
+cap, hand, and tongu applaud it to the cloud,
+'laert shall be king! laert king!'
+
+queen.
+how cheerfulli on the fals trail thei cry!
+o, thi is counter, you fals danish dog!
+
+[a nois within.]
+
+king.
+the door ar broke.
+
+[enter laert, arm; dane follow.]
+
+laer.
+where is thi king?--sir, stand you all without.
+
+dane.
+no, let's come in.
+
+laer.
+i prai you, give me leav.
+
+dane.
+we will, we will.
+
+[thei retir without the door.]
+
+laer.
+i thank you:--keep the door.--o thou vile king,
+give me my father!
+
+queen.
+calmli, good laert.
+
+laer.
+that drop of blood that's calm proclaim me bastard;
+cri cuckold to my father; brand the harlot
+even here, between the chast unsmirch brow
+of my true mother.
+
+king.
+what is the caus, laert,
+that thy rebellion look so giant-like?--
+let him go, gertrud; do not fear our person:
+there's such divin doth hedg a king,
+that treason can but peep to what it would,
+act littl of hi will.--tell me, laert,
+why thou art thu incen'd.--let him go, gertrud:--
+speak, man.
+
+laer.
+where is my father?
+
+king.
+dead.
+
+queen.
+but not by him.
+
+king.
+let him demand hi fill.
+
+laer.
+how came he dead? i'll not be juggl with:
+to hell, allegi! vow, to the blackest devil!
+conscienc and grace, to the profoundest pit!
+i dare damnat:--to thi point i stand,--
+that both the world, i give to neglig,
+let come what come; onli i'll be reveng'd
+most throughli for my father.
+
+king.
+who shall stai you?
+
+laer.
+my will, not all the world:
+and for my mean, i'll husband them so well,
+thei shall go far with littl.
+
+king.
+good laert,
+if you desir to know the certainti
+of your dear father's death, is't writ in your reveng
+that, sweepstak, you will draw both friend and foe,
+winner and loser?
+
+laer.
+none but hi enemi.
+
+king.
+will you know them then?
+
+laer.
+to hi good friend thu wide i'll op my arm;
+and, like the kind life-render pelican,
+repast them with my blood.
+
+king.
+why, now you speak
+like a good child and a true gentleman.
+that i am guiltless of your father's death,
+and am most sensibl in grief for it,
+it shall as level to your judgment pierc
+as dai doe to your ey.
+
+dane.
+[within] let her come in.
+
+laer.
+how now! what nois is that?
+
+[re-enter ophelia, fantast dress with straw and
+flower.]
+
+o heat, dry up my brain! tear seven time salt,
+burn out the sens and virtu of mine ey!--
+by heaven, thy mad shall be paid by weight,
+till our scale turn the beam. o rose of mai!
+dear maid, kind sister, sweet ophelia!--
+o heaven! is't possibl a young maid's wit
+should be as mortal as an old man's life?
+natur is fine in love; and where 'ti fine,
+it send some preciou instanc of itself
+after the thing it love.
+
+oph.
+[sing.]
+   thei bore him barefac'd on the bier
+   hei no nonni, nonni, hei nonni
+   and on hi grave rain'd mani a tear.--
+
+fare you well, my dove!
+
+laer.
+hadst thou thy wit, and didst persuad reveng,
+it could not move thu.
+
+oph.
+you must sing 'down a-down, an you call him a-down-a.' o,
+how the wheel becom it! it is the fals steward, that stole hi
+master's daughter.
+
+laer.
+thi noth's more than matter.
+
+oph.
+there's rosemari, that's for remembr; prai, love,
+rememb: and there is pansi, that's for thought.
+
+laer.
+a document in mad,--thought and remembr fit.
+
+oph.
+there's fennel for you, and columbin:--there's rue for you;
+and here's some for me:--we mai call it herb of grace o'
+sundai:--o, you must wear your rue with a differ.--there's a
+daisi:--i would give you some violet, but thei wither'd all when
+my father di:--thei sai he made a good end,--
+[sing.]
+   for bonni sweet robin is all my joi,--
+
+laer.
+thought and afflict, passion, hell itself,
+she turn to favour and to pretti.
+
+oph.
+[sing.]
+   and will he not come again?
+   and will he not come again?
+     no, no, he is dead,
+     go to thy death-bed,
+   he never will come again.
+
+   hi beard wa as white as snow,
+   all flaxen wa hi poll:
+     he is gone, he is gone,
+     and we cast awai moan:
+   god ha' merci on hi soul!
+
+and of all christian soul, i prai god.--god b' wi' ye.
+
+[exit.]
+
+laer.
+do you see thi, o god?
+
+king.
+laert, i must commun with your grief,
+or you deni me right. go but apart,
+make choic of whom your wisest friend you will,
+and thei shall hear and judg 'twixt you and me.
+if by direct or by collater hand
+thei find us touch'd, we will our kingdom give,
+our crown, our life, and all that we call our,
+to you in satisfact; but if not,
+be you content to lend your patienc to us,
+and we shall jointli labour with your soul
+to give it due content.
+
+laer.
+let thi be so;
+hi mean of death, hi obscur burial,--
+no trophi, sword, nor hatchment o'er hi bone,
+no nobl rite nor formal ostent,--
+cry to be heard, as 'twere from heaven to earth,
+that i must call't in question.
+
+king.
+so you shall;
+and where the offenc is let the great ax fall.
+i prai you go with me.
+
+[exeunt.]
+
+
+
+scene vi. anoth room in the castl.
+
+[enter horatio and a servant.]
+
+hor.
+what ar thei that would speak with me?
+
+servant.
+sailor, sir: thei sai thei have letter for you.
+
+hor.
+let them come in.
+
+[exit servant.]
+
+i do not know from what part of the world
+i should be greet, if not from lord hamlet.
+
+[enter sailor.]
+
+i sailor.
+god bless you, sir.
+
+hor.
+let him bless thee too.
+
+sailor.
+he shall, sir, an't pleas him. there's a letter for you,
+sir,--it come from the ambassador that wa bound for england; if
+your name be horatio, as i am let to know it is.
+
+hor.
+[read.] 'horatio, when thou shalt have overlook
+thi, give these fellow some mean to the king: thei have
+letter for him. er we were two dai old at sea, a pirat of
+veri warlik appoint gave us chase. find ourselv too
+slow of sail, we put on a compel valour, and in the grappl i
+board them: on the instant thei got clear of our ship; so i
+alon becam their prison. thei have dealt with me like thiev
+of merci: but thei knew what thei did; i am to do a good turn for
+them. let the king have the letter i have sent; and repair thou
+to me with as much hast as thou wouldst fly death. i have word
+to speak in thine ear will make thee dumb; yet ar thei much too
+light for the bore of the matter. these good fellow will bring
+thee where i am. rosencrantz and guildenstern hold their cours
+for england: of them i have much to tell thee. farewel.
+he that thou knowest thine,       hamlet.'
+
+come, i will give you wai for these your letter;
+and do't the speedier, that you mai direct me
+to him from whom you brought them.
+
+[exeunt.]
+
+
+
+scene vii. anoth room in the castl.
+
+[enter king and laert.]
+
+king.
+now must your conscienc my acquitt seal,
+and you must put me in your heart for friend,
+sith you have heard, and with a know ear,
+that he which hath your nobl father slain
+pursu'd my life.
+
+laer.
+it well appear:--but tell me
+why you proceed not against these feat,
+so crime and so capit in natur,
+as by your safeti, wisdom, all thing els,
+you mainli were stirr'd up.
+
+king.
+o, for two special reason;
+which mai to you, perhap, seem much unsinew'd,
+but yet to me thei ar strong. the queen hi mother
+live almost by hi look; and for myself,--
+my virtu or my plagu, be it either which,--
+she's so conjunct to my life and soul,
+that, as the star move not but in hi sphere,
+i could not but by her. the other motiv,
+why to a public count i might not go,
+is the great love the gener gender bear him;
+who, dip all hi fault in their affect,
+would, like the spring that turneth wood to stone,
+convert hi gyve to grace; so that my arrow,
+too slightli timber'd for so loud a wind,
+would have revert to my bow again,
+and not where i had aim'd them.
+
+laer.
+and so have i a nobl father lost;
+a sister driven into desper term,--
+whose worth, if prais mai go back again,
+stood challeng on mount of all the ag
+for her perfect:--but my reveng will come.
+
+king.
+break not your sleep for that:--you must not think
+that we ar made of stuff so flat and dull
+that we can let our beard be shook with danger,
+and think it pastim. you shortli shall hear more:
+i lov'd your father, and we love ourself;
+and that, i hope, will teach you to imagin,--
+
+[enter a messeng.]
+
+how now! what new?
+
+mess.
+letter, my lord, from hamlet:
+thi to your majesti; thi to the queen.
+
+king.
+from hamlet! who brought them?
+
+mess.
+sailor, my lord, thei sai; i saw them not:
+thei were given me by claudio:--he receiv'd them
+of him that brought them.
+
+king.
+laert, you shall hear them.
+leav us.
+
+[exit messeng.]
+
+[read]'high and mighti,--you shall know i am set nake on your
+kingdom. to-morrow shall i beg leav to see your kingli ey:
+when i shall, first ask your pardon thereunto, recount the
+occas of my sudden and more strang return.       hamlet.'
+
+what should thi mean? ar all the rest come back?
+or is it some abus, and no such thing?
+
+laer.
+know you the hand?
+
+king.
+'ti hamlet's charact:--'nake!'--
+and in a postscript here, he sai 'alon.'
+can you advis me?
+
+laer.
+i am lost in it, my lord. but let him come;
+it warm the veri sick in my heart
+that i shall live and tell him to hi teeth,
+'thu didest thou.'
+
+king.
+if it be so, laert,--
+as how should it be so? how otherwis?--
+will you be rul'd by me?
+
+laer.
+ay, my lord;
+so you will not o'errul me to a peac.
+
+king.
+to thine own peac. if he be now return'd--
+as check at hi voyag, and that he mean
+no more to undertak it,--i will work him
+to exploit, now ripe in my devic,
+under the which he shall not choos but fall:
+and for hi death no wind shall breath;
+but even hi mother shall uncharg the practic
+and call it accid.
+
+laer.
+my lord, i will be rul'd;
+the rather if you could devis it so
+that i might be the organ.
+
+king.
+it fall right.
+you have been talk'd of sinc your travel much,
+and that in hamlet's hear, for a qualiti
+wherein thei sai you shine: your sum of part
+did not togeth pluck such envi from him
+as did that on; and that, in my regard,
+of the unworthiest sieg.
+
+laer.
+what part is that, my lord?
+
+king.
+a veri riband in the cap of youth,
+yet need too; for youth no less becom
+the light and careless liveri that it wear
+than settl ag hi sabl and hi weed,
+import health and grave.--two month sinc,
+here wa a gentleman of normandi,--
+i've seen myself, and serv'd against, the french,
+and thei can well on horseback: but thi gallant
+had witchcraft in't: he grew unto hi seat;
+and to such wondrou do brought hi hors,
+as had he been incorp'd and demi-natur'd
+with the brave beast: so far he topp'd my thought
+that i, in forgeri of shape and trick,
+come short of what he did.
+
+laer.
+a norman wa't?
+
+king.
+a norman.
+
+laer.
+upon my life, lamond.
+
+king.
+the veri same.
+
+laer.
+i know him well: he is the brooch inde
+and gem of all the nation.
+
+king.
+he made confess of you;
+and gave you such a masterli report
+for art and exercis in your defenc,
+and for your rapier most especi,
+that he cri out, 'twould be a sight inde
+if on could match you: the scrimer of their nation
+he swore, had neither motion, guard, nor ey,
+if you oppo'd them. sir, thi report of hi
+did hamlet so envenom with hi envi
+that he could noth do but wish and beg
+your sudden come o'er, to plai with him.
+now, out of thi,--
+
+laer.
+what out of thi, my lord?
+
+king.
+laert, wa your father dear to you?
+or ar you like the paint of a sorrow,
+a face without a heart?
+
+laer.
+why ask you thi?
+
+king.
+not that i think you did not love your father;
+but that i know love is begun by time,
+and that i see, in passag of proof,
+time qualifi the spark and fire of it.
+there live within the veri flame of love
+a kind of wick or snuff that will abat it;
+and noth is at a like good still;
+for good, grow to a plurisi,
+di in hi own too much: that we would do,
+we should do when we would; for thi 'would' chang,
+and hath abat and delai as mani
+as there ar tongu, ar hand, ar accid;
+and then thi 'should' is like a spendthrift sigh,
+that hurt by eas. but to the quick o' the ulcer:--
+hamlet come back: what would you undertak
+to show yourself your father's son in deed
+more than in word?
+
+laer.
+to cut hi throat i' the church.
+
+king.
+no place, inde, should murder sanctuar;
+reveng should have no bound. but, good laert,
+will you do thi, keep close within your chamber.
+hamlet return'd shall know you ar come home:
+we'll put on those shall prais your excel
+and set a doubl varnish on the fame
+the frenchman gave you; bring you in fine togeth
+and wager on your head: he, be remiss,
+most gener, and free from all contriv,
+will not perus the foil; so that with eas,
+or with a littl shuffl, you mai choos
+a sword unbat, and, in a pass of practic,
+requit him for your father.
+
+laer.
+i will do't:
+and for that purpos i'll anoint my sword.
+i bought an unction of a mountebank,
+so mortal that, but dip a knife in it,
+where it draw blood no cataplasm so rare,
+collect from all simpl that have virtu
+under the moon, can save the thing from death
+thi is but scratch'd withal: i'll touch my point
+with thi contagion, that, if i gall him slightli,
+it mai be death.
+
+king.
+let's further think of thi;
+weigh what conveni both of time and mean
+mai fit us to our shape: if thi should fail,
+and that our drift look through our bad perform.
+'twere better not assai'd: therefor thi project
+should have a back or second, that might hold
+if thi did blast in proof. soft! let me see:--
+we'll make a solemn wager on your cun,--
+i ha't:
+when in your motion you ar hot and dry,--
+as make your bout more violent to that end,--
+and that he call for drink, i'll have prepar'd him
+a chalic for the nonc; whereon but sip,
+if he by chanc escap your venom'd stuck,
+our purpos mai hold there.
+
+[enter queen.]
+
+how now, sweet queen!
+
+queen.
+on woe doth tread upon anoth's heel,
+so fast thei follow:--your sister's drown'd, laert.
+
+laer.
+drown'd! o, where?
+
+queen.
+there is a willow grow aslant a brook,
+that show hi hoar leav in the glassi stream;
+there with fantast garland did she come
+of crowflow, nettl, daisi, and long purpl,
+that liber shepherd give a grosser name,
+but our cold maid do dead men's finger call them.
+there, on the pendant bough her coronet weed
+clamb'ring to hang, an enviou sliver broke;
+when down her weedi trophi and herself
+fell in the weep brook. her cloth spread wide;
+and, mermaid-like, awhil thei bore her up;
+which time she chaunt snatch of old tune;
+as on incap of her own distress,
+or like a creatur nativ and indu'd
+unto that element: but long it could not be
+till that her garment, heavi with their drink,
+pull'd the poor wretch from her melodi lai
+to muddi death.
+
+laer.
+ala, then she is drown'd?
+
+queen.
+drown'd, drown'd.
+
+laer.
+too much of water hast thou, poor ophelia,
+and therefor i forbid my tear: but yet
+it is our trick; natur her custom hold,
+let shame sai what it will: when these ar gone,
+the woman will be out.--adieu, my lord:
+i have a speech of fire, that fain would blaze,
+but that thi folli dout it.
+
+[exit.]
+
+king.
+let's follow, gertrud;
+how much i had to do to calm hi rage!
+now fear i thi will give it start again;
+therefor let's follow.
+
+[exeunt.]
+
+
+
+act v.
+
+scene i. a churchyard.
+
+[enter two clown, with spade, &c.]
+
+1 clown.
+is she to be buri in christian burial when she wilfulli
+seek her own salvat?
+
+2 clown.
+i tell thee she is; and therefor make her grave straight: the
+crowner hath sat on her, and find it christian burial.
+
+1 clown.
+how can that be, unless she drown herself in her own defenc?
+
+2 clown.
+why, 'ti found so.
+
+1 clown.
+it must be se offendendo; it cannot be els. for here li
+the point: if i drown myself wittingli, it argu an act: and an
+act hath three branch; it is to act, to do, and to perform:
+argal, she drown herself wittingli.
+
+2 clown.
+nai, but hear you, goodman delver,--
+
+1 clown.
+give me leav. here li the water; good: here stand the
+man; good: if the man go to thi water and drown himself, it is,
+will he, nill he, he goe,--mark you that: but if the water come
+to him and drown him, he drown not himself; argal, he that is
+not guilti of hi own death shorten not hi own life.
+
+2 clown.
+but is thi law?
+
+1 clown.
+ay, marri, is't--crowner's quest law.
+
+2 clown.
+will you ha' the truth on't? if thi had not been a
+gentlewoman, she should have been buri out o' christian burial.
+
+1 clown.
+why, there thou sai'st: and the more piti that great folk
+should have counten in thi world to drown or hang themselv
+more than their even christian.--come, my spade. there is no
+ancient gentlemen but garden, ditcher, and grave-maker: thei
+hold up adam's profess.
+
+2 clown.
+wa he a gentleman?
+
+1 clown.
+he wa the first that ever bore arm.
+
+2 clown.
+why, he had none.
+
+1 clown.
+what, art a heathen? how dost thou understand the scriptur?
+the scriptur sai adam digg'd: could he dig without arm? i'll
+put anoth question to thee: if thou answerest me not to the
+purpos, confess thyself,--
+
+2 clown.
+go to.
+
+1 clown.
+what is he that build stronger than either the mason, the
+shipwright, or the carpent?
+
+2 clown.
+the gallow-maker; for that frame outliv a thousand tenant.
+
+1 clown.
+i like thy wit well, in good faith: the gallow doe well;
+but how doe it well? it doe well to those that do ill: now,
+thou dost ill to sai the gallow is built stronger than the
+church; argal, the gallow mai do well to thee. to't again, come.
+
+2 clown.
+who build stronger than a mason, a shipwright, or a carpent?
+
+1 clown.
+ay, tell me that, and unyok.
+
+2 clown.
+marri, now i can tell.
+
+1 clown.
+to't.
+
+2 clown.
+mass, i cannot tell.
+
+[enter hamlet and horatio, at a distanc.]
+
+1 clown.
+cudgel thy brain no more about it, for your dull ass will
+not mend hi pace with beat; and when you ar ask thi
+question next, sai 'a grave-maker;' the hous he make last
+till doomsdai. go, get thee to yaughan; fetch me a stoup of
+liquor.
+
+[exit second clown.]
+
+[dig and sing.]
+
+   in youth when i did love, did love,
+     methought it wa veri sweet;
+   to contract, o, the time for, ah, my behov,
+     o, methought there wa noth meet.
+
+ham.
+ha thi fellow no feel of hi busi, that he sing at
+grave-make?
+
+hor.
+custom hath made it in him a properti of easi.
+
+ham.
+'ti e'en so: the hand of littl employ hath the daintier
+sens.
+
+1 clown.
+[sing.]
+   but ag, with hi steal step,
+     hath claw'd me in hi clutch,
+   and hath shipp'd me into the land,
+     as if i had never been such.
+
+[throw up a skull.]
+
+ham.
+that skull had a tongu in it, and could sing onc: how the
+knave jowl it to the ground,as if 'twere cain's jawbon, that
+did the first murder! thi might be the pate of a politician,
+which thi ass now o'erreach; on that would circumv god,
+might it not?
+
+hor.
+it might, my lord.
+
+ham.
+or of a courtier, which could sai 'good morrow, sweet lord!
+how dost thou, good lord?' thi might be my lord such-a-on, that
+prais my lord such-a-on's hors when he meant to beg
+it,--might it not?
+
+hor.
+ay, my lord.
+
+ham.
+why, e'en so: and now my ladi worm's; chapless, and knock
+about the mazard with a sexton's spade: here's fine revolut,
+an we had the trick to see't. did these bone cost no more the
+breed but to plai at logget with 'em? mine ach to think
+on't.
+
+1 clown.
+[sing.]
+   a pickax and a spade, a spade,
+     for and a shroud sheet;
+   o, a pit of clai for to be made
+     for such a guest is meet.
+
+[throw up anoth skull].
+
+ham.
+there's anoth: why mai not that be the skull of a lawyer?
+where be hi quiddit now, hi quillet, hi case, hi tenur,
+and hi trick? why doe he suffer thi rude knave now to knock
+him about the sconc with a dirti shovel, and will not tell him
+of hi action of batteri? hum! thi fellow might be in's time a
+great buyer of land, with hi statut, hi recogniz, hi
+fine, hi doubl voucher, hi recoveri: is thi the fine of
+hi fine, and the recoveri of hi recoveri, to have hi fine
+pate full of fine dirt? will hi voucher vouch him no more of
+hi purchas, and doubl on too, than the length and breadth
+of a pair of indentur? the veri convey of hi land will
+scarc lie in thi box; and must the inheritor himself have no
+more, ha?
+
+hor.
+not a jot more, my lord.
+
+ham.
+is not parchment made of sheep-skin?
+
+hor.
+ay, my lord, and of calf-skin too.
+
+ham.
+thei ar sheep and calv which seek out assur in that. i
+will speak to thi fellow.--whose grave's thi, sir?
+
+1 clown.
+mine, sir.
+[sing.]
+   o, a pit of clai for to be made
+     for such a guest is meet.
+
+ham.
+i think it be thine inde, for thou liest in't.
+
+1 clown.
+you lie out on't, sir, and therefor 'ti not your: for my part,
+i do not lie in't, yet it is mine.
+
+ham.
+thou dost lie in't, to be in't and sai it is thine: 'ti for
+the dead, not for the quick; therefor thou liest.
+
+1 clown.
+'ti a quick lie, sir; 't will awai again from me to you.
+
+ham.
+what man dost thou dig it for?
+
+1 clown.
+for no man, sir.
+
+ham.
+what woman then?
+
+1 clown.
+for none neither.
+
+ham.
+who is to be buri in't?
+
+1 clown.
+on that wa a woman, sir; but, rest her soul, she's dead.
+
+ham.
+how absolut the knave is! we must speak by the card, or
+equivoc will undo us. by the lord, horatio, these three
+year i have taken note of it, the ag is grown so pick that
+the toe of the peasant come so near the heel of the courtier he
+gall hi kibe.--how long hast thou been a grave-maker?
+
+1 clown.
+of all the dai i' the year, i came to't that dai that our
+last king hamlet overcam fortinbra.
+
+ham.
+how long is that sinc?
+
+1 clown.
+cannot you tell that? everi fool can tell that: it wa the
+veri dai that young hamlet wa born,--he that is mad, and sent
+into england.
+
+ham.
+ay, marri, why wa be sent into england?
+
+1 clown.
+why, becaus he wa mad: he shall recov hi wit there;
+or, if he do not, it's no great matter there.
+
+ham.
+why?
+
+1 clown.
+'twill not he seen in him there; there the men ar as mad as he.
+
+ham.
+how came he mad?
+
+1 clown.
+veri strang, thei sai.
+
+ham.
+how strang?
+
+1 clown.
+faith, e'en with lose hi wit.
+
+ham.
+upon what ground?
+
+1 clown.
+why, here in denmark: i have been sexton here, man and boi,
+thirti year.
+
+ham.
+how long will a man lie i' the earth er he rot?
+
+1 clown.
+faith, if he be not rotten befor he die,--as we have mani
+pocki cors now-a-dai that will scarc hold the lai in,--he
+will last you some eight year or nine year: a tanner will last
+you nine year.
+
+ham.
+why he more than anoth?
+
+1 clown.
+why, sir, hi hide is so tann'd with hi trade that he will
+keep out water a great while; and your water is a sore decay of
+your whoreson dead bodi. here's a skull now; thi skull hath lain
+in the earth three-and-twenti year.
+
+ham.
+whose wa it?
+
+1 clown.
+a whoreson, mad fellow's it wa: whose do you think it wa?
+
+ham.
+nai, i know not.
+
+1 clown.
+a pestil on him for a mad rogu! 'a pour'd a flagon of
+rhenish on my head onc. thi same skull, sir, wa yorick's
+skull, the king's jester.
+
+ham.
+thi?
+
+1 clown.
+e'en that.
+
+ham.
+let me see. [take the skull.] ala, poor yorick!--i knew him,
+horatio; a fellow of infinit jest, of most excel fanci: he
+hath born me on hi back a thousand time; and now, how abhor
+in my imagin it is! my gorg rise at it. here hung those
+lip that i have kiss'd i know not how oft. where be your gibe
+now? your gambol? your song? your flash of merriment, that
+were wont to set the tabl on a roar? not on now, to mock your
+own grin? quit chap-fallen? now, get you to my ladi's
+chamber, and tell her, let her paint an inch thick, to thi
+favour she must come; make her laugh at that.--pr'ythee, horatio,
+tell me on thing.
+
+hor.
+what's that, my lord?
+
+ham.
+dost thou think alexand look o' thi fashion i' the earth?
+
+hor.
+e'en so.
+
+ham.
+and smelt so? pah!
+
+[throw down the skull.]
+
+hor.
+e'en so, my lord.
+
+ham.
+to what base us we mai return, horatio! why mai not
+imagin trace the nobl dust of alexand till he find it
+stop a bung-hole?
+
+hor.
+'twere to consid too curious to consid so.
+
+ham.
+no, faith, not a jot; but to follow him thither with modesti
+enough, and likelihood to lead it: as thu: alexand di,
+alexand wa buri, alexand returneth into dust; the dust is
+earth; of earth we make loam; and why of that loam whereto he
+wa convert might thei not stop a beer-barrel?
+   imperi caesar, dead and turn'd to clai,
+   might stop a hole to keep the wind awai.
+   o, that that earth which kept the world in aw
+   should patch a wall to expel the winter's flaw!
+but soft! but soft! asid!--here come the king.
+
+[enter priest, &c, in process; the corps of ophelia,
+laert, and mourner follow; king, queen, their train, &c.]
+
+the queen, the courtier: who is that thei follow?
+and with such maim rite? thi doth betoken
+the cors thei follow did with desper hand
+fordo it own life: 'twa of some estat.
+couch we awhil and mark.
+
+[retir with horatio.]
+
+laer.
+what ceremoni els?
+
+ham.
+that is laert,
+a veri nobl youth: mark.
+
+laer.
+what ceremoni els?
+
+1 priest.
+her obsequi have been as far enlarg'd
+as we have warranti: her death wa doubt;
+and, but that great command o'erswai the order,
+she should in ground unsanctifi have lodg'd
+till the last trumpet; for charit prayer,
+shard, flint, and pebbl should be thrown on her,
+yet here she is allow her virgin rite,
+her maiden strewment, and the bring home
+of bell and burial.
+
+laer.
+must there no more be done?
+
+1 priest.
+no more be done;
+we should profan the servic of the dead
+to sing a requiem and such rest to her
+as to peac-part soul.
+
+laer.
+lai her i' the earth;--
+and from her fair and unpollut flesh
+mai violet spring!--i tell thee, churlish priest,
+a minist angel shall my sister be
+when thou liest howl.
+
+ham.
+what, the fair ophelia?
+
+queen.
+sweet to the sweet: farewel.
+[scatter flower.]
+i hop'd thou shouldst have been my hamlet's wife;
+i thought thy bride-bed to have deck'd, sweet maid,
+and not have strew'd thy grave.
+
+laer.
+o, trebl woe
+fall ten time trebl on that curs head
+whose wick deed thy most ingeni sens
+depriv'd thee of!--hold off the earth awhil,
+till i have caught her onc more in mine arm:
+[leap into the grave.]
+now pile your dust upon the quick and dead,
+till of thi flat a mountain you have made,
+to o'ertop old pelion or the skyish head
+of blue olympu.
+
+ham.
+[advanc.]
+what is he whose grief
+bear such an emphasi? whose phrase of sorrow
+conjur the wander star, and make them stand
+like wonder-wound hearer? thi is i,
+hamlet the dane.
+[leap into the grave.]
+
+laer.
+the devil take thy soul!
+[grappl with him.]
+
+ham.
+thou prai'st not well.
+i pr'ythee, take thy finger from my throat;
+for, though i am not splenet and rash,
+yet have i in me someth danger,
+which let thy wise fear: awai thy hand!
+
+king.
+pluck them asund.
+
+queen.
+hamlet! hamlet!
+
+all.
+gentlemen!--
+
+hor.
+good my lord, be quiet.
+
+[the attend part them, and thei come out of the grave.]
+
+ham.
+why, i will fight with him upon thi theme
+until my eyelid will no longer wag.
+
+queen.
+o my son, what theme?
+
+ham.
+i lov'd ophelia; forti thousand brother
+could not, with all their quantiti of love,
+make up my sum.--what wilt thou do for her?
+
+king.
+o, he is mad, laert.
+
+queen.
+for love of god, forbear him!
+
+ham.
+'swound, show me what thou'lt do:
+woul't weep? woul't fight? woul't fast? woul't tear thyself?
+woul't drink up eisel? eat a crocodil?
+i'll do't.--dost thou come here to whine?
+to outfac me with leap in her grave?
+be buri quick with her, and so will i:
+and, if thou prate of mountain, let them throw
+million of acr on us, till our ground,
+sing hi pate against the burn zone,
+make ossa like a wart! nai, an thou'lt mouth,
+i'll rant as well as thou.
+
+queen.
+thi is mere mad:
+and thu a while the fit will work on him;
+anon, as patient as the femal dove,
+when that her golden couplet ar disclo'd,
+hi silenc will sit droop.
+
+ham.
+hear you, sir;
+what is the reason that you us me thu?
+i lov'd you ever: but it is no matter;
+let hercul himself do what he mai,
+the cat will mew, and dog will have hi dai.
+
+[exit.]
+
+king.
+i prai thee, good horatio, wait upon him.--
+
+[exit horatio.]
+[to laert]
+strengthen your patienc in our last night's speech;
+we'll put the matter to the present push.--
+good gertrud, set some watch over your son.--
+thi grave shall have a live monument:
+an hour of quiet shortli shall we see;
+till then in patienc our proceed be.
+
+[exeunt.]
+
+
+
+scene ii. a hall in the castl.
+
+[enter hamlet and horatio.]
+
+ham.
+so much for thi, sir: now let me see the other;
+you do rememb all the circumst?
+
+hor.
+rememb it, my lord!
+
+ham.
+sir, in my heart there wa a kind of fight
+that would not let me sleep: methought i lai
+wors than the mutini in the bilbo. rashli,
+and prai'd be rash for it,--let us know,
+our indiscret sometim serv us well,
+when our deep plot do fail; and that should teach us
+there's a divin that shape our end,
+rough-hew them how we will.
+
+hor.
+that is most certain.
+
+ham.
+up from my cabin,
+my sea-gown scarf'd about me, in the dark
+grop'd i to find out them: had my desir;
+finger'd their packet; and, in fine, withdrew
+to mine own room again: make so bold,
+my fear forget manner, to unseal
+their grand commiss; where i found, horatio,
+o royal knaveri! an exact command,--
+lard with mani sever sort of reason,
+import denmark's health, and england's too,
+with, ho! such bug and goblin in my life,--
+that, on the supervis, no leisur bate,
+no, not to stai the grind of the ax,
+my head should be struck off.
+
+hor.
+is't possibl?
+
+ham.
+here's the commiss: read it at more leisur.
+but wilt thou bear me how i did proce?
+
+hor.
+i beseech you.
+
+ham.
+be thu benet round with villani,--
+or i could make a prologu to my brain,
+thei had begun the plai,--i sat me down;
+devi'd a new commiss; wrote it fair:
+i onc did hold it, as our statist do,
+a base to write fair, and labour'd much
+how to forget that learn; but, sir, now
+it did me yeoman's servic. wilt thou know
+the effect of what i wrote?
+
+hor.
+ay, good my lord.
+
+ham.
+an earnest conjur from the king,--
+as england wa hi faith tributari;
+as love between them like the palm might flourish;
+as peac should still her wheaten garland wear
+and stand a comma 'tween their amiti;
+and mani such-like as's of great charg,--
+that, on the view and know of these content,
+without debat further, more or less,
+he should the bearer put to sudden death,
+not shrive-time allow'd.
+
+hor.
+how wa thi seal'd?
+
+ham.
+why, even in that wa heaven ordin.
+i had my father's signet in my purs,
+which wa the model of that danish seal:
+fold the writ up in the form of the other;
+subscrib'd it: gave't the impress; plac'd it safe,
+the changel never known. now, the next dai
+wa our sea-fight; and what to thi wa sequent
+thou know'st alreadi.
+
+hor.
+so guildenstern and rosencrantz go to't.
+
+ham.
+why, man, thei did make love to thi employ;
+thei ar not near my conscienc; their defeat
+doe by their own insinu grow:
+'ti danger when the baser natur come
+between the pass and fell incens point
+of mighti opposit.
+
+hor.
+why, what a king is thi!
+
+ham.
+doe it not, think't thee, stand me now upon,--
+he that hath kill'd my king, and whor'd my mother;
+popp'd in between the elect and my hope;
+thrown out hi angl for my proper life,
+and with such cozenag--is't not perfect conscienc
+to quit him with thi arm? and is't not to be damn'd
+to let thi canker of our natur come
+in further evil?
+
+hor.
+it must be shortli known to him from england
+what is the issu of the busi there.
+
+ham.
+it will be short: the interim is mine;
+and a man's life is no more than to sai on.
+but i am veri sorri, good horatio,
+that to laert i forgot myself;
+for by the imag of my caus i see
+the portraitur of hi: i'll court hi favour:
+but, sure, the braveri of hi grief did put me
+into a tower passion.
+
+hor.
+peac; who come here?
+
+[enter osric.]
+
+osr.
+your lordship is right welcom back to denmark.
+
+ham.
+i humbl thank you, sir. dost know thi water-fly?
+
+hor.
+no, my good lord.
+
+ham.
+thy state is the more graciou; for 'ti a vice to know him. he
+hath much land, and fertil: let a beast be lord of beast, and
+hi crib shall stand at the king's mess; 'ti a chough; but, as i
+sai, spaciou in the possess of dirt.
+
+osr.
+sweet lord, if your lordship were at leisur, i should
+impart a thing to you from hi majesti.
+
+ham.
+i will receiv it with all dilig of spirit. put your
+bonnet to hi right us; 'ti for the head.
+
+osr.
+i thank your lordship, t'is veri hot.
+
+ham.
+no, believ me, 'ti veri cold; the wind is northerli.
+
+osr.
+it is indiffer cold, my lord, inde.
+
+ham.
+methink it is veri sultri and hot for my complexion.
+
+osr.
+exceedingli, my lord; it is veri sultri,--as 'twere--i cannot
+tell how. but, my lord, hi majesti bade me signifi to you that
+he ha laid a great wager on your head. sir, thi is the
+matter,--
+
+ham.
+i beseech you, rememb,--
+[hamlet move him to put on hi hat.]
+
+osr.
+nai, in good faith; for mine eas, in good faith. sir, here
+is newli come to court laert; believ me, an absolut
+gentleman, full of most excel differ, of veri soft
+societi and great show: inde, to speak feelingli of him, he
+is the card or calendar of gentri; for you shall find in him the
+contin of what part a gentleman would see.
+
+ham.
+sir, hi defin suffer no perdit in you;--though, i
+know, to divid him inventori would dizzi the arithmet of
+memori, and yet but yaw neither, in respect of hi quick sail.
+but, in the veriti of extol, i take him to be a soul of great
+articl, and hi infus of such dearth and rare as, to make
+true diction of him, hi semblabl is hi mirror, and who els
+would trace him, hi umbrag, noth more.
+
+osr.
+your lordship speak most infal of him.
+
+ham.
+the concern, sir? why do we wrap the gentleman in our more
+rawer breath?
+
+osr.
+sir?
+
+hor.
+is't not possibl to understand in anoth tongu? you will do't,
+sir, realli.
+
+ham.
+what import the nomin of thi gentleman?
+
+osr.
+of laert?
+
+hor.
+hi purs is empti alreadi; all's golden word ar spent.
+
+ham.
+of him, sir.
+
+osr.
+i know, you ar not ignor,--
+
+ham.
+i would you did, sir; yet, in faith, if you did, it would not
+much approv me.--well, sir.
+
+osr.
+you ar not ignor of what excel laert is,--
+
+ham.
+i dare not confess that, lest i should compar with him in
+excel; but to know a man well were to know himself.
+
+osr.
+i mean, sir, for hi weapon; but in the imput laid on
+him by them, in hi meed he's unfellow.
+
+ham.
+what's hi weapon?
+
+osr.
+rapier and dagger.
+
+ham.
+that's two of hi weapon:--but well.
+
+osr.
+the king, sir, hath wager'd with him six barbari hors:
+against the which he ha impon, as i take it, six french
+rapier and poniard, with their assign, as girdl, hanger, and
+so: three of the carriag, in faith, ar veri dear to fanci,
+veri respons to the hilt, most delic carriag, and of
+veri liber conceit.
+
+ham.
+what call you the carriag?
+
+hor.
+i knew you must be edifi by the margent er you had done.
+
+osr.
+the carriag, sir, ar the hanger.
+
+ham.
+the phrase would be more german to the matter if we could
+carri cannon by our side. i would it might be hanger till then.
+but, on: six barbari hors against six french sword, their
+assign, and three liber conceit carriag: that's the french
+bet against the danish: why is thi all impon, as you call it?
+
+osr.
+the king, sir, hath laid that, in a dozen pass between
+your and him, he shall not exce you three hit: he hath
+laid on twelv for nine; and it would come to immedi trial
+if your lordship would vouchsaf the answer.
+
+ham.
+how if i answer no?
+
+osr.
+i mean, my lord, the opposit of your person in trial.
+
+ham.
+sir, i will walk here in the hall: if it pleas hi majesti,
+it is the breath time of dai with me: let the foil be
+brought, the gentleman will, and the king hold hi purpos,
+i will win for him if i can; if not, i will gain noth but my
+shame and the odd hit.
+
+osr.
+shall i re-deliv you e'en so?
+
+ham.
+to thi effect, sir; after what flourish your natur will.
+
+osr.
+i commend my duti to your lordship.
+
+ham.
+your, your.
+
+[exit osric.]
+
+he doe well to commend it himself; there ar no tongu els
+for's turn.
+
+hor.
+thi lapw run awai with the shell on hi head.
+
+ham.
+he did compli with hi dug befor he suck'd it. thu ha he,--and
+mani more of the same bevi that i know the drossi ag dote on,--
+onli got the tune of the time and outward habit of encount;
+a kind of yesti collect, which carri them through and
+through the most fan and winnow opinion; and do but blow
+them to their trial, the bubbl ar out,
+
+[enter a lord.]
+
+lord.
+my lord, hi majesti commend him to you by young osric,
+who bring back to him that you attend him in the hall: he send
+to know if your pleasur hold to plai with laert, or that you
+will take longer time.
+
+ham.
+i am constant to my purpos; thei follow the king's pleasur:
+if hi fit speak, mine is readi; now or whensoev, provid
+i be so abl as now.
+
+lord.
+the king and queen and all ar come down.
+
+ham.
+in happi time.
+
+lord.
+the queen desir you to us some gentl entertain to
+laert befor you fall to plai.
+
+ham.
+she well instruct me.
+
+[exit lord.]
+
+hor.
+you will lose thi wager, my lord.
+
+ham.
+i do not think so; sinc he went into franc i have been in
+continu practic: i shall win at the odd. but thou wouldst not
+think how ill all's here about my heart: but it is no matter.
+
+hor.
+nai, good my lord,--
+
+ham.
+it is but fooleri; but it is such a kind of gain-give as
+would perhap troubl a woman.
+
+hor.
+if your mind dislik anyth, obei it: i will forestal their
+repair hither, and sai you ar not fit.
+
+ham.
+not a whit, we defi auguri: there's a special provid in
+the fall of a sparrow. if it be now, 'ti not to come; if it be
+not to come, it will be now; if it be not now, yet it will come:
+the readi is all: sinc no man ha aught of what he leav,
+what is't to leav betim?
+
+[enter king, queen, laert, lord, osric, and attend with
+foil &c.]
+
+king.
+come, hamlet, come, and take thi hand from me.
+
+[the king put laert' hand into hamlet's.]
+
+ham.
+give me your pardon, sir: i have done you wrong:
+but pardon't, as you ar a gentleman.
+thi presenc know, and you must need have heard,
+how i am punish'd with sore distract.
+what i have done
+that might your natur, honour, and except
+roughli awak, i here proclaim wa mad.
+wa't hamlet wrong'd laert? never hamlet:
+if hamlet from himself be ta'en awai,
+and when he's not himself doe wrong laert,
+then hamlet doe it not, hamlet deni it.
+who doe it, then? hi mad: if't be so,
+hamlet is of the faction that is wrong'd;
+hi mad is poor hamlet's enemi.
+sir, in thi audienc,
+let my disclaim from a purpo'd evil
+free me so far in your most gener thought
+that i have shot my arrow o'er the hous
+and hurt my brother.
+
+laer.
+i am satisfi in natur,
+whose motiv, in thi case, should stir me most
+to my reveng. but in my term of honour
+i stand aloof; and will no reconcil
+till by some elder master of known honour
+i have a voic and preced of peac
+to keep my name ungor'd. but till that time
+i do receiv your offer'd love like love,
+and will not wrong it.
+
+ham.
+i embrac it freeli;
+and will thi brother's wager frankli plai.--
+give us the foil; come on.
+
+laer.
+come, on for me.
+
+ham.
+i'll be your foil, laert; in mine ignor
+your skill shall, like a star in the darkest night,
+stick fieri off inde.
+
+laer.
+you mock me, sir.
+
+ham.
+no, by thi hand.
+
+king.
+give them the foil, young osric. cousin hamlet,
+you know the wager?
+
+ham.
+veri well, my lord;
+your grace ha laid the odd o' the weaker side.
+
+king.
+i do not fear it; i have seen you both;
+but sinc he's better'd, we have therefor odd.
+
+laer.
+thi is too heavi, let me see anoth.
+
+ham.
+thi like me well. these foil have all a length?
+
+[thei prepar to plai.]
+
+osr.
+ay, my good lord.
+
+king.
+set me the stoup of wine upon that tabl,--
+if hamlet give the first or second hit,
+or quit in answer of the third exchang,
+let all the battlement their ordnanc fire;
+the king shall drink to hamlet's better breath;
+and in the cup an union shall he throw,
+richer than that which four success king
+in denmark's crown have worn. give me the cup;
+and let the kettl to the trumpet speak,
+the trumpet to the cannon without,
+the cannon to the heaven, the heaven to earth,
+'now the king drink to hamlet.'--come, begin:--
+and you, the judg, bear a wari ey.
+
+ham.
+come on, sir.
+
+laer.
+come, my lord.
+
+[thei plai.]
+
+ham.
+on.
+
+laer.
+no.
+
+ham.
+judgment!
+
+osr.
+a hit, a veri palpabl hit.
+
+laer.
+well;--again.
+
+king.
+stai, give me drink.--hamlet, thi pearl is thine;
+here's to thy health.--
+
+[trumpet sound, and cannon shot off within.]
+
+give him the cup.
+
+ham.
+i'll plai thi bout first; set it by awhil.--
+come.--anoth hit; what sai you?
+
+[thei plai.]
+
+laer.
+a touch, a touch, i do confess.
+
+king.
+our son shall win.
+
+queen.
+he's fat, and scant of breath.--
+here, hamlet, take my napkin, rub thy brow:
+the queen carous to thy fortun, hamlet.
+
+ham.
+good madam!
+
+king.
+gertrud, do not drink.
+
+queen.
+i will, my lord; i prai you pardon me.
+
+king.
+[asid.] it is the poison'd cup; it is too late.
+
+ham.
+i dare not drink yet, madam; by-and-by.
+
+queen.
+come, let me wipe thy face.
+
+laer.
+my lord, i'll hit him now.
+
+king.
+i do not think't.
+
+laer.
+[asid.] and yet 'ti almost 'gainst my conscienc.
+
+ham.
+come, for the third, laert: you but dalli;
+i prai you pass with your best violenc:
+i am afeard you make a wanton of me.
+
+laer.
+sai you so? come on.
+
+[thei plai.]
+
+osr.
+noth, neither wai.
+
+laer.
+have at you now!
+
+[laert wound hamlet; then, in scuffl, thei
+chang rapier, and hamlet wound laert.]
+
+king.
+part them; thei ar incen'd.
+
+ham.
+nai, come again!
+
+[the queen fall.]
+
+osr.
+look to the queen there, ho!
+
+hor.
+thei bleed on both side.--how is it, my lord?
+
+osr.
+how is't, laert?
+
+laer.
+why, as a woodcock to my own spring, osric;
+i am justli kill'd with mine own treacheri.
+
+ham.
+how doe the queen?
+
+king.
+she swoon 
