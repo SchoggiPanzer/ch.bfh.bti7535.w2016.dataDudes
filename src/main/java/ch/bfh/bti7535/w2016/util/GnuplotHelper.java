@@ -1,12 +1,11 @@
 package ch.bfh.bti7535.w2016.util;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import org.apache.log4j.Logger;
 
 import java.io.IOException;
 
 public class GnuplotHelper {
-	private static Logger log = LoggerFactory.getLogger(GnuplotHelper.class);
+	private static Logger log = Logger.getLogger(GnuplotHelper.class);
 
 	public static void runPlot(String filename) {
 		try {
