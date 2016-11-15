@@ -6,6 +6,7 @@ import opennlp.tools.doccat.DocumentSample;
 import opennlp.tools.doccat.DocumentSampleStream;
 import opennlp.tools.util.ObjectStream;
 import opennlp.tools.util.PlainTextByLineStream;
+import opennlp.tools.util.model.BaseModel;
 import org.apache.log4j.Logger;
 
 import java.io.IOException;
@@ -18,8 +19,8 @@ import java.nio.file.Paths;
 public class NamedEntityRecognition {
 	private static Logger log = Logger.getLogger(NamedEntityRecognition.class);
 
-	public DoccatModel trainNames(String goldStandard) {
-		DoccatModel model = null;
+	public BaseModel trainNames(String goldStandard) {
+		BaseModel model = null;
 
 		try (
 				InputStream dataIn = getClass().getClassLoader().getResourceAsStream(goldStandard);
@@ -27,7 +28,9 @@ public class NamedEntityRecognition {
 				ObjectStream<DocumentSample> sampleStream = new DocumentSampleStream(lineStream)) {
 
 			model = DocumentCategorizerME.train("en", sampleStream);
-
+			// TODO: I think this should be done instead of perform categorization training...
+//			model = NameFinderME.train("en", "person", sampleStream,
+//					Collections.<String, Object>emptyMap(), 100, 5);
 		} catch (IOException e) {
 			log.error(e.getMessage(), e);
 		}
@@ -51,8 +54,8 @@ public class NamedEntityRecognition {
 
 	public static void main(String[] args) {
 		NamedEntityRecognition ner = new NamedEntityRecognition();
-		DoccatModel model = ner.trainNames("ex3/jane-austen-emma-ch2.tsv");
-		String results = ner.findNames(model, "ex3/jane-austen-emma-ch2.txt");
+		BaseModel model = ner.trainNames("ex3/jane-austen-emma-ch2.tsv");
+		String results = ner.findNames((DoccatModel) model, "ex3/jane-austen-emma-ch2.txt");
 		log.info(results);
 	}
 }
