@@ -9,13 +9,13 @@ def read_entities():
         entities = nltk.chunk.ne_chunk(tagged)
         return entities
 
+
 def filter_NER(entities):
     named_entities = []
     for entity in entities.subtrees():
         if entity.label() == 'PERSON':
             named_entities.append(entity)
     return named_entities
-
 
 
 ne = read_entities()
