@@ -1,8 +1,12 @@
 package ch.bfh.bti7535.w2016.algorithm;
 
+import ch.bfh.bti7535.w2016.filehandling.Classification;
+
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.Scanner;
 import java.util.StringTokenizer;
 
@@ -11,11 +15,10 @@ import java.util.StringTokenizer;
  */
 public class ReadfileAlgorithm {
 
-    public Document readfile(String filePath) throws FileNotFoundException {
+    public Document readfile(File file, String filePath) throws FileNotFoundException {
         Document doc = new Document();
-        ArrayList<String> tokens = new ArrayList<>();
+        Map<String, Document.WordProperty> tokens = new HashMap<>();
 
-        File file = new File(filePath);
         Scanner inputFile = new Scanner(file);
         StringTokenizer tokenizer;
         String line;
@@ -26,18 +29,49 @@ public class ReadfileAlgorithm {
             tokenizer = new StringTokenizer(line," ");
 
             while (tokenizer.hasMoreTokens()) {
-                tokens.add(tokenizer.nextToken());
+                tokens.put(tokenizer.nextToken(), null);
             }
         }
 
         //not nice yet
         int index = filePath.lastIndexOf("/");
-        String reviewClass = filePath.substring(index-3, index);
+        String reviewClass = filePath.substring(index+1);
+
+        if(reviewClass.equals("neg")) {
+            doc.setGoldStandard(Classification.NEGATIVE);
+        } else if (reviewClass.equals("pos")) {
+            doc.setGoldStandard(Classification.POSITIVE);
+        }
 
         doc.setFilename(file.getName());
-        doc.setReviewClass(reviewClass);
-        doc.setTokens(tokens);
+        doc.setContent(tokens);
 
         return doc;
+    }
+
+    public ArrayList<Document> readAllFiles(String pathName) throws FileNotFoundException {
+        ArrayList<Document> docList = new ArrayList<>();
+
+        File root = new File(pathName);
+        File[] subFolders = root.listFiles();
+
+        if (subFolders != null) {
+            for (File file : subFolders){
+                if (file.isDirectory()) {
+                    File[] fileList;
+                    fileList = file.listFiles();
+
+                    if (fileList != null) {
+                        for (File txtFile : fileList){
+                            Document doc;
+                            doc = readfile(txtFile, file.getName());
+                            docList.add(doc);
+                        }
+                    }
+                }
+            }
+        }
+
+        return docList;
     }
 }

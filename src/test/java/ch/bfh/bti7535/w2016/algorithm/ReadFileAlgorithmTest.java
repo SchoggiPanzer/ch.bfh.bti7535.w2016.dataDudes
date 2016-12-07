@@ -3,6 +3,8 @@ package ch.bfh.bti7535.w2016.algorithm;
 import org.junit.Before;
 import org.junit.Test;
 
+import java.util.ArrayList;
+
 /**
  * Created by mischu on 07.12.16.
  */
@@ -15,15 +17,16 @@ public class ReadFileAlgorithmTest {
 
     @Test
     public void testExecute () throws Exception {
+        ArrayList<Document> docList;
 
-        String filepath = "./src/main/resources/review_polarity/txt_sentoken/neg/cv000_29416.txt";
-        Document testDoc = new Document();
+        String filepath = "./src/main/resources/review_polarity/txt_sentoken";
         ReadfileAlgorithm rfa = new ReadfileAlgorithm();
 
-        testDoc = rfa.readfile(filepath);
+        docList = rfa.readAllFiles(filepath);
 
-        System.out.println("Review Class: " + testDoc.getReviewClass());
-        System.out.println("Filename: " + testDoc.getFilename());
-        System.out.println("Tokens:" + testDoc.getTokens());
+        for (Document doc : docList) {
+            System.out.println(doc.getFilename() + " " + doc.getGoldStandard());
+
+        }
     }
 }

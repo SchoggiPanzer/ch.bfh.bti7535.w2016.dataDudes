@@ -2,18 +2,15 @@ package ch.bfh.bti7535.w2016.algorithm;
 
 import ch.bfh.bti7535.w2016.filehandling.Classification;
 
-import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
 public class Document {
 
 	private String filename;
-	private String reviewClass;
 	private Classification goldStandard;
 	private Classification testResult;
 	private Map<String, WordProperty> content = new HashMap<>();
-	private ArrayList<String> tokens = new ArrayList<>();
 
 	public Document() {
 	}
@@ -22,17 +19,9 @@ public class Document {
 
 	public String getFilename() { return filename; }
 
-	public void setReviewClass(String reviewClass) { this.reviewClass = reviewClass; }
+	public void setGoldStandard(Classification classifi) { this.goldStandard = classifi; }
 
-	public String getReviewClass() { return reviewClass; }
-
-	public void setTokens(ArrayList<String> tokens) {
-		this.tokens = tokens;
-	}
-
-	public ArrayList<String> getTokens() {
-		return tokens;
-	}
+	public Classification getGoldStandard() { return goldStandard; }
 
 	public void setContent(Map<String, WordProperty> content) { this.content = content; }
 
