@@ -1,6 +1,7 @@
 package ch.bfh.bti7535.w2016.algorithm;
 
 import ch.bfh.bti7535.w2016.filehandling.Classification;
+import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -18,7 +19,6 @@ public class BaselineAlgorithmTest {
 
 	@Test
 	public void testExecute() throws Exception {
-
 		Map<String, Document.WordProperty> dummyWords = new HashMap<>();
 		dummyWords.put("wonderful", new Document.WordProperty(1, Classification.SENTIMENT_POSITIVE));
 		dummyWords.put("awesome", new Document.WordProperty(10, Classification.SENTIMENT_POSITIVE));
@@ -30,6 +30,10 @@ public class BaselineAlgorithmTest {
 		docList.add(doc);
 
 		BaselineAlgorithm ba = new BaselineAlgorithm();
-		List results = ba.execute(docList);
+		List<Document> results = ba.execute(docList);
+		Assert.assertEquals(1, results.size());
+
+		doc = results.get(0);
+		Assert.assertEquals(Classification.SENTIMENT_POSITIVE, doc.getTestResult());
 	}
 }
