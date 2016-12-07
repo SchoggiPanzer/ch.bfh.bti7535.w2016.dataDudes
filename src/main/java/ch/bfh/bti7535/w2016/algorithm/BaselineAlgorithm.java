@@ -1,6 +1,10 @@
 package ch.bfh.bti7535.w2016.algorithm;
 
 import ch.bfh.bti7535.w2016.filehandling.Classification;
+import org.apache.commons.httpclient.HttpClient;
+import org.apache.commons.httpclient.HttpStatus;
+import org.apache.commons.httpclient.methods.PostMethod;
+import org.json.JSONObject;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -10,6 +14,7 @@ import java.util.Map;
 
 public class BaselineAlgorithm extends AbstractAlgorithm {
 	private static Logger log = LoggerFactory.getLogger(BaselineAlgorithm.class);
+	private static String SENTIMENT_API_URL = "http://text-processing.com/api/sentiment/";
 
 	@Override
 	public List<Document> execute(List<Document> input) {
@@ -22,8 +27,8 @@ public class BaselineAlgorithm extends AbstractAlgorithm {
 	}
 
 	private Document processDocument(Document doc) {
-		int posWords = 0;
-		int negWords = 0;
+		float posWords = 0;
+		float negWords = 0;
 
 		Map<String, Document.WordProperty> content = doc.getContent();
 		for (String word : content.keySet()) {
@@ -35,7 +40,7 @@ public class BaselineAlgorithm extends AbstractAlgorithm {
 				negWords += occurence;
 		}
 
-		int total = posWords + negWords;
+		float total = posWords + negWords;
 		if (total > 0) {
 			Classification c = (posWords / total > 0.5) ? Classification.SENTIMENT_POSITIVE : Classification.SENTIMENT_NEGATIVE;
 			doc.setTestResult(c);
@@ -47,7 +52,21 @@ public class BaselineAlgorithm extends AbstractAlgorithm {
 	}
 
 	private boolean isPositiveWord(String word) {
-		// TODO: Use Library which detects if word is pos or neg
-		return true;
+		boolean result = false;
+		try {
+			HttpClient httpClient = new HttpClient();
+			PostMethod postMethod = new PostMethod(SENTIMENT_API_URL);
+			postMethod.addParameter("text", word);
+			httpClient.executeMethod(postMethod);
+
+			if (postMethod.getStatusCode() == HttpStatus.SC_OK) {
+				String resp = postMethod.getResponseBodyAsString();
+				String label = (String) new JSONObject(resp).get("label");
+				result = (label.equals(Classification.SENTIMENT_POSITIVE.getLabel()));
+			}
+		} catch (Exception e) {
+			log.error(e.getMessage(), e);
+		}
+		return result;
 	}
 }

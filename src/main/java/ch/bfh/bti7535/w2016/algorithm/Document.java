@@ -55,5 +55,12 @@ public class Document {
 		public int getOccurence() {
 			return occurence;
 		}
+
+		@Override public String toString() {
+			return "WordProperty{" +
+					"occurence=" + occurence +
+					", meaning=" + meaning +
+					'}';
+		}
 	}
 }
