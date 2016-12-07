@@ -43,7 +43,7 @@ public class Document {
 		this.testResult = testResult;
 	}
 
-	static class WordProperty {
+	public static class WordProperty {
 		private int occurence = 0;
 		private Classification meaning;
 
