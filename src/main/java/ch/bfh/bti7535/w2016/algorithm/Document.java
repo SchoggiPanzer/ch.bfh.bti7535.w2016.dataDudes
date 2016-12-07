@@ -15,19 +15,33 @@ public class Document {
 	public Document() {
 	}
 
-	public void setFilename(String filename) { this.filename = filename; }
+	public void setFilename(String filename) {
+		this.filename = filename;
+	}
 
-	public String getFilename() { return filename; }
+	public String getFilename() {
+		return filename;
+	}
 
-	public void setGoldStandard(Classification classifi) { this.goldStandard = classifi; }
+	public void setGoldStandard(Classification classifier) {
+		this.goldStandard = classifier;
+	}
 
-	public Classification getGoldStandard() { return goldStandard; }
+	public Classification getGoldStandard() {
+		return goldStandard;
+	}
 
-	public void setContent(Map<String, WordProperty> content) { this.content = content; }
+	public void setContent(Map<String, WordProperty> content) {
+		this.content = content;
+	}
 
-	public Map<String, WordProperty> getContent() { return content; }
+	public Map<String, WordProperty> getContent() {
+		return content;
+	}
 
-	public void setTestResult(Classification testResult) { this.testResult = testResult; }
+	public void setTestResult(Classification testResult) {
+		this.testResult = testResult;
+	}
 
 	static class WordProperty {
 		private int occurence = 0;
