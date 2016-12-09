@@ -1,6 +1,6 @@
-package ch.bfh.bti7535.w2016.algorithm;
+package ch.bfh.bti7535.w2016.filehandling;
 
-import ch.bfh.bti7535.w2016.filehandling.Classification;
+import ch.bfh.bti7535.w2016.algorithm.Document;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -10,9 +10,9 @@ import java.util.Map;
 import java.util.Scanner;
 import java.util.StringTokenizer;
 
-public class ReadfileAlgorithm {
+public class FileReader {
 
-	public Document readfile(File file, String filePath)
+	public Document readFile(File file, String filePath)
 			throws FileNotFoundException {
 		Document doc = new Document();
 		Map<String, Document.WordProperty> tokens = new HashMap<>();
@@ -35,10 +35,10 @@ public class ReadfileAlgorithm {
 		int index = filePath.lastIndexOf("/");
 		String reviewClass = filePath.substring(index + 1);
 
-		if (reviewClass.equals("neg")) {
-			doc.setGoldStandard(Classification.NEGATIVE);
-		} else if (reviewClass.equals("pos")) {
-			doc.setGoldStandard(Classification.POSITIVE);
+		if (reviewClass.equals(Classification.SENTIMENT_POSITIVE.getLabel())) {
+			doc.setGoldStandard(Classification.SENTIMENT_POSITIVE);
+		} else if (reviewClass.equals(Classification.SENTIMENT_NEGATIVE.getLabel())) {
+			doc.setGoldStandard(Classification.SENTIMENT_NEGATIVE);
 		}
 
 		doc.setFilename(file.getName());
@@ -54,6 +54,7 @@ public class ReadfileAlgorithm {
 		File root = new File(pathName);
 		File[] subFolders = root.listFiles();
 
+		//TODO: Ugly nesting. Could be improved
 		if (subFolders != null) {
 			for (File file : subFolders) {
 				if (file.isDirectory()) {
@@ -63,7 +64,7 @@ public class ReadfileAlgorithm {
 					if (fileList != null) {
 						for (File txtFile : fileList) {
 							Document doc;
-							doc = readfile(txtFile, file.getName());
+							doc = readFile(txtFile, file.getName());
 							docList.add(doc);
 						}
 					}

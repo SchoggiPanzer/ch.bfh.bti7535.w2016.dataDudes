@@ -1,11 +1,12 @@
 package ch.bfh.bti7535.w2016.algorithm;
 
+import ch.bfh.bti7535.w2016.filehandling.FileReader;
 import org.junit.Before;
 import org.junit.Test;
 
 import java.util.ArrayList;
 
-public class ReadFileAlgorithmTest {
+public class FileReaderTest {
 
 	@Before
 	public void setUp() throws Exception {
@@ -13,11 +14,11 @@ public class ReadFileAlgorithmTest {
 	}
 
 	@Test
-	public void testExecute() throws Exception {
+	public void testReadFiles() throws Exception {
 		ArrayList<Document> docList;
 
 		String filepath = "./src/main/resources/review_polarity/txt_sentoken";
-		ReadfileAlgorithm rfa = new ReadfileAlgorithm();
+		FileReader rfa = new FileReader();
 
 		docList = rfa.readAllFiles(filepath);
 

@@ -43,7 +43,11 @@ public class Document {
 		this.testResult = testResult;
 	}
 
-	static class WordProperty {
+	public Classification getTestResult() {
+		return testResult;
+	}
+
+	public static class WordProperty {
 		private int occurence = 0;
 		private Classification meaning;
 
@@ -54,6 +58,13 @@ public class Document {
 
 		public int getOccurence() {
 			return occurence;
+		}
+
+		@Override public String toString() {
+			return "WordProperty{" +
+					"occurence=" + occurence +
+					", meaning=" + meaning +
+					'}';
 		}
 	}
 }
