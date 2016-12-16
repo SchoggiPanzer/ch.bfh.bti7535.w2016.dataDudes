@@ -27,7 +27,9 @@ public class FileReader {
 			tokenizer = new StringTokenizer(line, " ");
 
 			while (tokenizer.hasMoreTokens()) {
-				tokens.put(tokenizer.nextToken(), null);
+				// FIXME: Words must be counted here!
+				Document.WordProperty wordProperty = new Document.WordProperty(1, Classification.NOT_CLASSIFIED);
+				tokens.put(tokenizer.nextToken(), wordProperty);
 			}
 		}
 
@@ -63,8 +65,7 @@ public class FileReader {
 
 					if (fileList != null) {
 						for (File txtFile : fileList) {
-							Document doc;
-							doc = readFile(txtFile, file.getName());
+							Document doc = readFile(txtFile, file.getName());
 							docList.add(doc);
 						}
 					}
