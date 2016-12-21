@@ -30,7 +30,7 @@ public class BaselineAlgorithm extends AbstractAlgorithm {
 		float posWords = 0;
 		float negWords = 0;
 
-		Map<String, Document.WordProperty> content = doc.getContent();
+		Map<String, Document.WordProperty> content = doc.getContentWithWordProperties();
 		for (String word : content.keySet()) {
 			int occurence = content.get(word).getOccurence();
 
