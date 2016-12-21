@@ -3,6 +3,7 @@ package ch.bfh.bti7535.w2016.algorithm;
 import ch.bfh.bti7535.w2016.filehandling.Classification;
 
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 public class Document {
@@ -13,6 +14,10 @@ public class Document {
 	private Map<String, WordProperty> content = new HashMap<>();
 
 	public Document() {
+	}
+
+	public Document(List<String> tokens) {
+		setContent(tokens);
 	}
 
 	public void setFilename(String filename) {
@@ -35,8 +40,18 @@ public class Document {
 		this.content = content;
 	}
 
-	public Map<String, WordProperty> getContent() {
+	public void setContent(List<String> content) {
+		for (String token : content) {
+			this.content.put(token, null);
+		}
+	}
+
+	public Map<String, WordProperty> getContentWithWordProperties() {
 		return content;
+	}
+
+	public List<String> getContent() {
+		return (List<String>) content.keySet();
 	}
 
 	public void setTestResult(Classification testResult) {
