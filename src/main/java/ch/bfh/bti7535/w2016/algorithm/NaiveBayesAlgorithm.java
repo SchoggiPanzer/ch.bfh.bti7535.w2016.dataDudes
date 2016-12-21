@@ -2,6 +2,7 @@ package ch.bfh.bti7535.w2016.algorithm;
 
 import ch.bfh.bti7535.w2016.features.AbstractFeature;
 import ch.bfh.bti7535.w2016.filehandling.Classification;
+import sun.reflect.generics.reflectiveObjects.NotImplementedException;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -9,29 +10,33 @@ import java.util.List;
 public class NaiveBayesAlgorithm extends AbstractAlgorithm {
 
 	private List<AbstractFeature> featurePipeline;
-	private List<Document> input;
 
 	@Override
 	public List<Document> execute(List<Document> input) {
-		this.input = input;
+		throw new NotImplementedException();
+	}
+
+	@Override
+	public List<Document> execute(List<Document> trainingSet, List<Document> testSet) {
 		featurePipeline = getFeaturePipeline();
-		train();
+
+		train(trainingSet);
 
 		List<Document> results = new ArrayList<>();
-		for (Document d : input) {
-			Document classified = calculate(d);
+		for (Document d : testSet) {
+			Document classified = test(d);
 			results.add(classified);
 		}
 		return results;
 	}
 
-	private void train() {
+	private void train(List<Document> trainingSet) {
 		for (AbstractFeature feature : featurePipeline) {
-			feature.train(input);
+			feature.train(trainingSet);
 		}
 	}
 
-	private Document calculate(Document d) {
+	private Document test(Document document) {
 		int propInPos = 0;
 
 		for (AbstractFeature feature : featurePipeline) {
@@ -41,8 +46,8 @@ public class NaiveBayesAlgorithm extends AbstractAlgorithm {
 			propInPos += posProp * posOccurence;
 		}
 
-		d.setTestResult(propInPos > 0.5 ? Classification.SENTIMENT_POSITIVE : Classification.SENTIMENT_NEGATIVE);
-		return d;
+		document.setTestResult(propInPos > 0.5 ? Classification.SENTIMENT_POSITIVE : Classification.SENTIMENT_NEGATIVE);
+		return document;
 	}
 
 	private List<AbstractFeature> getFeaturePipeline() {

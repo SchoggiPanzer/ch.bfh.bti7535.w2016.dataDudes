@@ -28,8 +28,6 @@ public class NaiveBayesAlgorithmTest {
 	@Test
 	public void testExecute() throws Exception {
 		NaiveBayesAlgorithm naiveBayesAlgorithm = new NaiveBayesAlgorithm();
-		List<Document> execute = naiveBayesAlgorithm.execute(docList);
-
-
+		List<Document> execute = naiveBayesAlgorithm.execute(docList.subList(0, 1), docList.subList(1, 2));
 	}
 }

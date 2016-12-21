@@ -7,6 +7,7 @@ import org.apache.commons.httpclient.methods.PostMethod;
 import org.json.JSONObject;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import sun.reflect.generics.reflectiveObjects.NotImplementedException;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -24,6 +25,11 @@ public class BaselineAlgorithm extends AbstractAlgorithm {
 		}
 
 		return result;
+	}
+
+	@Override
+	public List<Document> execute(List<Document> trainingSet, List<Document> testSet) {
+		throw new NotImplementedException();
 	}
 
 	private Document processDocument(Document doc) {
