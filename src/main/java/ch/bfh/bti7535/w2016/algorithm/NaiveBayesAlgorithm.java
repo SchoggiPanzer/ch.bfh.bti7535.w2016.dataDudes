@@ -1,6 +1,7 @@
 package ch.bfh.bti7535.w2016.algorithm;
 
 import ch.bfh.bti7535.w2016.features.AbstractFeature;
+import ch.bfh.bti7535.w2016.features.GoodWordsFeature;
 import ch.bfh.bti7535.w2016.filehandling.Classification;
 
 import java.util.ArrayList;
@@ -43,7 +44,8 @@ public class NaiveBayesAlgorithm extends AbstractAlgorithm {
 
 	private void train(List<Document> trainingSet) {
 		for (AbstractFeature feature : featurePipeline) {
-			feature.train(trainingSet);
+			feature.train(trainingSet, Classification.SENTIMENT_POSITIVE);
+			feature.train(trainingSet, Classification.SENTIMENT_NEGATIVE);
 		}
 	}
 
@@ -52,12 +54,12 @@ public class NaiveBayesAlgorithm extends AbstractAlgorithm {
 		int classifiedNegative = 0;
 
 		for (AbstractFeature feature : featurePipeline) {
-			int posProb = feature.getProbability(Classification.SENTIMENT_POSITIVE);
-			int posOccurrence = feature.getOccurrence(Classification.SENTIMENT_POSITIVE);
+			float posProb = feature.getProbability(Classification.SENTIMENT_POSITIVE);
+			float posOccurrence = feature.getOccurrence(Classification.SENTIMENT_POSITIVE);
 			classifiedPositive += posProb * posOccurrence;
 
-			int negProb = feature.getProbability(Classification.SENTIMENT_POSITIVE);
-			int negOccurrence = feature.getOccurrence(Classification.SENTIMENT_POSITIVE);
+			float negProb = feature.getProbability(Classification.SENTIMENT_POSITIVE);
+			float negOccurrence = feature.getOccurrence(Classification.SENTIMENT_POSITIVE);
 			classifiedNegative += negProb * negOccurrence;
 		}
 
@@ -68,6 +70,8 @@ public class NaiveBayesAlgorithm extends AbstractAlgorithm {
 
 	private List<AbstractFeature> getFeaturePipeline() {
 		List<AbstractFeature> features = new ArrayList<>();
+		features.add(new GoodWordsFeature());
+		// Add more features here...
 
 		return features;
 	}
