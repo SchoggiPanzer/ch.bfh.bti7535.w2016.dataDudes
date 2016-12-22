@@ -9,7 +9,7 @@ public abstract class AbstractFeature {
 
 	public abstract void train(List<Document> documents);
 
-	public abstract int getOccurence(Classification classification);
+	public abstract int getOccurrence(Classification classification);
 
-	public abstract int getPropability(Classification classification);
+	public abstract int getProbability(Classification classification);
 }

@@ -52,13 +52,13 @@ public class NaiveBayesAlgorithm extends AbstractAlgorithm {
 		int classifiedNegative = 0;
 
 		for (AbstractFeature feature : featurePipeline) {
-			int posProb = feature.getPropability(Classification.SENTIMENT_POSITIVE);
-			int posOccurence = feature.getOccurence(Classification.SENTIMENT_POSITIVE);
-			classifiedPositive += posProb * posOccurence;
+			int posProb = feature.getProbability(Classification.SENTIMENT_POSITIVE);
+			int posOccurrence = feature.getOccurrence(Classification.SENTIMENT_POSITIVE);
+			classifiedPositive += posProb * posOccurrence;
 
-			int negProb = feature.getPropability(Classification.SENTIMENT_POSITIVE);
-			int negOccurence = feature.getOccurence(Classification.SENTIMENT_POSITIVE);
-			classifiedNegative += negProb * negOccurence;
+			int negProb = feature.getProbability(Classification.SENTIMENT_POSITIVE);
+			int negOccurrence = feature.getOccurrence(Classification.SENTIMENT_POSITIVE);
+			classifiedNegative += negProb * negOccurrence;
 		}
 
 		document.setTestResult(classifiedPositive > classifiedNegative ?
