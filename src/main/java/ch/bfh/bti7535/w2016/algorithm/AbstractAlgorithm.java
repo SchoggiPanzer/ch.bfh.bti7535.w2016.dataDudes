@@ -4,5 +4,9 @@ import java.util.List;
 
 public abstract class AbstractAlgorithm {
 
+	private int fMeasure;
+
 	public abstract List<Document> execute(List<Document> input);
+
+	public abstract List<Document> execute(List<Document> trainingSet, List<Document> testSet);
 }

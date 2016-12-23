@@ -2,7 +2,9 @@ package ch.bfh.bti7535.w2016.algorithm;
 
 import ch.bfh.bti7535.w2016.filehandling.Classification;
 
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 public class Document {
@@ -15,36 +17,51 @@ public class Document {
 	public Document() {
 	}
 
-	public void setFilename(String filename) {
-		this.filename = filename;
+	public Document(List<String> tokens, Classification goldStandard) {
+		setContent(tokens);
+		setGoldStandard(goldStandard);
 	}
 
 	public String getFilename() {
 		return filename;
 	}
 
-	public void setGoldStandard(Classification classifier) {
-		this.goldStandard = classifier;
+	public void setFilename(String filename) {
+		this.filename = filename;
 	}
 
 	public Classification getGoldStandard() {
 		return goldStandard;
 	}
 
+	public void setGoldStandard(Classification classifier) {
+		this.goldStandard = classifier;
+	}
+
 	public void setContent(Map<String, WordProperty> content) {
 		this.content = content;
 	}
 
-	public Map<String, WordProperty> getContent() {
+	public Map<String, WordProperty> getContentWithWordProperties() {
 		return content;
 	}
 
-	public void setTestResult(Classification testResult) {
-		this.testResult = testResult;
+	public List<String> getContent() {
+		return new ArrayList<>(content.keySet());
+	}
+
+	public void setContent(List<String> content) {
+		for (String token : content) {
+			this.content.put(token, null);
+		}
 	}
 
 	public Classification getTestResult() {
 		return testResult;
+	}
+
+	public void setTestResult(Classification testResult) {
+		this.testResult = testResult;
 	}
 
 	public static class WordProperty {
