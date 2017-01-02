@@ -1,10 +1,3 @@
-/*
-* Copyright (c) 2017 Berner Fachhochschule, Switzerland.
-*
-* Project Smart Reservation System.
-*
-* Distributable under GPL license. See terms of license at gnu.org.
-*/
 package ch.bfh.bti7535.w2016.evaluate;
 
 import ch.bfh.bti7535.w2016.algorithm.AbstractAlgorithm;
@@ -14,22 +7,16 @@ import ch.bfh.bti7535.w2016.filehandling.Classification;
 import java.util.ArrayList;
 import java.util.List;
 
-public class DummyAlgo extends AbstractAlgorithm {
+public class MockAlgorithm extends AbstractAlgorithm {
 	private List<Document> docs = new ArrayList<>();
-
-	DummyAlgo() {
-	}
-
-	DummyAlgo(List<Document> list) {
-		this.docs = list;
-	}
 
 	@Override
 	public List<Document> execute(List<Document> input) {
-		return this.docs;
+		return docs;
 	}
 
-	@Override public List<Document> execute(List<Document> trainingSet, List<Document> testSet) {
+	@Override
+	public List<Document> execute(List<Document> trainingSet, List<Document> testSet) {
 		return null;
 	}
 
@@ -100,5 +87,4 @@ public class DummyAlgo extends AbstractAlgorithm {
 		doc.setGoldStandard(Classification.SENTIMENT_POSITIVE);
 		return doc;
 	}
-
 }

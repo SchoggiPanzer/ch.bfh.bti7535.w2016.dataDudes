@@ -46,6 +46,8 @@ public class FileReader {
 		doc.setFilename(file.getName());
 		doc.setContent(tokens);
 
+		inputFile.close();
+
 		return doc;
 	}
 
