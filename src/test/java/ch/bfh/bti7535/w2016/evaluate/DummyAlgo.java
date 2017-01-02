@@ -14,91 +14,91 @@ import ch.bfh.bti7535.w2016.filehandling.Classification;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by pascal on 17.12.16.
- */
 public class DummyAlgo extends AbstractAlgorithm {
-    private List<Document> docs = new ArrayList<>();
-    DummyAlgo(){
-    }
+	private List<Document> docs = new ArrayList<>();
 
-    DummyAlgo(List<Document> list){
-        this.docs =list;
-    }
+	DummyAlgo() {
+	}
 
-    @Override
-    public List<Document> execute(List<Document> input) {
-        return this.docs;
-    }
+	DummyAlgo(List<Document> list) {
+		this.docs = list;
+	}
 
-    public void addTruePos(int x){
-        for (int i=0;i<x;i++ ){
-            this.addTruePos();
-        }
-    }
-    public void addTruePos(){
-        this.docs.add(makeTruePos());
-    }
+	@Override
+	public List<Document> execute(List<Document> input) {
+		return this.docs;
+	}
 
-    public void addTrueNeg(int x){
-        for (int i=0;i<x;i++ ){
-            this.addTrueNeg();
-        }
-    }
+	@Override public List<Document> execute(List<Document> trainingSet, List<Document> testSet) {
+		return null;
+	}
 
-    public void addTrueNeg(){
-        this.docs.add(makeTrueNeg());
-    }
+	public void addTruePos(int x) {
+		for (int i = 0; i < x; i++) {
+			this.addTruePos();
+		}
+	}
 
+	public void addTruePos() {
+		this.docs.add(makeTruePos());
+	}
 
-    public void addFalseNeg(int x){
-        for (int i=0;i<x;i++ ){
-            this.addFalseNeg();
-        }
-    }
+	public void addTrueNeg(int x) {
+		for (int i = 0; i < x; i++) {
+			this.addTrueNeg();
+		}
+	}
 
-    public void addFalseNeg(){
-        this.docs.add(makeFalseNeg());
-    }
+	public void addTrueNeg() {
+		this.docs.add(makeTrueNeg());
+	}
 
-    public void addFalsePos(int x){
-        for (int i=0;i<x;i++ ){
-            this.addFalsePos();
-        }
-    }
+	public void addFalseNeg(int x) {
+		for (int i = 0; i < x; i++) {
+			this.addFalseNeg();
+		}
+	}
 
-    public void addFalsePos(){
-        this.docs.add(makeFalsePos());
-    }
+	public void addFalseNeg() {
+		this.docs.add(makeFalseNeg());
+	}
 
+	public void addFalsePos(int x) {
+		for (int i = 0; i < x; i++) {
+			this.addFalsePos();
+		}
+	}
 
-    public Document makeTruePos(){
-        Document doc= new Document();
-        doc.setTestResult(Classification.SENTIMENT_POSITIVE);
-        doc.setGoldStandard(Classification.SENTIMENT_POSITIVE);
-        return doc;
-    }
+	public void addFalsePos() {
+		this.docs.add(makeFalsePos());
+	}
 
+	public Document makeTruePos() {
+		Document doc = new Document();
+		doc.setTestResult(Classification.SENTIMENT_POSITIVE);
+		doc.setGoldStandard(Classification.SENTIMENT_POSITIVE);
+		return doc;
+	}
 
-    public Document  makeTrueNeg() {
-        Document doc= new Document();
-        doc.setTestResult(Classification.SENTIMENT_NEGATIVE);
-        doc.setGoldStandard(Classification.SENTIMENT_NEGATIVE);
-        return doc;
-    }
+	public Document makeTrueNeg() {
+		Document doc = new Document();
+		doc.setTestResult(Classification.SENTIMENT_NEGATIVE);
+		doc.setGoldStandard(Classification.SENTIMENT_NEGATIVE);
+		return doc;
+	}
 
-    public Document  makeFalsePos(){
-        Document doc = new Document();
-        doc.setTestResult(Classification.SENTIMENT_POSITIVE);
-        doc.setGoldStandard(Classification.SENTIMENT_NEGATIVE);
-        return doc;
-    }
+	public Document makeFalsePos() {
+		Document doc = new Document();
+		doc.setTestResult(Classification.SENTIMENT_POSITIVE);
+		doc.setGoldStandard(Classification.SENTIMENT_NEGATIVE);
+		return doc;
+	}
 
-    public Document  makeFalseNeg() {
-        Document doc= new Document();
-        doc.setTestResult(Classification.SENTIMENT_NEGATIVE);
-        doc.setGoldStandard(Classification.SENTIMENT_POSITIVE);
-        return doc;
-    }
+	public Document makeFalseNeg() {
+		Document doc = new Document();
+		doc.setTestResult(Classification.SENTIMENT_NEGATIVE);
+		doc.setGoldStandard(Classification.SENTIMENT_POSITIVE);
+		return doc;
+	}
 
 }

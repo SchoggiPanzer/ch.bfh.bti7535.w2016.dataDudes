@@ -5,7 +5,6 @@ public enum Classification {
 	SENTIMENT_NEGATIVE("neg"),
 	NOT_CLASSIFIED("");
 
-
 	private String label;
 
 	Classification(String label) {
