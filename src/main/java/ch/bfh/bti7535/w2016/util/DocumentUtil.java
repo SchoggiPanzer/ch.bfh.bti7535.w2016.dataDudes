@@ -62,4 +62,16 @@ public class DocumentUtil {
 
 		return sentences;
 	}
+
+	public static int countSpecificWord(Document doc, String searchWord) {
+		List<String> content = doc.getContent();
+
+		int searchWordAmount = 0;
+		for (String word : content) {
+			if (word.equals(searchWord))
+				searchWordAmount++;
+		}
+
+		return searchWordAmount;
+	}
 }
