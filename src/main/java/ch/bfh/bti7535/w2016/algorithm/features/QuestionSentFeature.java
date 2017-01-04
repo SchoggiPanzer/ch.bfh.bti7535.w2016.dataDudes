@@ -11,25 +11,20 @@ public class QuestionSentFeature extends AbstractFeature {
 	@Override
 	public void train(List<Document> documents, Classification classification) {
 		int sentencesAmount = 0;
-		for (Document doc : documents) {
-			if (doc.getGoldStandard().equals(classification))
-				sentencesAmount += DocumentUtil.countSentences(doc);
-		}
-
 		int sentencesQuestionAmount = 0;
+
 		for (Document doc : documents) {
-			if (doc.getGoldStandard().equals(classification))
+			if (doc.getGoldStandard().equals(classification)) {
+				sentencesAmount += DocumentUtil.countSentences(doc);
+				sentencesAmount += DocumentUtil.countExclamationSenctences(doc);
+				sentencesAmount += DocumentUtil.countQuestionSenctences(doc);
 				sentencesQuestionAmount += DocumentUtil.countQuestionSenctences(doc);
+			}
 		}
 
-		int sentencesExclamationAmount = 0;
-		for (Document doc : documents) {
-			if (doc.getGoldStandard().equals(classification))
-				sentencesQuestionAmount += DocumentUtil.countExclamationSenctences(doc);
-		}
-
+		System.out.println("Point Sentence: " + sentencesAmount);
 		float result = (sentencesAmount > 0.0001) ?
-				(float)(sentencesQuestionAmount + sentencesExclamationAmount) / (float)sentencesAmount : 0;
+				(sentencesQuestionAmount + 1.0f) / (float) (sentencesAmount) : 0;
 		setProbability(classification, result);
 	}
 }
