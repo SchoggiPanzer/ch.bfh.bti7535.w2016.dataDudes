@@ -15,9 +15,6 @@ import java.util.List;
 
 import static org.junit.Assert.assertEquals;
 
-/**
- * Created by mischu on 04.01.17.
- */
 public class WordFeaturesTest {
 
     private List<Document> docList;

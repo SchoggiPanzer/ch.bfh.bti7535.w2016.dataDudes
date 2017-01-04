@@ -2,10 +2,10 @@ package ch.bfh.bti7535.w2016.algorithm;
 
 
 import ch.bfh.bti7535.w2016.algorithm.features.AbstractFeature;
-import ch.bfh.bti7535.w2016.data.Classification;
-import ch.bfh.bti7535.w2016.data.Document;
 import ch.bfh.bti7535.w2016.algorithm.features.QuestionSentFeature;
 import ch.bfh.bti7535.w2016.algorithm.features.WordFeature;
+import ch.bfh.bti7535.w2016.data.Classification;
+import ch.bfh.bti7535.w2016.data.Document;
 
 import java.util.ArrayList;
 import java.util.List;

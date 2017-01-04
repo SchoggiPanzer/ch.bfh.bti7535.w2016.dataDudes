@@ -1,8 +1,8 @@
 package ch.bfh.bti7535.w2016.evaluate;
 
 import ch.bfh.bti7535.w2016.algorithm.AbstractAlgorithm;
-import ch.bfh.bti7535.w2016.data.Document;
 import ch.bfh.bti7535.w2016.data.Classification;
+import ch.bfh.bti7535.w2016.data.Document;
 import ch.bfh.bti7535.w2016.util.FileReaderUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

@@ -6,9 +6,6 @@ import ch.bfh.bti7535.w2016.util.DocumentUtil;
 
 import java.util.List;
 
-/**
- * Created by mischu on 04.01.17.
- */
 public class WordFeature extends AbstractFeature {
 
     private String searchWord;
