@@ -1,4 +1,4 @@
-package ch.bfh.bti7535.w2016.filehandling;
+package ch.bfh.bti7535.w2016.data;
 
 public enum Classification {
 	SENTIMENT_POSITIVE("pos"),

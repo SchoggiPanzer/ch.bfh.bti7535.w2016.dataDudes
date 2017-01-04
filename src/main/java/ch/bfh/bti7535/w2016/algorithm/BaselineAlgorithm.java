@@ -1,6 +1,7 @@
 package ch.bfh.bti7535.w2016.algorithm;
 
-import ch.bfh.bti7535.w2016.filehandling.Classification;
+import ch.bfh.bti7535.w2016.data.Classification;
+import ch.bfh.bti7535.w2016.data.Document;
 import org.apache.commons.httpclient.HttpClient;
 import org.apache.commons.httpclient.HttpStatus;
 import org.apache.commons.httpclient.methods.PostMethod;

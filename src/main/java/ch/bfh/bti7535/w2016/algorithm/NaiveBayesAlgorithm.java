@@ -1,8 +1,9 @@
 package ch.bfh.bti7535.w2016.algorithm;
 
-import ch.bfh.bti7535.w2016.features.AbstractFeature;
-import ch.bfh.bti7535.w2016.features.GoodWordsFeature;
-import ch.bfh.bti7535.w2016.filehandling.Classification;
+import ch.bfh.bti7535.w2016.algorithm.features.AbstractFeature;
+import ch.bfh.bti7535.w2016.algorithm.features.GoodWordsFeature;
+import ch.bfh.bti7535.w2016.data.Classification;
+import ch.bfh.bti7535.w2016.data.Document;
 
 import java.util.ArrayList;
 import java.util.List;

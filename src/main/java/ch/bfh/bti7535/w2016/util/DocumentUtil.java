@@ -1,6 +1,6 @@
 package ch.bfh.bti7535.w2016.util;
 
-import ch.bfh.bti7535.w2016.algorithm.Document;
+import ch.bfh.bti7535.w2016.data.Document;
 
 import java.util.List;
 
