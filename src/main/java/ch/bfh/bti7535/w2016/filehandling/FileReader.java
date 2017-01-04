@@ -1,77 +1,66 @@
 package ch.bfh.bti7535.w2016.filehandling;
 
 import ch.bfh.bti7535.w2016.algorithm.Document;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
-import java.io.File;
 import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
-import java.util.Scanner;
-import java.util.StringTokenizer;
+import java.util.stream.Stream;
 
 public class FileReader {
+	private static Logger log = LoggerFactory.getLogger(FileReader.class);
+	public static String FILE_PATH = "./src/main/resources/review_polarity/txt_sentoken/";
 
-	public Document readFile(File file, String filePath)
-			throws FileNotFoundException {
-		Document doc = new Document();
-		Map<String, Document.WordProperty> tokens = new HashMap<>();
-
-		Scanner inputFile = new Scanner(file);
-		StringTokenizer tokenizer;
-		String line;
-
-		while (inputFile.hasNext()) {
-
-			line = inputFile.nextLine();
-			tokenizer = new StringTokenizer(line, " ");
-
-			while (tokenizer.hasMoreTokens()) {
-				tokens.put(tokenizer.nextToken(), null);
-			}
-		}
-
-		//TODO: not nice yet
-		int index = filePath.lastIndexOf("/");
-		String reviewClass = filePath.substring(index + 1);
-
-		if (reviewClass.equals(Classification.SENTIMENT_POSITIVE.getLabel())) {
-			doc.setGoldStandard(Classification.SENTIMENT_POSITIVE);
-		} else if (reviewClass.equals(Classification.SENTIMENT_NEGATIVE.getLabel())) {
-			doc.setGoldStandard(Classification.SENTIMENT_NEGATIVE);
-		}
-
-		doc.setFilename(file.getName());
-		doc.setContent(tokens);
-
-		return doc;
-	}
-
-	public ArrayList<Document> readAllFiles(String pathName)
+	public static ArrayList<Document> readFilesFromPath(String pathName)
 			throws FileNotFoundException {
 		ArrayList<Document> docList = new ArrayList<>();
 
-		File root = new File(pathName);
-		File[] subFolders = root.listFiles();
+		String filepathPos = pathName + "pos";
+		String filepathNeg = pathName + "neg";
 
-		//TODO: Ugly nesting. Could be improved
-		if (subFolders != null) {
-			for (File file : subFolders) {
-				if (file.isDirectory()) {
-					File[] fileList;
-					fileList = file.listFiles();
-
-					if (fileList != null) {
-						for (File txtFile : fileList) {
-							Document doc;
-							doc = readFile(txtFile, file.getName());
-							docList.add(doc);
-						}
-					}
+		try (Stream<Path> pathsPos = Files.walk(Paths.get(filepathPos));
+				Stream<Path> pathsNeg = Files.walk(Paths.get(filepathNeg))) {
+			pathsPos.forEach(filePath -> {
+				if (Files.isRegularFile(filePath)) {
+					Document document = readFile(filePath, Classification.SENTIMENT_POSITIVE);
+					docList.add(document);
 				}
-			}
+			});
+
+			pathsNeg.forEach(filePath -> {
+				if (Files.isRegularFile(filePath)) {
+					Document document = readFile(filePath, Classification.SENTIMENT_NEGATIVE);
+					docList.add(document);
+				}
+			});
+		} catch (IOException e) {
+			e.printStackTrace();
 		}
 
 		return docList;
+	}
+
+	private static Document readFile(Path file, Classification classification) {
+		Document doc = new Document();
+		try {
+			String fileContent = new String(Files.readAllBytes(file));
+			String[] tokenized = fileContent.split(" ");
+
+			Map<String, Document.WordProperty> tokens = new HashMap<>();
+			for (String token : tokenized)
+				tokens.put(token, new Document.WordProperty(0, Classification.NOT_CLASSIFIED));
+
+			doc = new Document(tokens, classification);
+		} catch (IOException e) {
+			log.error("Cannot read and tokenize file {}", file.toAbsolutePath());
+		}
+		return doc;
 	}
 }

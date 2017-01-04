@@ -17,6 +17,11 @@ public class Document {
 	public Document() {
 	}
 
+	public Document(Map<String, WordProperty> tokens, Classification goldStandard) {
+		content = tokens;
+		setGoldStandard(goldStandard);
+	}
+
 	public Document(List<String> tokens, Classification goldStandard) {
 		setContent(tokens);
 		setGoldStandard(goldStandard);
