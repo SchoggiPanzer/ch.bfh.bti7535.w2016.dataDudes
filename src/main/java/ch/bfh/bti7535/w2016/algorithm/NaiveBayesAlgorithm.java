@@ -1,7 +1,8 @@
 package ch.bfh.bti7535.w2016.algorithm;
 
 import ch.bfh.bti7535.w2016.features.AbstractFeature;
-import ch.bfh.bti7535.w2016.features.GoodWordsFeature;
+import ch.bfh.bti7535.w2016.features.QuestionSentFeature;
+import ch.bfh.bti7535.w2016.features.WordFeature;
 import ch.bfh.bti7535.w2016.filehandling.Classification;
 
 import java.util.ArrayList;
@@ -71,7 +72,11 @@ public class NaiveBayesAlgorithm extends AbstractAlgorithm {
 
 	private List<AbstractFeature> getFeaturePipeline() {
 		List<AbstractFeature> features = new ArrayList<>();
-		features.add(new GoodWordsFeature());
+		features.add(new QuestionSentFeature());
+		//features.add(new GoodWordFeature());
+		//features.add(new BadWordFeature());
+		features.add(new WordFeature("good"));
+		features.add(new WordFeature("bad"));
 		// Add more features here...
 
 		return features;

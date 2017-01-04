@@ -6,7 +6,7 @@ import ch.bfh.bti7535.w2016.util.DocumentUtil;
 
 import java.util.List;
 
-public class GoodWordsFeature extends AbstractFeature {
+public class QuestionSentFeature extends AbstractFeature {
 
 	@Override
 	public void train(List<Document> documents, Classification classification) {
