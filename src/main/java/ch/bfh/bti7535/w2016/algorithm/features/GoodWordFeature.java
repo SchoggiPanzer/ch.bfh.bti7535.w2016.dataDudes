@@ -1,4 +1,4 @@
-package ch.bfh.bti7535.w2016.features;
+package ch.bfh.bti7535.w2016.algorithm.features;
 
 import ch.bfh.bti7535.w2016.algorithm.Document;
 import ch.bfh.bti7535.w2016.filehandling.Classification;
@@ -9,13 +9,13 @@ import java.util.List;
 /**
  * Created by mischu on 04.01.17.
  */
-public class BadWordFeature extends AbstractFeature {
+public class GoodWordFeature extends AbstractFeature {
 
     @Override
     public void train(List<Document> documents, Classification classification) {
         List<String> content;
         int wordAmount = 0;
-        int badWordAmount = 0;
+        int goodWordAmount = 0;
 
         for (Document doc : documents) {
             if (doc.getGoldStandard().equals(classification)) {
@@ -26,10 +26,10 @@ public class BadWordFeature extends AbstractFeature {
 
         for (Document doc : documents) {
             if (doc.getGoldStandard().equals(classification))
-                badWordAmount += DocumentUtil.countSpecificWord(doc, "bad");
+                goodWordAmount += DocumentUtil.countSpecificWord(doc, "good");
         }
 
-        float result = (wordAmount > 0.0001) ? badWordAmount / wordAmount : 0;
+        float result = (wordAmount > 0.0001) ? goodWordAmount / wordAmount : 0;
         setProbability(classification, result);
     }
 }

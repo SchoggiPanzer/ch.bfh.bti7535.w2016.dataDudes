@@ -1,6 +1,7 @@
-package ch.bfh.bti7535.w2016.filehandling;
+package ch.bfh.bti7535.w2016.util;
 
-import ch.bfh.bti7535.w2016.algorithm.Document;
+import ch.bfh.bti7535.w2016.data.Document;
+import ch.bfh.bti7535.w2016.data.Classification;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -14,9 +15,9 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.stream.Stream;
 
-public class FileReader {
+public class FileReaderUtil {
 	public static String FILE_PATH = "./src/main/resources/review_polarity/txt_sentoken/";
-	private static Logger log = LoggerFactory.getLogger(FileReader.class);
+	private static Logger log = LoggerFactory.getLogger(FileReaderUtil.class);
 
 	public static ArrayList<Document> readFilesFromPath(String pathName)
 			throws FileNotFoundException {
@@ -51,13 +52,14 @@ public class FileReader {
 		Document doc = new Document();
 		try {
 			String fileContent = new String(Files.readAllBytes(file));
-			String[] tokenized = fileContent.split(" ");
+			String[] tokenized = fileContent.split("[^a-zA-Z0-9']+");
 
 			Map<String, Document.WordProperty> tokens = new HashMap<>();
 			for (String token : tokenized)
 				tokens.put(token, new Document.WordProperty(0, Classification.NOT_CLASSIFIED));
 
 			doc = new Document(tokens, classification);
+			doc.setFilename(file.getFileName().toString());
 		} catch (IOException e) {
 			log.error("Cannot read and tokenize file {}", file.toAbsolutePath());
 		}

@@ -1,6 +1,4 @@
-package ch.bfh.bti7535.w2016.algorithm;
-
-import ch.bfh.bti7535.w2016.filehandling.Classification;
+package ch.bfh.bti7535.w2016.data;
 
 import java.util.ArrayList;
 import java.util.HashMap;

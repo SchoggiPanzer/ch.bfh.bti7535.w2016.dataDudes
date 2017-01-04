@@ -1,6 +1,8 @@
 package ch.bfh.bti7535.w2016.filehandling;
 
-import ch.bfh.bti7535.w2016.algorithm.Document;
+import ch.bfh.bti7535.w2016.data.Document;
+import ch.bfh.bti7535.w2016.data.Classification;
+import ch.bfh.bti7535.w2016.util.FileReaderUtil;
 import org.junit.Test;
 
 import java.util.ArrayList;
@@ -13,7 +15,7 @@ public class FileReaderTest {
 
 	@Test
 	public void testReadFilesFromPath() throws Exception {
-		ArrayList<Document> documents = FileReader.readFilesFromPath(FileReader.FILE_PATH);
+		ArrayList<Document> documents = FileReaderUtil.readFilesFromPath(FileReaderUtil.FILE_PATH);
 
 		assertNotNull(documents);
 		assertFalse(documents.isEmpty());

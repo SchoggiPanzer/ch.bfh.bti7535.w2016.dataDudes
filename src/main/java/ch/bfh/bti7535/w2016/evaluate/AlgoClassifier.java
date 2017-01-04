@@ -1,9 +1,9 @@
 package ch.bfh.bti7535.w2016.evaluate;
 
 import ch.bfh.bti7535.w2016.algorithm.AbstractAlgorithm;
-import ch.bfh.bti7535.w2016.algorithm.Document;
-import ch.bfh.bti7535.w2016.filehandling.Classification;
-import ch.bfh.bti7535.w2016.filehandling.FileReader;
+import ch.bfh.bti7535.w2016.data.Document;
+import ch.bfh.bti7535.w2016.data.Classification;
+import ch.bfh.bti7535.w2016.util.FileReaderUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -22,7 +22,7 @@ public class AlgoClassifier {
 
 	public AlgoClassifier(AbstractAlgorithm algo) {
 		try {
-			List<Document> inputdocs = FileReader.readFilesFromPath(FileReader.FILE_PATH);
+			List<Document> inputdocs = FileReaderUtil.readFilesFromPath(FileReaderUtil.FILE_PATH);
 			List<Document> results = algo.execute(inputdocs);
 			classify(results);
 		} catch (FileNotFoundException e) {
