@@ -52,7 +52,7 @@ public class FileReaderUtil {
 		Document doc = new Document();
 		try {
 			String fileContent = new String(Files.readAllBytes(file));
-			String[] tokenized = fileContent.split(" ");
+			String[] tokenized = fileContent.split("[^a-zA-Z0-9']+");
 
 			Map<String, Document.WordProperty> tokens = new HashMap<>();
 			for (String token : tokenized)
