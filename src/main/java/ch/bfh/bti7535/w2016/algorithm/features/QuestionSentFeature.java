@@ -22,7 +22,14 @@ public class QuestionSentFeature extends AbstractFeature {
 				sentencesQuestionAmount += DocumentUtil.countQuestionSenctences(doc);
 		}
 
-		float result = (sentencesAmount > 0.0001) ? sentencesQuestionAmount / sentencesAmount : 0;
+		int sentencesExclamationAmount = 0;
+		for (Document doc : documents) {
+			if (doc.getGoldStandard().equals(classification))
+				sentencesQuestionAmount += DocumentUtil.countExclamationSenctences(doc);
+		}
+
+		float result = (sentencesAmount > 0.0001) ?
+				(float)(sentencesQuestionAmount + sentencesExclamationAmount) / (float)sentencesAmount : 0;
 		setProbability(classification, result);
 	}
 }
