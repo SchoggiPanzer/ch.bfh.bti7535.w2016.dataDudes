@@ -35,10 +35,7 @@ public class WordFeature extends AbstractFeature {
                 searchWordAmount += DocumentUtil.countSpecificWord(doc, searchWord);
         }
 
-        float result = 0.0f;
-        if(wordAmount > 0.0001) {
-            result = ((float)searchWordAmount + 1.0f) / (float)wordAmount;
-        }
+        float result = (wordAmount > 0.0001) ? (searchWordAmount + 1.0f) / (float)wordAmount : 0.0f;
         setProbability(classification, result);
     }
 }
