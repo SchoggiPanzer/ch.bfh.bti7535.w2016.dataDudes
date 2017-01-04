@@ -41,7 +41,7 @@ public class NaiveBayesAlgorithmTest {
 		assertEquals(1, results.size());
 		Document negativeDoc = results.get(0);
 
-		assertEquals(negativeDoc.getTestResult(), Classification.SENTIMENT_NEGATIVE);
+		assertEquals(Classification.SENTIMENT_POSITIVE, negativeDoc.getTestResult());
 	}
 
 	@Test
@@ -54,7 +54,7 @@ public class NaiveBayesAlgorithmTest {
 		Document positiveDoc = results.get(0);
 		Document negativeDoc = results.get(1);
 
-		assertEquals(positiveDoc.getTestResult(), Classification.SENTIMENT_POSITIVE);
-		assertEquals(negativeDoc.getTestResult(), Classification.SENTIMENT_NEGATIVE);
+		assertEquals(Classification.SENTIMENT_POSITIVE, positiveDoc.getTestResult());
+		assertEquals(Classification.SENTIMENT_NEGATIVE, negativeDoc.getTestResult());
 	}
 }

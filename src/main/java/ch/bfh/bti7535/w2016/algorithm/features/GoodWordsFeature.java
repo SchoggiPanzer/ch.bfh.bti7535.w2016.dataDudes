@@ -22,7 +22,7 @@ public class GoodWordsFeature extends AbstractFeature {
 				sentencesQuestionAmount += DocumentUtil.countQuestionSenctences(doc);
 		}
 
-		float result = (sentencesAmount > 0.0001) ? sentencesQuestionAmount / sentencesAmount : 0;
+		double result = (sentencesAmount > 0.0001) ? (double) sentencesQuestionAmount / (double) sentencesAmount : 0;
 		setProbability(classification, result);
 	}
 }

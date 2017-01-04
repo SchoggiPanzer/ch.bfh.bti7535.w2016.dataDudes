@@ -51,8 +51,8 @@ public class NaiveBayesAlgorithm extends AbstractAlgorithm {
 	}
 
 	private Document test(Document document) {
-		int classifiedPositive = 0;
-		int classifiedNegative = 0;
+		double classifiedPositive = 0.0;
+		double classifiedNegative = 0.0;
 
 		for (AbstractFeature feature : featurePipeline) {
 			classifiedPositive += calcProbabilityTimesOccurrence(feature, Classification.SENTIMENT_POSITIVE);
@@ -64,9 +64,11 @@ public class NaiveBayesAlgorithm extends AbstractAlgorithm {
 		return document;
 	}
 
-	private float calcProbabilityTimesOccurrence(AbstractFeature feature, Classification classification) {
-		float probability = feature.getProbability(classification);
-		float occurrence = feature.getOccurrence(classification);
+	private double calcProbabilityTimesOccurrence(AbstractFeature feature, Classification classification) {
+		double probability = feature.getProbability(classification);
+		// double occurrence = feature.getOccurrence(classification);
+
+		double occurrence = 1.0;
 		return probability * occurrence;
 	}
 
