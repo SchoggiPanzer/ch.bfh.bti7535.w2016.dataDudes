@@ -21,9 +21,8 @@ public class AlgoClassifier {
 	private double falseNeg = 0;
 
 	public AlgoClassifier(AbstractAlgorithm algo) {
-		FileReader fileReader = new FileReader();
 		try {
-			List<Document> inputdocs = fileReader.readFilesFromPath(FileReader.FILE_PATH);
+			List<Document> inputdocs = FileReader.readFilesFromPath(FileReader.FILE_PATH);
 			List<Document> results = algo.execute(inputdocs);
 			classify(results);
 		} catch (FileNotFoundException e) {

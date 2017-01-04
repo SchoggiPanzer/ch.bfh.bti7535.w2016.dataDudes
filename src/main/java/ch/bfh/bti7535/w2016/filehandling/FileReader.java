@@ -15,8 +15,8 @@ import java.util.Map;
 import java.util.stream.Stream;
 
 public class FileReader {
-	private static Logger log = LoggerFactory.getLogger(FileReader.class);
 	public static String FILE_PATH = "./src/main/resources/review_polarity/txt_sentoken/";
+	private static Logger log = LoggerFactory.getLogger(FileReader.class);
 
 	public static ArrayList<Document> readFilesFromPath(String pathName)
 			throws FileNotFoundException {
