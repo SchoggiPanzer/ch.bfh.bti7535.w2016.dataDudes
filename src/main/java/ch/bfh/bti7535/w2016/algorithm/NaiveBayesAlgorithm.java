@@ -6,6 +6,7 @@ import ch.bfh.bti7535.w2016.data.Classification;
 import ch.bfh.bti7535.w2016.data.Document;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class NaiveBayesAlgorithm extends AbstractAlgorithm {
@@ -16,6 +17,7 @@ public class NaiveBayesAlgorithm extends AbstractAlgorithm {
 	@Override
 	public List<Document> execute(List<Document> input) {
 		int listSize = input.size();
+		Collections.shuffle(input);
 
 		// Very good example to show up how painful Java can be...
 		int split = (int) Math.floor(((float) listSize) * SPLIT_POINT);
