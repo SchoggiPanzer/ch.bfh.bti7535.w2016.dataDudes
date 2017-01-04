@@ -23,8 +23,8 @@ public class QuestionSentFeature extends AbstractFeature {
 		}
 
 		System.out.println("Point Sentence: " + sentencesAmount);
-		float result = (sentencesAmount > 0.0001) ?
-				(sentencesQuestionAmount + 1.0f) / (float)(sentencesAmount) : 0;
+		double result = (sentencesAmount > 0.0001) ?
+				(double)sentencesQuestionAmount / (double)sentencesAmount : 0.0;
 		setProbability(classification, result);
 	}
 }
