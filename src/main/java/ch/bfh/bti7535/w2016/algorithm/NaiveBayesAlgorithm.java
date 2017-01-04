@@ -66,17 +66,15 @@ public class NaiveBayesAlgorithm extends AbstractAlgorithm {
 		return document;
 	}
 
-	private float calcProbabilityTimesOccurrence(AbstractFeature feature, Classification classification) {
-		float probability = feature.getProbability(classification);
-		float occurrence = feature.getOccurrence(classification);
+	private double calcProbabilityTimesOccurrence(AbstractFeature feature, Classification classification) {
+		double probability = feature.getProbability(classification);
+		double occurrence = feature.getOccurrence(classification);
 		return probability * occurrence;
 	}
 
 	private List<AbstractFeature> getFeaturePipeline() {
 		List<AbstractFeature> features = new ArrayList<>();
 		features.add(new QuestionSentFeature());
-		//features.add(new GoodWordFeature());
-		//features.add(new BadWordFeature());
 		features.add(new WordFeature("good"));
 		features.add(new WordFeature("bad"));
 		// Add more features here...
