@@ -13,7 +13,6 @@ import java.util.List;
 public class AlgoClassifier {
 
 	private static Logger log = (Logger) LoggerFactory.getLogger(AlgoClassifier.class);
-	private static String FILE_PATH = "./src/main/resources/review_polarity/txt_sentoken";
 	private static double DELTA = 0.0001;
 
 	private double truePos = 0;
@@ -24,7 +23,7 @@ public class AlgoClassifier {
 	public AlgoClassifier(AbstractAlgorithm algo) {
 		FileReader fileReader = new FileReader();
 		try {
-			List<Document> inputdocs = fileReader.readAllFiles(FILE_PATH);
+			List<Document> inputdocs = fileReader.readFilesFromPath(FileReader.FILE_PATH);
 			List<Document> results = algo.execute(inputdocs);
 			classify(results);
 		} catch (FileNotFoundException e) {
