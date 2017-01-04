@@ -41,8 +41,8 @@ public class WordFeaturesTest {
         wordGoodFeature.train(docList, Classification.SENTIMENT_NEGATIVE);
         wordGoodFeature.train(docList, Classification.SENTIMENT_POSITIVE);
 
-        float negGoodResult = wordGoodFeature.getProbability(Classification.SENTIMENT_NEGATIVE);
-        float posGoodResult = wordGoodFeature.getProbability(Classification.SENTIMENT_POSITIVE);
+        double negGoodResult = wordGoodFeature.getProbability(Classification.SENTIMENT_NEGATIVE);
+        double posGoodResult = wordGoodFeature.getProbability(Classification.SENTIMENT_POSITIVE);
 
         assertEquals(0.0053, negGoodResult, 0.0001);
         assertEquals(0.0053, posGoodResult, 0.0001);
