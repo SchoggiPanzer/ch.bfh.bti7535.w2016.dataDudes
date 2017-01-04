@@ -1,28 +1,32 @@
 package ch.bfh.bti7535.w2016.algorithm.features;
 
-import ch.bfh.bti7535.w2016.data.Document;
 import ch.bfh.bti7535.w2016.data.Classification;
+import ch.bfh.bti7535.w2016.data.Document;
 import ch.bfh.bti7535.w2016.util.DocumentUtil;
 
 import java.util.List;
 
-public class GoodWordsFeature extends AbstractFeature {
+public class BadWordFeature extends AbstractFeature {
 
 	@Override
 	public void train(List<Document> documents, Classification classification) {
-		int sentencesAmount = 0;
+		List<String> content;
+		int wordAmount = 0;
+		int badWordAmount = 0;
+
 		for (Document doc : documents) {
-			if (doc.getGoldStandard().equals(classification))
-				sentencesAmount += DocumentUtil.countSentences(doc);
+			if (doc.getGoldStandard().equals(classification)) {
+				content = doc.getContent();
+				wordAmount += content.size();
+			}
 		}
 
-		int sentencesQuestionAmount = 0;
 		for (Document doc : documents) {
 			if (doc.getGoldStandard().equals(classification))
-				sentencesQuestionAmount += DocumentUtil.countQuestionSenctences(doc);
+				badWordAmount += DocumentUtil.countSpecificWord(doc, "bad");
 		}
 
-		float result = (sentencesAmount > 0.0001) ? sentencesQuestionAmount / sentencesAmount : 0;
+		float result = (wordAmount > 0.0001) ? badWordAmount / wordAmount : 0;
 		setProbability(classification, result);
 	}
 }

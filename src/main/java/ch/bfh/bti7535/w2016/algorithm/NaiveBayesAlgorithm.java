@@ -1,7 +1,9 @@
 package ch.bfh.bti7535.w2016.algorithm;
 
+
 import ch.bfh.bti7535.w2016.algorithm.features.AbstractFeature;
-import ch.bfh.bti7535.w2016.algorithm.features.GoodWordsFeature;
+import ch.bfh.bti7535.w2016.algorithm.features.QuestionSentFeature;
+import ch.bfh.bti7535.w2016.algorithm.features.WordFeature;
 import ch.bfh.bti7535.w2016.data.Classification;
 import ch.bfh.bti7535.w2016.data.Document;
 
@@ -64,15 +66,17 @@ public class NaiveBayesAlgorithm extends AbstractAlgorithm {
 		return document;
 	}
 
-	private float calcProbabilityTimesOccurrence(AbstractFeature feature, Classification classification) {
-		float probability = feature.getProbability(classification);
-		float occurrence = feature.getOccurrence(classification);
+	private double calcProbabilityTimesOccurrence(AbstractFeature feature, Classification classification) {
+		double probability = feature.getProbability(classification);
+		double occurrence = feature.getOccurrence(classification);
 		return probability * occurrence;
 	}
 
 	private List<AbstractFeature> getFeaturePipeline() {
 		List<AbstractFeature> features = new ArrayList<>();
-		features.add(new GoodWordsFeature());
+		features.add(new QuestionSentFeature());
+		features.add(new WordFeature("good"));
+		features.add(new WordFeature("bad"));
 		// Add more features here...
 
 		return features;

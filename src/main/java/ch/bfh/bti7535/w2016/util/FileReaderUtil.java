@@ -1,7 +1,7 @@
 package ch.bfh.bti7535.w2016.util;
 
-import ch.bfh.bti7535.w2016.data.Document;
 import ch.bfh.bti7535.w2016.data.Classification;
+import ch.bfh.bti7535.w2016.data.Document;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
