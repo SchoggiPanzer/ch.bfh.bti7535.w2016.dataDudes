@@ -34,6 +34,7 @@ public class NaiveBayesAlgorithmTest {
 	}
 
 	@Test
+    @Ignore
 	public void testAutoSplitExecute() throws Exception {
 		NaiveBayesAlgorithm naiveBayesAlgorithm = new NaiveBayesAlgorithm();
 		List<Document> results = naiveBayesAlgorithm.execute(docList);
