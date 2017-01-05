@@ -3,6 +3,7 @@ package ch.bfh.bti7535.w2016.util;
 import ch.bfh.bti7535.w2016.data.Document;
 
 import java.util.List;
+import java.util.Objects;
 
 public class DocumentUtil {
 	private static String[] sentenceEnds = new String[] { ".", "?", "!" };
@@ -62,4 +63,15 @@ public class DocumentUtil {
 
 		return sentences;
 	}
+
+	public static int countSpecificWord(Document doc, String searchWord) {
+	    List<String> content = doc.getContent();
+
+	    int searchWordAmount = 0;
+	    for (String word : content) {
+	        if(Objects.equals(word, searchWord)) searchWordAmount++;
+        }
+
+        return searchWordAmount;
+    }
 }
