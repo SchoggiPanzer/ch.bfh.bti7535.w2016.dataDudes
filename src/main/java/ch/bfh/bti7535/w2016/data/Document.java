@@ -15,14 +15,9 @@ public class Document {
 	public Document() {
 	}
 
-	public Document(Map<String, WordProperty> tokens, Classification goldStandard) {
-		content = tokens;
-		setGoldStandard(goldStandard);
-	}
-
-	public Document(List<String> tokens, Classification goldStandard) {
-		setContent(tokens);
-		setGoldStandard(goldStandard);
+	public Document(Map<String, WordProperty> content, Classification goldStandard) {
+		this.content = content;
+		this.goldStandard = goldStandard;
 	}
 
 	public String getFilename() {
@@ -68,21 +63,29 @@ public class Document {
 	}
 
 	public static class WordProperty {
-		private int occurence = 0;
+		private int occurrence;
 		private Classification meaning;
 
-		public WordProperty(int occurence, Classification meaning) {
-			this.occurence = occurence;
+		public WordProperty(Classification meaning) {
+			this(1, meaning);
+		}
+
+		public WordProperty(int occurrence, Classification meaning) {
+			this.occurrence = occurrence;
 			this.meaning = meaning;
 		}
 
-		public int getOccurence() {
-			return occurence;
+		public int getOccurrence() {
+			return occurrence;
+		}
+
+		public void increaseOccurrence() {
+			this.occurrence += 1;
 		}
 
 		@Override public String toString() {
 			return "WordProperty{" +
-					"occurence=" + occurence +
+					"occurrence=" + occurrence +
 					", meaning=" + meaning +
 					'}';
 		}
