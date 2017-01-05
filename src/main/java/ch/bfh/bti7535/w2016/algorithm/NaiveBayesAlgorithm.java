@@ -8,6 +8,9 @@ import ch.bfh.bti7535.w2016.algorithm.features.QuestionSentenceFeature;
 =======
 import ch.bfh.bti7535.w2016.algorithm.features.GoodWordsFeature;
 import ch.bfh.bti7535.w2016.algorithm.features.WordFeature;
+<<<<<<< HEAD
+>>>>>>> add WordFeature and Junit test
+=======
 >>>>>>> add WordFeature and Junit test
 import ch.bfh.bti7535.w2016.data.Classification;
 import ch.bfh.bti7535.w2016.data.Document;
