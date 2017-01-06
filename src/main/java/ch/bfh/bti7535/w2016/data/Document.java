@@ -15,6 +15,11 @@ public class Document {
 	public Document() {
 	}
 
+	public Document(List<String> content, Classification goldStandard) {
+		setContent(content);
+		this.goldStandard = goldStandard;
+	}
+
 	public Document(Map<String, WordProperty> content, Classification goldStandard) {
 		this.content = content;
 		this.goldStandard = goldStandard;
@@ -50,7 +55,7 @@ public class Document {
 
 	public void setContent(List<String> content) {
 		for (String token : content) {
-			this.content.put(token, null);
+			this.content.put(token, new WordProperty());
 		}
 	}
 
@@ -65,6 +70,10 @@ public class Document {
 	public static class WordProperty {
 		private int occurrence;
 		private Classification meaning;
+
+		public WordProperty() {
+			this(1, Classification.NOT_CLASSIFIED);
+		}
 
 		public WordProperty(Classification meaning) {
 			this(1, meaning);

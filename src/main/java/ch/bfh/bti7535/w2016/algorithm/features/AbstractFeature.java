@@ -1,7 +1,7 @@
 package ch.bfh.bti7535.w2016.algorithm.features;
 
-import ch.bfh.bti7535.w2016.data.Document;
 import ch.bfh.bti7535.w2016.data.Classification;
+import ch.bfh.bti7535.w2016.data.Document;
 
 import java.util.HashMap;
 import java.util.List;
@@ -24,5 +24,10 @@ public abstract class AbstractFeature {
 		return probabilities.get(classification);
 	}
 
-	public abstract void train(List<Document> documents, Classification classification);
+	public void train(List<Document> documents) {
+		train(documents, Classification.SENTIMENT_POSITIVE);
+		train(documents, Classification.SENTIMENT_NEGATIVE);
+	}
+
+	protected abstract void train(List<Document> documents, Classification classification);
 }
