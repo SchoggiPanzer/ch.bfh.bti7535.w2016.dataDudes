@@ -4,13 +4,12 @@ import ch.bfh.bti7535.w2016.algorithm.features.AbstractFeature;
 import ch.bfh.bti7535.w2016.algorithm.features.WordFeature;
 import ch.bfh.bti7535.w2016.data.Classification;
 import ch.bfh.bti7535.w2016.data.Document;
+import ch.bfh.bti7535.w2016.util.FileReaderUtil;
 import org.junit.Before;
 import org.junit.Test;
 
-import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 import static org.junit.Assert.assertEquals;
@@ -22,26 +21,32 @@ public class WordFeatureTest {
     @Before
     public void setUp() throws Exception {
         docList = new ArrayList<>();
-
-        String negContent = new String(Files.readAllBytes(Paths.get(ClassLoader.getSystemResource("neg.txt").toURI())));
-        List<String> negTokens = Arrays.asList(negContent.split(" "));
-        docList.add(new Document(negTokens, Classification.SENTIMENT_NEGATIVE));
-
-        String posContent = new String(Files.readAllBytes(Paths.get(ClassLoader.getSystemResource("pos.txt").toURI())));
-        List<String> posTokens = Arrays.asList(posContent.split(" "));
-        docList.add(new Document(posTokens, Classification.SENTIMENT_POSITIVE));
+        docList.add(FileReaderUtil.readFile(Paths.get("./src/test/resources/pos.txt"), Classification.SENTIMENT_POSITIVE));
+        docList.add(FileReaderUtil.readFile(Paths.get("./src/test/resources/neg.txt"), Classification.SENTIMENT_NEGATIVE));
     }
 
     @Test
     public void testWordFeature() {
         AbstractFeature wordGoodFeature = new WordFeature("good");
-        wordGoodFeature.train(docList, Classification.SENTIMENT_NEGATIVE);
         wordGoodFeature.train(docList, Classification.SENTIMENT_POSITIVE);
+        wordGoodFeature.train(docList, Classification.SENTIMENT_NEGATIVE);
 
         double negGoodResult = wordGoodFeature.getProbability(Classification.SENTIMENT_NEGATIVE);
         double posGoodResult = wordGoodFeature.getProbability(Classification.SENTIMENT_POSITIVE);
 
-        assertEquals(0.0026, negGoodResult, 0.0001);
-        assertEquals(0.0022, posGoodResult, 0.0001);
+        assertEquals(0.0026, posGoodResult, 0.0001);
+        assertEquals(0.0025, negGoodResult, 0.0001);
+
+        AbstractFeature wordLikeFeature = new WordFeature("like");
+        wordLikeFeature.train(docList, Classification.SENTIMENT_POSITIVE);
+        wordLikeFeature.train(docList, Classification.SENTIMENT_NEGATIVE);
+
+        double negLikeResult = wordLikeFeature.getProbability(Classification.SENTIMENT_NEGATIVE);
+        double posLikeResult = wordLikeFeature.getProbability(Classification.SENTIMENT_POSITIVE);
+
+        assertEquals(0.0052, posLikeResult, 0.0001);
+        assertEquals(0.0038, negLikeResult, 0.0001);
+
+
     }
 }

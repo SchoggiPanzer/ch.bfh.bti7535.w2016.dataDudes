@@ -21,15 +21,9 @@ public class WordFeature extends AbstractFeature {
         int wordAmount = 0;
         int searchWordAmount = 0;
 
-        for (Document doc : documents) {
-            if (doc.getGoldStandard().equals(classification)) {
-                content = doc.getContent();
-                wordAmount += content.size();
-            }
-        }
-
         for (Document doc :documents) {
             if(doc.getGoldStandard().equals(classification)) {
+                wordAmount += DocumentUtil.countWords(doc);
                 searchWordAmount += DocumentUtil.countSpecificWord(doc, searchWord);
             }
         }
