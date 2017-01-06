@@ -28,6 +28,7 @@ public class WordFeatureTest {
     @Test
     public void testWordFeature() {
         AbstractFeature wordGoodFeature = new WordFeature("good");
+
         wordGoodFeature.train(docList, Classification.SENTIMENT_POSITIVE);
         wordGoodFeature.train(docList, Classification.SENTIMENT_NEGATIVE);
 
@@ -46,7 +47,6 @@ public class WordFeatureTest {
 
         assertEquals(0.0052, posLikeResult, 0.0001);
         assertEquals(0.0038, negLikeResult, 0.0001);
-
 
     }
 }
