@@ -28,8 +28,8 @@ public class WordFeatureTest {
     @Test
     public void testWordFeature() {
         AbstractFeature wordGoodFeature = new WordFeature("good");
-        wordGoodFeature.train(docList, Classification.SENTIMENT_POSITIVE);
-        wordGoodFeature.train(docList, Classification.SENTIMENT_NEGATIVE);
+
+        wordGoodFeature.train(docList);
 
         double negGoodResult = wordGoodFeature.getProbability(Classification.SENTIMENT_NEGATIVE);
         double posGoodResult = wordGoodFeature.getProbability(Classification.SENTIMENT_POSITIVE);
@@ -38,15 +38,13 @@ public class WordFeatureTest {
         assertEquals(0.0025, negGoodResult, 0.0001);
 
         AbstractFeature wordLikeFeature = new WordFeature("like");
-        wordLikeFeature.train(docList, Classification.SENTIMENT_POSITIVE);
-        wordLikeFeature.train(docList, Classification.SENTIMENT_NEGATIVE);
+        wordLikeFeature.train(docList);
 
         double negLikeResult = wordLikeFeature.getProbability(Classification.SENTIMENT_NEGATIVE);
         double posLikeResult = wordLikeFeature.getProbability(Classification.SENTIMENT_POSITIVE);
 
         assertEquals(0.0052, posLikeResult, 0.0001);
         assertEquals(0.0038, negLikeResult, 0.0001);
-
 
     }
 }
