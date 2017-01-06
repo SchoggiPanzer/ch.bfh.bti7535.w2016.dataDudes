@@ -5,12 +5,12 @@ import ch.bfh.bti7535.w2016.data.Document;
 
 import java.util.List;
 
-public class QuestionSentenceFeature extends SentenceFeature {
+public class ExclamationSentenceFeature extends SentenceFeature {
 
 	@Override
 	public void train(List<Document> documents, Classification classification) {
 		super.documents = documents;
 		super.classification = classification;
-		execute('?');
+		execute('!');
 	}
 }

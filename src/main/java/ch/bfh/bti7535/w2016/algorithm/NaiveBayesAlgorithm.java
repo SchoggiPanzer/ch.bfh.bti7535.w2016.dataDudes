@@ -1,6 +1,8 @@
 package ch.bfh.bti7535.w2016.algorithm;
 
 import ch.bfh.bti7535.w2016.algorithm.features.AbstractFeature;
+import ch.bfh.bti7535.w2016.algorithm.features.ExclamationSentenceFeature;
+import ch.bfh.bti7535.w2016.algorithm.features.GoodWordSetFeature;
 import ch.bfh.bti7535.w2016.algorithm.features.QuestionSentenceFeature;
 import ch.bfh.bti7535.w2016.data.Classification;
 import ch.bfh.bti7535.w2016.data.Document;
@@ -36,7 +38,7 @@ public class NaiveBayesAlgorithm extends AbstractAlgorithm {
 		// 2. Train based on training documents. This will calculates the feature probabilities
 		train(trainingSet);
 
-		// 3. Classify the testset documents based on the trained feature probabilitie
+		// 3. Classify the testset documents based on the trained feature probabilities
 		List<Document> results = new ArrayList<>();
 		for (Document d : testSet) {
 			Document classified = test(d);
@@ -77,7 +79,8 @@ public class NaiveBayesAlgorithm extends AbstractAlgorithm {
 	private List<AbstractFeature> getFeaturePipeline() {
 		List<AbstractFeature> features = new ArrayList<>();
 		features.add(new QuestionSentenceFeature());
-		// Add more features here...
+		features.add(new ExclamationSentenceFeature());
+		features.add(new GoodWordSetFeature());
 
 		return features;
 	}
