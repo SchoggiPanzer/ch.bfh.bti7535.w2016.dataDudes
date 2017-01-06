@@ -49,8 +49,7 @@ public class NaiveBayesAlgorithm extends AbstractAlgorithm {
 
 	private void train(List<Document> trainingSet) {
 		for (AbstractFeature feature : featurePipeline) {
-			feature.train(trainingSet, Classification.SENTIMENT_POSITIVE);
-			feature.train(trainingSet, Classification.SENTIMENT_NEGATIVE);
+			feature.train(trainingSet);
 		}
 	}
 
@@ -72,6 +71,7 @@ public class NaiveBayesAlgorithm extends AbstractAlgorithm {
 		double probability = feature.getProbability(classification);
 		// double occurrence = feature.getOccurrence(classification);
 
+		// FIXME: Calculate the occurrence of the feature
 		double occurrence = 1.0;
 		return probability * occurrence;
 	}
