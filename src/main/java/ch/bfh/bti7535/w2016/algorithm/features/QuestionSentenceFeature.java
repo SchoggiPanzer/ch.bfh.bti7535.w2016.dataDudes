@@ -1,12 +1,12 @@
 package ch.bfh.bti7535.w2016.algorithm.features;
 
-import ch.bfh.bti7535.w2016.data.Document;
 import ch.bfh.bti7535.w2016.data.Classification;
+import ch.bfh.bti7535.w2016.data.Document;
 import ch.bfh.bti7535.w2016.util.DocumentUtil;
 
 import java.util.List;
 
-public class GoodWordsFeature extends AbstractFeature {
+public class QuestionSentenceFeature extends AbstractFeature {
 
 	@Override
 	public void train(List<Document> documents, Classification classification) {
@@ -16,13 +16,14 @@ public class GoodWordsFeature extends AbstractFeature {
 				sentencesAmount += DocumentUtil.countSentences(doc);
 		}
 
-		int sentencesQuestionAmount = 0;
+		int sentencesExclamationAmount = 0;
 		for (Document doc : documents) {
-			if (doc.getGoldStandard().equals(classification))
-				sentencesQuestionAmount += DocumentUtil.countQuestionSenctences(doc);
+			if (doc.getGoldStandard().equals(classification)) {
+				sentencesExclamationAmount += DocumentUtil.countQuestionSenctences(doc);
+			}
 		}
 
-		double result = (sentencesAmount > 0.0001) ? (double) sentencesQuestionAmount / (double) sentencesAmount : 0;
+		double result = (sentencesAmount > 0.0001) ? (double) sentencesExclamationAmount / (double) sentencesAmount : 0;
 		setProbability(classification, result);
 	}
 }
