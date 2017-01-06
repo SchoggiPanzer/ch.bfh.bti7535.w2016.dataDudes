@@ -82,11 +82,11 @@ public class DocumentUtil {
 	}
 
 	public static int countSpecificWord(Document doc, String searchWord) {
-	    List<String> content = doc.getContent();
+        Map<String, Document.WordProperty> content = doc.getContentWithWordProperties();
 
 	    int searchWordAmount = 0;
-	    for (String word : content) {
-	        if(Objects.equals(word, searchWord)) searchWordAmount++;
+	    for (String word : content.keySet()) {
+	        if(Objects.equals(word, searchWord)) searchWordAmount = content.get(word).getOccurrence();
         }
 
         return searchWordAmount;
