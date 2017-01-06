@@ -1,7 +1,7 @@
 package ch.bfh.bti7535.w2016.util;
 
-import ch.bfh.bti7535.w2016.data.Document;
 import ch.bfh.bti7535.w2016.data.Classification;
+import ch.bfh.bti7535.w2016.data.Document;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -48,15 +48,23 @@ public class FileReaderUtil {
 		return docList;
 	}
 
-	private static Document readFile(Path file, Classification classification) {
+	public static Document readFile(Path file, Classification classification) {
 		Document doc = new Document();
 		try {
 			String fileContent = new String(Files.readAllBytes(file));
-			String[] tokenized = fileContent.split("[^a-zA-Z0-9']+");
+			String[] tokenized = fileContent.split("[^a-zA-Z0-9',?!.]+");
 
 			Map<String, Document.WordProperty> tokens = new HashMap<>();
-			for (String token : tokenized)
-				tokens.put(token, new Document.WordProperty(0, Classification.NOT_CLASSIFIED));
+			for (String token : tokenized) {
+				Document.WordProperty wordProperty;
+				if (!tokens.containsKey(token)) {
+					wordProperty = new Document.WordProperty(Classification.NOT_CLASSIFIED);
+				} else {
+					wordProperty = tokens.get(token);
+					wordProperty.increaseOccurrence();
+				}
+				tokens.put(token, wordProperty);
+			}
 
 			doc = new Document(tokens, classification);
 			doc.setFilename(file.getFileName().toString());

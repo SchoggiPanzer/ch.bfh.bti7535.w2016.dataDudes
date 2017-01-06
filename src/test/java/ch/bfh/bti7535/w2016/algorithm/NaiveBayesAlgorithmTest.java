@@ -24,13 +24,13 @@ public class NaiveBayesAlgorithmTest {
 
 		String negContent = new String(Files.readAllBytes(Paths.get(ClassLoader.getSystemResource("pos.txt").toURI())));
 		List<String> negTokens = Arrays.asList(negContent.split(" "));
-		docList.add(new Document(negTokens, Classification.SENTIMENT_NEGATIVE));
+		//docList.add(new Document(negTokens, Classification.SENTIMENT_NEGATIVE));
 
 		String posContent = new String(Files.readAllBytes(Paths.get(ClassLoader.getSystemResource("neg.txt").toURI())));
 		List<String> posTokens = Arrays.asList(posContent.split(" "));
-		docList.add(new Document(posTokens, Classification.SENTIMENT_POSITIVE));
+		//docList.add(new Document(posTokens, Classification.SENTIMENT_POSITIVE));
 
-		docList.add(new Document(negTokens, Classification.SENTIMENT_NEGATIVE));
+		//docList.add(new Document(negTokens, Classification.SENTIMENT_NEGATIVE));
 	}
 
 	@Test
