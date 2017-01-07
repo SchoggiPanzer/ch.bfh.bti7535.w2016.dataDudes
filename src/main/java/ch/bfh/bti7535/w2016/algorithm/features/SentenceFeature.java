@@ -7,10 +7,12 @@ import ch.bfh.bti7535.w2016.util.DocumentUtil;
 import java.util.List;
 
 public abstract class SentenceFeature extends AbstractFeature {
-	List<Document> documents;
-	Classification classification;
 
-	protected void execute(char type) {
+	protected enum Type {
+		QUESTION, EXCLAMATION, POINT
+	}
+
+	protected void execute(List<Document> documents, Classification classification, Type type) {
 		double sentencesAmount = 0;
 		for (Document doc : documents) {
 			if (doc.getGoldStandard().equals(classification))
@@ -21,10 +23,10 @@ public abstract class SentenceFeature extends AbstractFeature {
 		for (Document doc : documents) {
 			if (doc.getGoldStandard().equals(classification)) {
 				switch (type) {
-				case '?':
+				case QUESTION:
 					sentenceTypeAmount += DocumentUtil.countQuestionSenctences(doc);
 					break;
-				case '!':
+				case EXCLAMATION:
 					sentenceTypeAmount += DocumentUtil.countQuestionSenctences(doc);
 					break;
 				}

@@ -9,8 +9,6 @@ public class ExclamationSentenceFeature extends SentenceFeature {
 
 	@Override
 	public void train(List<Document> documents, Classification classification) {
-		super.documents = documents;
-		super.classification = classification;
-		execute('!');
+		execute(documents, classification, Type.EXCLAMATION);
 	}
 }
