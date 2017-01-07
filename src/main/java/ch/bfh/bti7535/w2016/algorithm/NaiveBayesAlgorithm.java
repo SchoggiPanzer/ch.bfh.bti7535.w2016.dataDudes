@@ -1,9 +1,12 @@
 package ch.bfh.bti7535.w2016.algorithm;
 
 import ch.bfh.bti7535.w2016.algorithm.features.AbstractFeature;
+
 import ch.bfh.bti7535.w2016.algorithm.features.ExclamationSentenceFeature;
 import ch.bfh.bti7535.w2016.algorithm.features.GoodWordSetFeature;
 import ch.bfh.bti7535.w2016.algorithm.features.QuestionSentenceFeature;
+
+import ch.bfh.bti7535.w2016.algorithm.features.WordFeature;
 import ch.bfh.bti7535.w2016.data.Classification;
 import ch.bfh.bti7535.w2016.data.Document;
 
@@ -81,6 +84,9 @@ public class NaiveBayesAlgorithm extends AbstractAlgorithm {
 		features.add(new QuestionSentenceFeature());
 		features.add(new ExclamationSentenceFeature());
 		features.add(new GoodWordSetFeature());
+		features.add(new WordFeature("good"));
+		features.add(new WordFeature("bad"));
+		// Add more features here...
 
 		return features;
 	}

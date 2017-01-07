@@ -4,6 +4,7 @@ import ch.bfh.bti7535.w2016.data.Document;
 
 import java.util.List;
 import java.util.Map;
+import java.util.Objects;
 
 public class DocumentUtil {
 	private static String[] sentenceEnds = new String[] { ".", "?", "!" };
@@ -78,4 +79,15 @@ public class DocumentUtil {
 
 		return sentences;
 	}
+
+	public static int countSpecificWord(Document doc, String searchWord) {
+        Map<String, Document.WordProperty> content = doc.getContentWithWordProperties();
+
+	    int searchWordAmount = 0;
+	    for (String word : content.keySet()) {
+	        if(Objects.equals(word, searchWord)) searchWordAmount = content.get(word).getOccurrence();
+        }
+
+        return searchWordAmount;
+    }
 }
