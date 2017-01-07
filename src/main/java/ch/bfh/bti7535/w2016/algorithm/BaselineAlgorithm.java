@@ -2,10 +2,7 @@ package ch.bfh.bti7535.w2016.algorithm;
 
 import ch.bfh.bti7535.w2016.data.Classification;
 import ch.bfh.bti7535.w2016.data.Document;
-import org.apache.commons.httpclient.HttpClient;
-import org.apache.commons.httpclient.HttpStatus;
-import org.apache.commons.httpclient.methods.PostMethod;
-import org.json.JSONObject;
+import ch.bfh.bti7535.w2016.util.SentimentWordsUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import sun.reflect.generics.reflectiveObjects.NotImplementedException;
@@ -16,7 +13,8 @@ import java.util.Map;
 
 public class BaselineAlgorithm extends AbstractAlgorithm {
 	private static Logger log = LoggerFactory.getLogger(BaselineAlgorithm.class);
-	private static String SENTIMENT_API_URL = "http://text-processing.com/api/sentiment/";
+
+	private SentimentWordsUtil sentimentWordsUtil = new SentimentWordsUtil();
 
 	@Override
 	public List<Document> execute(List<Document> input) {
@@ -34,20 +32,20 @@ public class BaselineAlgorithm extends AbstractAlgorithm {
 	}
 
 	private Document processDocument(Document doc) {
-		float posWords = 0;
-		float negWords = 0;
+		double posWords = 0.0;
+		double negWords = 0.0;
 
-		Map<String, Document.WordProperty> content = doc.getContentWithWordProperties();
+		Map<String, Integer> content = doc.getContentWithWordProperties();
 		for (String word : content.keySet()) {
-			int occurence = content.get(word).getOccurrence();
+			int occurrence = content.get(word);
 
-			if (isPositiveWord(word))
-				posWords += occurence;
-			else
-				negWords += occurence;
+			if (sentimentWordsUtil.isPositiveWord(word))
+				posWords += occurrence;
+			else if (sentimentWordsUtil.isNegativeWord(word))
+				negWords += occurrence;
 		}
 
-		float total = posWords + negWords;
+		double total = posWords + negWords;
 		if (total > 0) {
 			Classification c = (posWords / total > 0.5) ? Classification.SENTIMENT_POSITIVE : Classification.SENTIMENT_NEGATIVE;
 			doc.setTestResult(c);
@@ -58,22 +56,4 @@ public class BaselineAlgorithm extends AbstractAlgorithm {
 		return doc;
 	}
 
-	private boolean isPositiveWord(String word) {
-		boolean result = false;
-		try {
-			HttpClient httpClient = new HttpClient();
-			PostMethod postMethod = new PostMethod(SENTIMENT_API_URL);
-			postMethod.addParameter("text", word);
-			httpClient.executeMethod(postMethod);
-
-			if (postMethod.getStatusCode() == HttpStatus.SC_OK) {
-				String resp = postMethod.getResponseBodyAsString();
-				String label = (String) new JSONObject(resp).get("label");
-				result = (label.equals(Classification.SENTIMENT_POSITIVE.getLabel()));
-			}
-		} catch (Exception e) {
-			log.error(e.getMessage(), e);
-		}
-		return result;
-	}
 }

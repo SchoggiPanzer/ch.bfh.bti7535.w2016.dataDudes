@@ -22,9 +22,9 @@ public class Evaluate {
 
 			String baseline = String.format(
 					"\n---------------------\n%s\n---------------------\n"
-							+ "Precision:\t%f\n"
-							+ "Recall:\t\t%f\n"
-							+ "f-Measure:\t%f\n\n", algo.getClass().getSimpleName(), precision, recall, fmesure);
+							+ "Precision:\t%.03f %%\n"
+							+ "Recall:\t\t%.03f %%\n"
+							+ "f-Measure:\t%.03f %%\n\n", algo.getClass().getSimpleName(), precision * 100, recall * 100, fmesure * 100);
 
 			log.info(baseline);
 		} catch (IllegalAccessException | InstantiationException e) {
@@ -46,8 +46,8 @@ public class Evaluate {
 				log.error("The argument {} does not match any algorithm.");
 			}
 		} else {
-			//evaluateByClassname(BaselineAlgorithm.class);
-			evaluateByClassname(NaiveBayesAlgorithm.class);
+			evaluateByClassname(BaselineAlgorithm.class);
+			//evaluateByClassname(NaiveBayesAlgorithm.class);
 		}
 	}
 }
