@@ -9,4 +9,12 @@ public class CollectionUtil {
 		List<String> strings = Arrays.asList(list);
 		return strings.contains(input);
 	}
+
+	public static int getSmallestSize(List l1, List l2) {
+		return (l1.size() > l2.size()) ? l2.size() : l1.size();
+	}
+
+	public static int getBiggestSize(List l1, List l2) {
+		return (l1.size() < l2.size()) ? l2.size() : l1.size();
+	}
 }

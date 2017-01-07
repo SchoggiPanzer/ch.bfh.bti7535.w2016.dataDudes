@@ -10,7 +10,7 @@ public class Document {
 	private String filename;
 	private Classification goldStandard;
 	private Classification testResult;
-	private Map<String, WordProperty> content = new HashMap<>();
+	private Map<String, Integer> content = new HashMap<>();
 
 	public Document() {
 	}
@@ -20,7 +20,7 @@ public class Document {
 		this.goldStandard = goldStandard;
 	}
 
-	public Document(Map<String, WordProperty> content, Classification goldStandard) {
+	public Document(Map<String, Integer> content, Classification goldStandard) {
 		this.content = content;
 		this.goldStandard = goldStandard;
 	}
@@ -41,11 +41,11 @@ public class Document {
 		this.goldStandard = classifier;
 	}
 
-	public void setContent(Map<String, WordProperty> content) {
+	public void setContent(Map<String, Integer> content) {
 		this.content = content;
 	}
 
-	public Map<String, WordProperty> getContentWithWordProperties() {
+	public Map<String, Integer> getContentWithWordProperties() {
 		return content;
 	}
 
@@ -55,7 +55,7 @@ public class Document {
 
 	public void setContent(List<String> content) {
 		for (String token : content) {
-			this.content.put(token, new WordProperty());
+			this.content.put(token, 1);
 		}
 	}
 
@@ -67,36 +67,4 @@ public class Document {
 		this.testResult = testResult;
 	}
 
-	public static class WordProperty {
-		private int occurrence;
-		private Classification meaning;
-
-		public WordProperty() {
-			this(1, Classification.NOT_CLASSIFIED);
-		}
-
-		public WordProperty(Classification meaning) {
-			this(1, meaning);
-		}
-
-		public WordProperty(int occurrence, Classification meaning) {
-			this.occurrence = occurrence;
-			this.meaning = meaning;
-		}
-
-		public int getOccurrence() {
-			return occurrence;
-		}
-
-		public void increaseOccurrence() {
-			this.occurrence += 1;
-		}
-
-		@Override public String toString() {
-			return "WordProperty{" +
-					"occurrence=" + occurrence +
-					", meaning=" + meaning +
-					'}';
-		}
-	}
 }

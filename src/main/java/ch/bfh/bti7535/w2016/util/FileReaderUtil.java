@@ -54,16 +54,16 @@ public class FileReaderUtil {
 			String fileContent = new String(Files.readAllBytes(file));
 			String[] tokenized = fileContent.split("[^a-zA-Z0-9',?!.]+");
 
-			Map<String, Document.WordProperty> tokens = new HashMap<>();
+			Map<String, Integer> tokens = new HashMap<>();
 			for (String token : tokenized) {
-				Document.WordProperty wordProperty;
+				int occurrence = 0;
 				if (!tokens.containsKey(token)) {
-					wordProperty = new Document.WordProperty(Classification.NOT_CLASSIFIED);
+					occurrence = 1;
 				} else {
-					wordProperty = tokens.get(token);
-					wordProperty.increaseOccurrence();
+					occurrence = tokens.get(token);
+					occurrence++;
 				}
-				tokens.put(token, wordProperty);
+				tokens.put(token, occurrence);
 			}
 
 			doc = new Document(tokens, classification);

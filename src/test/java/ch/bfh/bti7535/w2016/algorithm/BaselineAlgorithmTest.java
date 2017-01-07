@@ -13,28 +13,60 @@ import java.util.Map;
 
 public class BaselineAlgorithmTest {
 
+	private List<Document> posWordList;
+	private List<Document> negWordList;
+
+	// Since algorithm should be stateless we can instantiate the object once
+	private BaselineAlgorithm TEST_OBJECT = new BaselineAlgorithm();
+
 	@Before
 	public void setUp() throws Exception {
+		//
+		// Positive document
+		Map<String, Integer> posWords = new HashMap<>();
+		posWords.put("wonderful", 1);
+		posWords.put("awesome", 3);
+		posWords.put("terrible", 1);
 
+		Document posDoc = new Document();
+		posDoc.setGoldStandard(Classification.SENTIMENT_POSITIVE);
+		posDoc.setContent(posWords);
+
+		posWordList = new ArrayList<>();
+		posWordList.add(posDoc);
+
+		//
+		// Negative document
+		Map<String, Integer> negWords = new HashMap<>();
+		negWords.put("awful", 3);
+		negWords.put("nice", 1);
+		negWords.put("bad", 3);
+
+		Document negDoc = new Document();
+		negDoc.setGoldStandard(Classification.SENTIMENT_NEGATIVE);
+		negDoc.setContent(negWords);
+
+		negWordList = new ArrayList<>();
+		negWordList.add(negDoc);
 	}
 
 	@Test
-	public void testExecute() throws Exception {
-		Map<String, Document.WordProperty> dummyWords = new HashMap<>();
-		dummyWords.put("wonderful", new Document.WordProperty(1, Classification.SENTIMENT_POSITIVE));
-		dummyWords.put("awesome", new Document.WordProperty(10, Classification.SENTIMENT_POSITIVE));
-		dummyWords.put("terrible", new Document.WordProperty(3, Classification.SENTIMENT_NEGATIVE));
-
-		Document doc = new Document();
-		doc.setContent(dummyWords);
-		List docList = new ArrayList();
-		docList.add(doc);
-
-		BaselineAlgorithm ba = new BaselineAlgorithm();
-		List<Document> results = ba.execute(docList);
+	public void testPositiveCase() throws Exception {
+		List<Document> results = TEST_OBJECT.execute(posWordList);
 		Assert.assertEquals(1, results.size());
 
-		doc = results.get(0);
+		Document doc = results.get(0);
+		Assert.assertEquals(Classification.SENTIMENT_POSITIVE, doc.getGoldStandard());
 		Assert.assertEquals(Classification.SENTIMENT_POSITIVE, doc.getTestResult());
+	}
+
+	@Test
+	public void testNegativeCase() throws Exception {
+		List<Document> results = TEST_OBJECT.execute(negWordList);
+		Assert.assertEquals(1, results.size());
+
+		Document doc = results.get(0);
+		Assert.assertEquals(Classification.SENTIMENT_NEGATIVE, doc.getGoldStandard());
+		Assert.assertEquals(Classification.SENTIMENT_NEGATIVE, doc.getTestResult());
 	}
 }

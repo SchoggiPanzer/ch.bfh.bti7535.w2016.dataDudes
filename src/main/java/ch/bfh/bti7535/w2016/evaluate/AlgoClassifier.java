@@ -1,8 +1,8 @@
 package ch.bfh.bti7535.w2016.evaluate;
 
 import ch.bfh.bti7535.w2016.algorithm.AbstractAlgorithm;
-import ch.bfh.bti7535.w2016.data.Document;
 import ch.bfh.bti7535.w2016.data.Classification;
+import ch.bfh.bti7535.w2016.data.Document;
 import ch.bfh.bti7535.w2016.util.FileReaderUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -40,18 +40,18 @@ public class AlgoClassifier {
 		Classification gold = doc.getGoldStandard();
 		Classification calculated = doc.getTestResult();
 
-		// Does handle NOT_CLASSIFIED as SENTIMENT_NEGATIVE
+		// Ignores SENTIMENT_NOT_CLASSIFIED
 		if (gold == calculated) {
 			//true
 			if (gold == Classification.SENTIMENT_POSITIVE)
 				truePos++;
-			else
+			else if (gold == Classification.SENTIMENT_NEGATIVE)
 				trueNeg++;
 		} else {
 			//false
 			if (calculated == Classification.SENTIMENT_POSITIVE)
 				falsePos++;
-			else
+			else if (calculated == Classification.SENTIMENT_NEGATIVE)
 				falseNeg++;
 		}
 	}
