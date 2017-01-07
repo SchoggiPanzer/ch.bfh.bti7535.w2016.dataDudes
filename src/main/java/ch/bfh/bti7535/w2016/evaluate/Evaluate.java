@@ -1,6 +1,7 @@
 package ch.bfh.bti7535.w2016.evaluate;
 
 import ch.bfh.bti7535.w2016.algorithm.AbstractAlgorithm;
+import ch.bfh.bti7535.w2016.algorithm.BaselineAlgorithm;
 import ch.bfh.bti7535.w2016.algorithm.NaiveBayesAlgorithm;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -11,6 +12,7 @@ public class Evaluate {
 
 	private static void evaluateByClassname(Class clazz) {
 		try {
+			log.info("Using {} for sentiment analysis", clazz.getSimpleName());
 			AbstractAlgorithm algo = (AbstractAlgorithm) clazz.newInstance();
 			AlgoClassifier classifier = new AlgoClassifier(algo);
 
@@ -19,10 +21,10 @@ public class Evaluate {
 			double recall = classifier.getRecall();
 
 			String baseline = String.format(
-					"\n---------------------\nBaseline Algorithm\n---------------------\n"
+					"\n---------------------\n%s\n---------------------\n"
 							+ "Precision:\t%f\n"
 							+ "Recall:\t\t%f\n"
-							+ "f-Measure:\t%f\n\n", precision, recall, fmesure);
+							+ "f-Measure:\t%f\n\n", algo.getClass().getSimpleName(), precision, recall, fmesure);
 
 			log.info(baseline);
 		} catch (IllegalAccessException | InstantiationException e) {
@@ -31,7 +33,21 @@ public class Evaluate {
 	}
 
 	public static void main(String[] args) {
-		//evaluateByClassname(BaselineAlgorithm.class);
-		evaluateByClassname(NaiveBayesAlgorithm.class);
+		if (args.length == 1) {
+			String arg0 = args[0];
+			switch (arg0.toLowerCase()) {
+			case "baseline":
+				evaluateByClassname(BaselineAlgorithm.class);
+				break;
+			case "naivebayes":
+				evaluateByClassname(NaiveBayesAlgorithm.class);
+				break;
+			default:
+				log.error("The argument {} does not match any algorithm.");
+			}
+		} else {
+			//evaluateByClassname(BaselineAlgorithm.class);
+			evaluateByClassname(NaiveBayesAlgorithm.class);
+		}
 	}
 }
