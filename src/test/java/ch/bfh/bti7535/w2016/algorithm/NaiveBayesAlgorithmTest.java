@@ -32,16 +32,6 @@ public class NaiveBayesAlgorithmTest {
 	}
 
 	@Test
-	public void testAutoSplitExecute() throws Exception {
-		NaiveBayesAlgorithm naiveBayesAlgorithm = new NaiveBayesAlgorithm();
-		List<Document> results = naiveBayesAlgorithm.execute(docList);
-
-		assertEquals(1, results.size());
-		Document negativeDoc = results.get(0);
-		assertEquals(negativeDoc.getTestResult(), negativeDoc.getGoldStandard());
-	}
-
-	@Test
 	public void testManualSplitExecute() throws Exception {
 		NaiveBayesAlgorithm naiveBayesAlgorithm = new NaiveBayesAlgorithm();
 		List<Document> results = naiveBayesAlgorithm.execute(docList.subList(0, 2), docList.subList(1, 3));
