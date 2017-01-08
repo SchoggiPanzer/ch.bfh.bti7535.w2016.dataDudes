@@ -11,7 +11,7 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.ArrayList;
-import java.util.HashMap;
+import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.stream.Stream;
 
@@ -54,7 +54,7 @@ public class FileReaderUtil {
 			String fileContent = new String(Files.readAllBytes(file));
 			String[] tokenized = fileContent.split("[^a-zA-Z0-9',?!.]+");
 
-			Map<String, Integer> tokens = new HashMap<>();
+			Map<String, Integer> tokens = new LinkedHashMap<>();
 			for (String token : tokenized) {
 				int occurrence = 0;
 				if (!tokens.containsKey(token)) {

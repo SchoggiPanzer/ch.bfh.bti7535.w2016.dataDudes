@@ -8,32 +8,12 @@ import java.util.List;
 
 public abstract class SentenceFeature extends AbstractFeature {
 
-	protected enum Type {
-		QUESTION, EXCLAMATION, POINT
-	}
-
-	protected void execute(List<Document> documents, Classification classification, Type type) {
+	double getSentences(List<Document> documents, Classification classification) {
 		double sentencesAmount = 0;
-		for (Document doc : documents) {
+		for (Document doc : documents)
 			if (doc.getGoldStandard().equals(classification))
 				sentencesAmount += DocumentUtil.countSentences(doc);
-		}
 
-		double sentenceTypeAmount = 0;
-		for (Document doc : documents) {
-			if (doc.getGoldStandard().equals(classification)) {
-				switch (type) {
-				case QUESTION:
-					sentenceTypeAmount += DocumentUtil.countQuestionSenctences(doc);
-					break;
-				case EXCLAMATION:
-					sentenceTypeAmount += DocumentUtil.countQuestionSenctences(doc);
-					break;
-				}
-			}
-		}
-
-		double result = (sentencesAmount > 0) ? sentenceTypeAmount / sentencesAmount : 0;
-		setProbability(classification, result);
+		return sentencesAmount;
 	}
 }

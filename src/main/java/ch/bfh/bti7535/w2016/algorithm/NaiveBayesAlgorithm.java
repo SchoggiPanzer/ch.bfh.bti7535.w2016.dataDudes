@@ -1,9 +1,8 @@
 package ch.bfh.bti7535.w2016.algorithm;
 
 import ch.bfh.bti7535.w2016.algorithm.features.AbstractFeature;
-import ch.bfh.bti7535.w2016.algorithm.features.ExclamationSentenceFeature;
+import ch.bfh.bti7535.w2016.algorithm.features.BadWordSetFeature;
 import ch.bfh.bti7535.w2016.algorithm.features.GoodWordSetFeature;
-import ch.bfh.bti7535.w2016.algorithm.features.QuestionSentenceFeature;
 import ch.bfh.bti7535.w2016.data.Classification;
 import ch.bfh.bti7535.w2016.data.Document;
 
@@ -31,14 +30,13 @@ public class NaiveBayesAlgorithm extends AbstractAlgorithm {
 
 	@Override
 	public List<Document> execute(List<Document> trainingSet, List<Document> testSet) {
-		// TODO: Implement dynamic feature set to get best f-measure
 		// 1. Setup the feature set
 		featurePipeline = getFeaturePipeline();
 
 		// 2. Train based on training documents. This will calculates the feature probabilities
 		train(trainingSet);
 
-		// 3. Classify the testset documents based on the trained feature probabilities
+		// 3. Classify the test set documents based on the trained feature probabilities
 		List<Document> results = new ArrayList<>();
 		for (Document d : testSet) {
 			Document classified = test(d);
@@ -58,8 +56,8 @@ public class NaiveBayesAlgorithm extends AbstractAlgorithm {
 		double classifiedNegative = 0.0;
 
 		for (AbstractFeature feature : featurePipeline) {
-			classifiedPositive += calcProbabilityTimesOccurrence(feature, Classification.SENTIMENT_POSITIVE);
-			classifiedNegative += calcProbabilityTimesOccurrence(feature, Classification.SENTIMENT_NEGATIVE);
+			classifiedPositive += calcProbabilityTimesOccurrence(document, feature, Classification.SENTIMENT_POSITIVE);
+			classifiedNegative += calcProbabilityTimesOccurrence(document, feature, Classification.SENTIMENT_NEGATIVE);
 		}
 
 		document.setTestResult(classifiedPositive > classifiedNegative ?
@@ -67,20 +65,18 @@ public class NaiveBayesAlgorithm extends AbstractAlgorithm {
 		return document;
 	}
 
-	private double calcProbabilityTimesOccurrence(AbstractFeature feature, Classification classification) {
+	private double calcProbabilityTimesOccurrence(Document doc, AbstractFeature feature, Classification classification) {
 		double probability = feature.getProbability(classification);
-		// double occurrence = feature.getOccurrence(classification);
-
-		// FIXME: Calculate the occurrence of the feature
-		double occurrence = 1.0;
+		double occurrence = feature.test(doc);
 		return probability * occurrence;
 	}
 
 	private List<AbstractFeature> getFeaturePipeline() {
 		List<AbstractFeature> features = new ArrayList<>();
-		features.add(new QuestionSentenceFeature());
-		features.add(new ExclamationSentenceFeature());
+		//features.add(new QuestionSentenceFeature());
+		//features.add(new ExclamationSentenceFeature());
 		features.add(new GoodWordSetFeature());
+		features.add(new BadWordSetFeature());
 
 		return features;
 	}

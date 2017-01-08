@@ -7,7 +7,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 import java.util.ArrayList;
-import java.util.HashMap;
+import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 
@@ -23,7 +23,7 @@ public class BaselineAlgorithmTest {
 	public void setUp() throws Exception {
 		//
 		// Positive document
-		Map<String, Integer> posWords = new HashMap<>();
+		Map<String, Integer> posWords = new LinkedHashMap<>();
 		posWords.put("wonderful", 1);
 		posWords.put("awesome", 3);
 		posWords.put("terrible", 1);
@@ -37,7 +37,7 @@ public class BaselineAlgorithmTest {
 
 		//
 		// Negative document
-		Map<String, Integer> negWords = new HashMap<>();
+		Map<String, Integer> negWords = new LinkedHashMap<>();
 		negWords.put("awful", 3);
 		negWords.put("nice", 1);
 		negWords.put("bad", 3);
