@@ -46,8 +46,8 @@ public class Evaluate {
 				log.error("The argument {} does not match any algorithm.");
 			}
 		} else {
-			evaluateByClassname(BaselineAlgorithm.class);
-			//evaluateByClassname(NaiveBayesAlgorithm.class);
+			//evaluateByClassname(BaselineAlgorithm.class);
+			evaluateByClassname(NaiveBayesAlgorithm.class);
 		}
 	}
 }

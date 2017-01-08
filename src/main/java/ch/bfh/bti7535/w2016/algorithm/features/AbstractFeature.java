@@ -16,18 +16,24 @@ public abstract class AbstractFeature {
 		probabilities.put(Classification.SENTIMENT_NEGATIVE, 0.0);
 	}
 
-	protected void setProbability(Classification classification, double probability) {
-		probabilities.put(classification, probability);
-	}
-
 	public double getProbability(Classification classification) {
 		return probabilities.get(classification);
 	}
 
 	public void train(List<Document> documents) {
-		train(documents, Classification.SENTIMENT_POSITIVE);
-		train(documents, Classification.SENTIMENT_NEGATIVE);
+		double pos = train(documents, Classification.SENTIMENT_POSITIVE);
+		double neg = train(documents, Classification.SENTIMENT_NEGATIVE);
+		pos = normalize(pos);
+		neg = normalize(neg);
+		probabilities.put(Classification.SENTIMENT_POSITIVE, pos);
+		probabilities.put(Classification.SENTIMENT_NEGATIVE, neg);
 	}
 
-	protected abstract void train(List<Document> documents, Classification classification);
+	private double normalize(double number) {
+		return 1.0 - 1.0 / (1.0 + number);
+	}
+
+	protected abstract double train(List<Document> documents, Classification classification);
+
+	public abstract double test(Document document);
 }

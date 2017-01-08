@@ -1,7 +1,7 @@
 package ch.bfh.bti7535.w2016.data;
 
 import java.util.ArrayList;
-import java.util.HashMap;
+import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 
@@ -10,7 +10,7 @@ public class Document {
 	private String filename;
 	private Classification goldStandard;
 	private Classification testResult;
-	private Map<String, Integer> content = new HashMap<>();
+	private Map<String, Integer> content = new LinkedHashMap<>();
 
 	public Document() {
 	}
@@ -45,18 +45,18 @@ public class Document {
 		this.content = content;
 	}
 
+	public void setContent(List<String> content) {
+		for (String token : content) {
+			this.content.put(token, 1);
+		}
+	}
+
 	public Map<String, Integer> getContentWithWordProperties() {
 		return content;
 	}
 
 	public List<String> getContent() {
 		return new ArrayList<>(content.keySet());
-	}
-
-	public void setContent(List<String> content) {
-		for (String token : content) {
-			this.content.put(token, 1);
-		}
 	}
 
 	public Classification getTestResult() {

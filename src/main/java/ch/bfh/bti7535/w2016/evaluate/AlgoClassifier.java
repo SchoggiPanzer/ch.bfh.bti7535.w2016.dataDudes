@@ -34,6 +34,16 @@ public class AlgoClassifier {
 		for (Document doc : docs) {
 			classifySingleDoc(doc);
 		}
+
+		String confusionMatrix = String.format(
+				"\nCONFUSION MATRIX:\n" +
+						".---------------------.\n" +
+						"| %-8.0f | %-8.0f |\n" +
+						"-----------------------\n" +
+						"| %-8.0f | %-8.0f |\n" +
+						"`---------------------'\n",
+				truePos, trueNeg, falsePos, falseNeg);
+		log.debug(confusionMatrix);
 	}
 
 	private void classifySingleDoc(Document doc) {
