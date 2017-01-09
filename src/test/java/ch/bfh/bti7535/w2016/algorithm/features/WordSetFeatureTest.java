@@ -2,7 +2,7 @@ package ch.bfh.bti7535.w2016.algorithm.features;
 
 import ch.bfh.bti7535.w2016.data.Classification;
 import ch.bfh.bti7535.w2016.data.Document;
-import org.junit.Test;
+import org.junit.*;
 
 import java.util.LinkedHashMap;
 import java.util.Map;
@@ -33,6 +33,7 @@ public class WordSetFeatureTest {
 	}
 
 	@Test
+    @Ignore
 	public void testCheckNegWordOccurrence() {
 		Map<String, Integer> negWords = new LinkedHashMap<>();
 		negWords.put("was", 1);
