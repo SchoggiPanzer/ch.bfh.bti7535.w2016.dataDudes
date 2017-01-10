@@ -15,10 +15,19 @@ import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.stream.Stream;
 
+/**
+ * contains helper methods for reading files
+ */
 public class FileReaderUtil {
 	public static String FILE_PATH = "./src/main/resources/review_polarity/txt_sentoken/";
 	private static Logger log = LoggerFactory.getLogger(FileReaderUtil.class);
 
+	/**
+	 * reads all files from a path and saves them in a arraylist
+	 * @param pathName the path to the files
+	 * @return arraylist of documents
+	 * @throws FileNotFoundException
+	 */
 	public static ArrayList<Document> readFilesFromPath(String pathName)
 			throws FileNotFoundException {
 		ArrayList<Document> docList = new ArrayList<>();
@@ -48,6 +57,12 @@ public class FileReaderUtil {
 		return docList;
 	}
 
+	/**
+	 * read the content of one file, tokenized it and saved in a document object
+	 * @param file the file to read
+	 * @param classification if the file is positive or negative
+	 * @return the document with the single string as content
+	 */
 	public static Document readFile(Path file, Classification classification) {
 		Document doc = new Document();
 		try {

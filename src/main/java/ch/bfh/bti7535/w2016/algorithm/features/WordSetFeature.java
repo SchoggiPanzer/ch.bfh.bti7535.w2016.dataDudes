@@ -6,6 +6,9 @@ import ch.bfh.bti7535.w2016.util.CollectionUtil;
 
 import java.util.List;
 
+/**
+ * This abstract class serves as superclass for the features with words.
+ */
 public abstract class WordSetFeature extends AbstractFeature {
 
 	protected String[] wordSetList;
@@ -13,6 +16,11 @@ public abstract class WordSetFeature extends AbstractFeature {
 	// Only check sentences with 4 words
 	public static final int CUTOFF_DEPTH = 4;
 
+	/**
+	 * calculates the occurrence of the words in a document who also are in the word list of the feature
+	 * @param doc document to calculate
+	 * @return the occurrence
+	 */
 	protected double calculateOccurrence(Document doc) {
 		int occurrence = 0;
 		List<String> content = doc.getContent();
@@ -27,12 +35,25 @@ public abstract class WordSetFeature extends AbstractFeature {
 		return occurrence;
 	}
 
+	/**
+	 * checks if a word of the document is in the set of words from the feature. If yes, then adds the word occurrence
+     * to the total word occurrence
+	 * @param occurrence total word occurrence
+	 * @param word the word to search
+	 * @return total word occurrence
+	 */
 	private int checkWordOccurrence(int occurrence, String word) {
 		if (CollectionUtil.isStringInList(word, wordSetList))
 			occurrence++;
 		return occurrence;
 	}
 
+    /**
+     *
+     * @param documents the list of documents
+     * @param classification positive or negative
+     * @return
+     */
 	@Override
 	public double train(List<Document> documents, Classification classification) {
 		double wordSetOccurrence = 0;
@@ -43,6 +64,11 @@ public abstract class WordSetFeature extends AbstractFeature {
 		return wordSetOccurrence;
 	}
 
+    /**
+     *
+     * @param document document to test
+     * @return
+     */
 	@Override
 	public double test(Document document) {
 		return calculateOccurrence(document);

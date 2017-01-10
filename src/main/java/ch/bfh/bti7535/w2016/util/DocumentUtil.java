@@ -5,9 +5,17 @@ import ch.bfh.bti7535.w2016.data.Document;
 import java.util.List;
 import java.util.Map;
 
+/**
+ * contains helper methods for documents
+ */
 public class DocumentUtil {
 	private static String[] sentenceEnds = new String[] { ".", "?", "!" };
 
+	/**
+	 * counts the total amount of words in a document
+	 * @param doc document to count
+	 * @return amount of words
+	 */
 	public static int countWords(Document doc) {
 		Map<String, Integer> content = doc.getContentWithWordProperties();
 
@@ -18,11 +26,22 @@ public class DocumentUtil {
 		return matches;
 	}
 
+	/**
+	 * counts a single word in a document
+	 * @param doc document to count
+	 * @param word the word to search
+	 * @return amount of the word
+	 */
 	public static int countSingleWord(Document doc, String word) {
 		Map<String, Integer> content = doc.getContentWithWordProperties();
 		return (content.get(word) != null) ? content.get(word) : 0;
 	}
 
+	/**
+	 * counts the sentences of a list of documents.
+	 * @param documents list of documents
+	 * @return total amount of sentences
+	 */
 	public static int countSentences(List<Document> documents) {
 		int sum = 0;
 		for (Document doc : documents) {
@@ -31,6 +50,11 @@ public class DocumentUtil {
 		return sum;
 	}
 
+	/**
+	 * counts the sentences of a document
+	 * @param doc document to count
+	 * @return amount of sentences
+	 */
 	public static int countSentences(Document doc) {
 		Map<String, Integer> content = doc.getContentWithWordProperties();
 
@@ -43,6 +67,11 @@ public class DocumentUtil {
 		return sentences;
 	}
 
+	/**
+	 * count all point sentences in a document
+	 * @param doc document to count
+	 * @return amount of point sentences
+	 */
 	public static int countPointSenctences(Document doc) {
 		Map<String, Integer> content = doc.getContentWithWordProperties();
 
@@ -55,6 +84,11 @@ public class DocumentUtil {
 		return sentences;
 	}
 
+	/**
+	 * count all question sentences in a document
+	 * @param doc document to count
+	 * @return the amount of question sentences
+	 */
 	public static int countQuestionSenctences(Document doc) {
 		Map<String, Integer> content = doc.getContentWithWordProperties();
 
@@ -67,6 +101,11 @@ public class DocumentUtil {
 		return sentences;
 	}
 
+	/**
+	 * count all exclamation sentences in a document
+	 * @param doc document to count
+	 * @return amount of exclamation sentences
+	 */
 	public static int countExclamationSenctences(Document doc) {
 		Map<String, Integer> content = doc.getContentWithWordProperties();
 
