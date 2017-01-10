@@ -18,12 +18,18 @@ public abstract class WordSetFeature extends AbstractFeature {
 		List<String> content = doc.getContent();
 		for (int i = 0; i < content.size(); i++) {
 			String word = content.get(i);
+			occurrence = checkWordOccurrence(occurrence, word);
 			for (int j = 1; j <= CUTOFF_DEPTH && i + j < content.size(); j++) {
 				word = word + " " + content.get(i + j);
-				if (CollectionUtil.isStringInList(word, wordSetList))
-					occurrence++;
+				occurrence = checkWordOccurrence(occurrence, word);
 			}
 		}
+		return occurrence;
+	}
+
+	private int checkWordOccurrence(int occurrence, String word) {
+		if (CollectionUtil.isStringInList(word, wordSetList))
+			occurrence++;
 		return occurrence;
 	}
 
