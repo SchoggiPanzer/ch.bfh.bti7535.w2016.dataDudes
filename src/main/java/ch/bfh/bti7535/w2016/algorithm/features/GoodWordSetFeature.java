@@ -4,15 +4,17 @@ public class GoodWordSetFeature extends WordSetFeature {
 
 	public GoodWordSetFeature() {
 		super.wordSetList = new String[] {
-				"was good",
-				"was terrible",
-				"was awesome",
-				"great movie",
-				"good",
-				"great",
+				"outstanding",
+				"fantastic",
 				"awesome",
-				"nice",
-				"nice movie"
+				"interesting",
+				"perfectly",
+				"excellent",
+				"perfect",
+				"memorable",
+				"life",
+				"best",
+				"must see"
 		};
 	}
 }

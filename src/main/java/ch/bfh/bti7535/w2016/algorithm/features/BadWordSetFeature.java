@@ -4,7 +4,15 @@ public class BadWordSetFeature extends WordSetFeature {
 
 	public BadWordSetFeature() {
 		super.wordSetList = new String[] {
-				""
+				"really bad",
+				"boring",
+				"worst",
+				"stupid",
+				"ridiculous",
+				"waste",
+				"awful",
+				"lame",
+				"mess"
 		};
 	}
 }
