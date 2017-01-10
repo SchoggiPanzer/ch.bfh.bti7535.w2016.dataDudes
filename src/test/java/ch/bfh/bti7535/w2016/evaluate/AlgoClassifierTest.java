@@ -8,21 +8,21 @@ import static org.junit.Assert.assertEquals;
 public class AlgoClassifierTest {
 	private static double DOUBLE_DELTA = 0.0001;
 
-	private MockAlgorithm tp = new MockAlgorithm();
-	private MockAlgorithm tn = new MockAlgorithm();
-	private MockAlgorithm fp = new MockAlgorithm();
-	private MockAlgorithm fn = new MockAlgorithm();
-	private MockAlgorithm mixed = new MockAlgorithm();
-
-	private AlgoClassifier tpA;
-	private AlgoClassifier tnA;
-	private AlgoClassifier fpA;
-	private AlgoClassifier fnA;
-	private AlgoClassifier mixedA;
+	private AlgoClassifier.ConfusionMatrix confusionMatrixTP;
+	private AlgoClassifier.ConfusionMatrix confusionMatrixTN;
+	private AlgoClassifier.ConfusionMatrix confusionMatrixFP;
+	private AlgoClassifier.ConfusionMatrix confusionMatrixFN;
+	private AlgoClassifier.ConfusionMatrix confusionMatrixMixed;
 
 	@Before
-	public void setUp() {
+	public void setUp() throws Exception {
 		int times = 10;
+
+		MockAlgorithm tp = new MockAlgorithm();
+		MockAlgorithm tn = new MockAlgorithm();
+		MockAlgorithm fp = new MockAlgorithm();
+		MockAlgorithm fn = new MockAlgorithm();
+		MockAlgorithm mixed = new MockAlgorithm();
 
 		tp.addTruePos(times);
 		tn.addTrueNeg(times);
@@ -34,20 +34,30 @@ public class AlgoClassifierTest {
 		mixed.addFalsePos(times);
 		mixed.addFalseNeg(times);
 
-		tpA = new AlgoClassifier(tp);
-		tnA = new AlgoClassifier(tn);
-		fpA = new AlgoClassifier(fp);
-		fnA = new AlgoClassifier(fn);
-		mixedA = new AlgoClassifier(mixed);
+		AlgoClassifier tpA = new AlgoClassifier(tp);
+		confusionMatrixTP = tpA.executeAndClassifyAlgorithm(false);
+
+		AlgoClassifier tnA = new AlgoClassifier(tn);
+		confusionMatrixTN = tnA.executeAndClassifyAlgorithm(false);
+
+		AlgoClassifier fpA = new AlgoClassifier(fp);
+		confusionMatrixFP = fpA.executeAndClassifyAlgorithm(false);
+
+		AlgoClassifier fnA = new AlgoClassifier(fn);
+		confusionMatrixFN = fnA.executeAndClassifyAlgorithm(false);
+
+		AlgoClassifier mixedA = new AlgoClassifier(mixed);
+		confusionMatrixMixed = mixedA.executeAndClassifyAlgorithm(false);
 	}
 
 	@Test
 	public void getPrecisionTest() throws Exception {
-		double tpPrecision = tpA.getPrecision();
-		double tnPrecision = tnA.getPrecision();
-		double fpPrecision = fpA.getPrecision();
-		double fnPrecision = fnA.getPrecision();
-		double mixedPrecision = mixedA.getPrecision();
+
+		double tpPrecision = confusionMatrixTP.getPrecision();
+		double tnPrecision = confusionMatrixTN.getPrecision();
+		double fpPrecision = confusionMatrixFP.getPrecision();
+		double fnPrecision = confusionMatrixFN.getPrecision();
+		double mixedPrecision = confusionMatrixMixed.getPrecision();
 
 		assertEquals(1, tpPrecision, DOUBLE_DELTA);
 		assertEquals(0, tnPrecision, DOUBLE_DELTA);
@@ -58,11 +68,11 @@ public class AlgoClassifierTest {
 
 	@Test
 	public void getRecallTest() throws Exception {
-		double tpRecall = tpA.getRecall();
-		double tnRecall = tpA.getRecall();
-		double fpRecall = fpA.getRecall();
-		double fnRecall = fnA.getRecall();
-		double mixedRecall = mixedA.getRecall();
+		double tpRecall = confusionMatrixTP.getRecall();
+		double tnRecall = confusionMatrixTN.getRecall();
+		double fpRecall = confusionMatrixFP.getRecall();
+		double fnRecall = confusionMatrixFN.getRecall();
+		double mixedRecall = confusionMatrixMixed.getRecall();
 
 		assertEquals(1, tpRecall, DOUBLE_DELTA);
 		//FIXME: Check that case (always 1?)
@@ -74,11 +84,11 @@ public class AlgoClassifierTest {
 
 	@Test
 	public void getFmesureTest() throws Exception {
-		double tpFmesure = tpA.getFmesure();
-		double tnFmesure = tnA.getFmesure();
-		double fpFmesure = fpA.getFmesure();
-		double fnFmesure = fnA.getFmesure();
-		double mixedFmesure = mixedA.getFmesure();
+		double tpFmesure = confusionMatrixTP.getFMeasure();
+		double tnFmesure = confusionMatrixTN.getFMeasure();
+		double fpFmesure = confusionMatrixFP.getFMeasure();
+		double fnFmesure = confusionMatrixFN.getFMeasure();
+		double mixedFmesure = confusionMatrixMixed.getFMeasure();
 
 		assertEquals(1, tpFmesure, DOUBLE_DELTA);
 		assertEquals(0, tnFmesure, DOUBLE_DELTA);
@@ -90,11 +100,11 @@ public class AlgoClassifierTest {
 	@Test
 	public void getFmesureBeta1Test() throws Exception {
 		double beta = 3.0;
-		double tpFmesure = tpA.getFmesure(beta);
-		double tnFmesure = tnA.getFmesure(beta);
-		double fpFmesure = fpA.getFmesure(beta);
-		double fnFmesure = fnA.getFmesure(beta);
-		double mixedFmesure = mixedA.getFmesure(beta);
+		double tpFmesure = confusionMatrixTP.getFMeasure(beta);
+		double tnFmesure = confusionMatrixTN.getFMeasure(beta);
+		double fpFmesure = confusionMatrixFP.getFMeasure(beta);
+		double fnFmesure = confusionMatrixFN.getFMeasure(beta);
+		double mixedFmesure = confusionMatrixMixed.getFMeasure(beta);
 
 		assertEquals(1, tpFmesure, DOUBLE_DELTA);
 		assertEquals(0, tnFmesure, DOUBLE_DELTA);
@@ -106,11 +116,11 @@ public class AlgoClassifierTest {
 	@Test
 	public void getFmesureBeta2Test() throws Exception {
 		double beta = 0.0;
-		double tpFmesure = tpA.getFmesure(beta);
-		double tnFmesure = tnA.getFmesure(beta);
-		double fpFmesure = fpA.getFmesure(beta);
-		double fnFmesure = fnA.getFmesure(beta);
-		double mixedFmesure = mixedA.getFmesure(beta);
+		double tpFmesure = confusionMatrixTP.getFMeasure(beta);
+		double tnFmesure = confusionMatrixTN.getFMeasure(beta);
+		double fpFmesure = confusionMatrixFP.getFMeasure(beta);
+		double fnFmesure = confusionMatrixFN.getFMeasure(beta);
+		double mixedFmesure = confusionMatrixMixed.getFMeasure(beta);
 
 		assertEquals(1.0, tpFmesure, DOUBLE_DELTA);
 		assertEquals(0, tnFmesure, DOUBLE_DELTA);
@@ -121,16 +131,16 @@ public class AlgoClassifierTest {
 
 	@Test
 	public void getAccuracyTest() {
-		double t1 = tpA.getAccuracy();
-		double t2 = tnA.getAccuracy();
-		double t3 = fpA.getAccuracy();
-		double t4 = fnA.getAccuracy();
-		double t5 = mixedA.getAccuracy();
+		double t1 = confusionMatrixTP.getAccuracy();
+		double t2 = confusionMatrixTN.getAccuracy();
+		double t3 = confusionMatrixFP.getAccuracy();
+		double t4 = confusionMatrixFN.getAccuracy();
+		double t5 = confusionMatrixMixed.getAccuracy();
 
 		assertEquals(1, t1, DOUBLE_DELTA);
-		assertEquals(0, t2, DOUBLE_DELTA);
+		assertEquals(1, t2, DOUBLE_DELTA);
 		assertEquals(0, t3, DOUBLE_DELTA);
 		assertEquals(0, t4, DOUBLE_DELTA);
-		assertEquals(.25, t5, DOUBLE_DELTA);
+		assertEquals(.5, t5, DOUBLE_DELTA);
 	}
 }

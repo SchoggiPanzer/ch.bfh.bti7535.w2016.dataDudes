@@ -12,7 +12,6 @@ import java.util.List;
 
 public class NaiveBayesAlgorithm extends AbstractAlgorithm {
 
-	public static final float SPLIT_POINT = 0.8f;
 	private List<AbstractFeature> featurePipeline;
 
 	@Override
@@ -56,8 +55,8 @@ public class NaiveBayesAlgorithm extends AbstractAlgorithm {
 		double classifiedNegative = 0.0;
 
 		for (AbstractFeature feature : featurePipeline) {
-			classifiedPositive += calcProbabilityTimesOccurrence(document, feature, Classification.SENTIMENT_POSITIVE);
-			classifiedNegative += calcProbabilityTimesOccurrence(document, feature, Classification.SENTIMENT_NEGATIVE);
+			classifiedPositive += Math.log(testFeature(document, feature, Classification.SENTIMENT_POSITIVE));
+			classifiedNegative += Math.log(testFeature(document, feature, Classification.SENTIMENT_NEGATIVE));
 		}
 
 		document.setTestResult(classifiedPositive > classifiedNegative ?
@@ -65,10 +64,10 @@ public class NaiveBayesAlgorithm extends AbstractAlgorithm {
 		return document;
 	}
 
-	private double calcProbabilityTimesOccurrence(Document doc, AbstractFeature feature, Classification classification) {
+	private double testFeature(Document doc, AbstractFeature feature, Classification classification) {
 		double probability = feature.getProbability(classification);
-		double occurrence = feature.test(doc);
-		return probability * occurrence;
+		double testResult = feature.test(doc);
+		return Math.pow(probability, testResult);
 	}
 
 	private List<AbstractFeature> getFeaturePipeline() {

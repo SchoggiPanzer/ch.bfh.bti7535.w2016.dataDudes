@@ -14,7 +14,9 @@ public class GoodWordSetFeature extends WordSetFeature {
 				"memorable",
 				"life",
 				"best",
-				"must see"
+				"fascination",
+				"fascinating",
+				"incredible"
 		};
 	}
 }
