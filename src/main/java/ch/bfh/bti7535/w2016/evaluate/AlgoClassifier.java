@@ -85,12 +85,13 @@ public class AlgoClassifier {
 		@Override
 		public String toString() {
 			String cm = String.format(
-					"\n\nConfusion Matrix:\n" +
-							".---------------------.\n" +
-							"| %-8.0f | %-8.0f |\n" +
-							"-----------------------\n" +
-							"| %-8.0f | %-8.0f |\n" +
-							"`---------------------'\n",
+					"\n\nConfusion Matrix:\n\n" +
+							"        POS        NEG       \n" +
+							"      .---------------------.\n" +
+							" TRUE | %-8.0f | %-8.0f |\n" +
+							"      -----------------------\n" +
+							"FALSE | %-8.0f | %-8.0f |\n" +
+							"      `---------------------'\n",
 					truePos, trueNeg, falsePos, falseNeg);
 
 			cm += String.format(
