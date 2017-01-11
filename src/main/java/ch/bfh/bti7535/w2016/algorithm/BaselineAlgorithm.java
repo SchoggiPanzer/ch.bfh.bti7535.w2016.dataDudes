@@ -33,10 +33,10 @@ public class BaselineAlgorithm extends AbstractAlgorithm {
 	}
 
 	/**
-	 * Not implemented
-	 * @param trainingSet
-	 * @param testSet
-	 * @return
+	 * execute the algorithm with trainingsset and testset
+	 * @param trainingSet set to train
+	 * @param testSet set to test
+	 * @return list of documents
 	 */
 	@Override
 	public List<Document> execute(List<Document> trainingSet, List<Document> testSet) {
@@ -47,8 +47,8 @@ public class BaselineAlgorithm extends AbstractAlgorithm {
 	/**
 	 * Process a document. This function count the positive and negatives words of the documents. On the base of the
 	 * number of positive and negative word, the classification of the document will set as positiv or negative.
-	 * @param doc
-	 * @return
+	 * @param doc document to process
+	 * @return processed document
 	 */
 	private Document processDocument(Document doc) {
 		double posWords = 0.0;

@@ -17,8 +17,8 @@ public class Evaluate {
 
     /**
      * this function evaluates a algorithm and print out the results
-     * @param clazz
-     * @param kfold
+     * @param clazz algorithm name to execute
+     * @param kfold with kfold or not
      */
 	private static void evaluateByClassname(Class clazz, boolean kfold) {
 		try {

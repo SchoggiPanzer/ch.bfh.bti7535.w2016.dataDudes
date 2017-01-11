@@ -22,6 +22,9 @@ public class AlgoClassifier {
 	private List<ConfusionMatrix> confusionMatrices = new LinkedList<>();
 	private AbstractAlgorithm algorithm;
 
+	/**
+	 * Class to build the confusion matrix
+	 */
 	class ConfusionMatrix {
 		private double truePos = 0;
 		private double trueNeg = 0;
@@ -107,6 +110,10 @@ public class AlgoClassifier {
 			return accuracy;
 		}
 
+		/**
+		 * Converts the results to a String
+		 * @return string with results
+		 */
 		@Override
 		public String toString() {
 			String cm = String.format(
@@ -138,6 +145,12 @@ public class AlgoClassifier {
 		this.algorithm = algorithm;
 	}
 
+	/**
+	 *
+	 * @param kFolding
+	 * @return
+	 * @throws FileNotFoundException
+	 */
 	public ConfusionMatrix executeAndClassifyAlgorithm(boolean kFolding)
 			throws FileNotFoundException {
 		List<Document> inputdocs = FileReaderUtil.readFilesFromPath(FileReaderUtil.FILE_PATH);
@@ -153,6 +166,11 @@ public class AlgoClassifier {
 		return result;
 	}
 
+	/**
+	 *
+	 * @param inputdocs
+	 * @return
+	 */
 	private ConfusionMatrix kFold(List<Document> inputdocs) {
 		ConfusionMatrix result = new ConfusionMatrix();
 		double denominator = 1 - AbstractAlgorithm.SPLIT_POINT;
@@ -177,6 +195,11 @@ public class AlgoClassifier {
 		return result;
 	}
 
+	/**
+	 * classifies a list of documents and return the confusion matrix
+	 * @param docs list of documents
+	 * @return confusion matrix
+	 */
 	protected ConfusionMatrix classify(List<Document> docs) {
 		double truePos = 0;
 		double trueNeg = 0;
