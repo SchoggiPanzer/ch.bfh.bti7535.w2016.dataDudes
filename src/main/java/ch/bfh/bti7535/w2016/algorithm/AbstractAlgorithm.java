@@ -6,7 +6,7 @@ import java.util.List;
 
 public abstract class AbstractAlgorithm {
 
-	private int fMeasure;
+	public static final float SPLIT_POINT = 0.8f;
 
 	public abstract List<Document> execute(List<Document> input);
 

@@ -5,7 +5,6 @@ import ch.bfh.bti7535.w2016.data.Document;
 import ch.bfh.bti7535.w2016.util.SentimentWordsUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import sun.reflect.generics.reflectiveObjects.NotImplementedException;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -22,13 +21,13 @@ public class BaselineAlgorithm extends AbstractAlgorithm {
 		for (Document doc : input) {
 			result.add(processDocument(doc));
 		}
-
 		return result;
 	}
 
 	@Override
 	public List<Document> execute(List<Document> trainingSet, List<Document> testSet) {
-		throw new NotImplementedException();
+		trainingSet.addAll(testSet);
+		return execute(trainingSet);
 	}
 
 	private Document processDocument(Document doc) {
