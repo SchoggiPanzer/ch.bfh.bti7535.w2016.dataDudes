@@ -10,11 +10,19 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
+/**
+ * Baseline algorithm.
+ */
 public class BaselineAlgorithm extends AbstractAlgorithm {
 	private static Logger log = LoggerFactory.getLogger(BaselineAlgorithm.class);
 
 	private SentimentWordsUtil sentimentWordsUtil = new SentimentWordsUtil();
 
+	/**
+	 * this method execute the baseline algorithm
+	 * @param input list of documents to test
+	 * @return list with processed documents
+	 */
 	@Override
 	public List<Document> execute(List<Document> input) {
 		List<Document> result = new ArrayList<>();
@@ -24,12 +32,24 @@ public class BaselineAlgorithm extends AbstractAlgorithm {
 		return result;
 	}
 
+	/**
+	 * Not implemented
+	 * @param trainingSet
+	 * @param testSet
+	 * @return
+	 */
 	@Override
 	public List<Document> execute(List<Document> trainingSet, List<Document> testSet) {
 		trainingSet.addAll(testSet);
 		return execute(trainingSet);
 	}
 
+	/**
+	 * Process a document. This function count the positive and negatives words of the documents. On the base of the
+	 * number of positive and negative word, the classification of the document will set as positiv or negative.
+	 * @param doc
+	 * @return
+	 */
 	private Document processDocument(Document doc) {
 		double posWords = 0.0;
 		double negWords = 0.0;

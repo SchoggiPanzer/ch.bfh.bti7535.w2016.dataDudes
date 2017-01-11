@@ -11,10 +11,18 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
+/**
+ * Naivebayes algorithm
+ */
 public class NaiveBayesAlgorithm extends AbstractAlgorithm {
 
 	private List<AbstractFeature> featurePipeline;
 
+	/**
+	 *
+	 * @param input
+	 * @return
+	 */
 	@Override
 	public List<Document> execute(List<Document> input) {
 		int listSize = input.size();
@@ -28,6 +36,12 @@ public class NaiveBayesAlgorithm extends AbstractAlgorithm {
 		return execute(trainingSet, testSet);
 	}
 
+	/**
+	 *
+	 * @param trainingSet
+	 * @param testSet
+	 * @return
+	 */
 	@Override
 	public List<Document> execute(List<Document> trainingSet, List<Document> testSet) {
 		// 1. Setup the feature set
@@ -45,12 +59,21 @@ public class NaiveBayesAlgorithm extends AbstractAlgorithm {
 		return results;
 	}
 
+	/**
+	 *
+	 * @param trainingSet
+	 */
 	private void train(List<Document> trainingSet) {
 		for (AbstractFeature feature : featurePipeline) {
 			feature.train(trainingSet);
 		}
 	}
 
+	/**
+	 *
+	 * @param document
+	 * @return
+	 */
 	private Document test(Document document) {
 		double classifiedPositive = 0.0;
 		double classifiedNegative = 0.0;
@@ -71,6 +94,10 @@ public class NaiveBayesAlgorithm extends AbstractAlgorithm {
 		return Math.pow(probability, testResult);
 	}
 
+	/**
+	 *
+	 * @return
+	 */
 	private List<AbstractFeature> getFeaturePipeline() {
 		List<AbstractFeature> features = new ArrayList<>();
 		//features.add(new QuestionSentenceFeature());

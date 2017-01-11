@@ -11,6 +11,10 @@ import java.util.Collections;
 import java.util.LinkedList;
 import java.util.List;
 
+/**
+ * Classifies the algorithm on the basis of the results. It looks which results are true positive/negative and which one
+ * are false positive/negative.
+ */
 public class AlgoClassifier {
 
 	private static double DELTA = 0.0001;
@@ -34,6 +38,10 @@ public class AlgoClassifier {
 			this.falseNeg = falseNeg;
 		}
 
+        /**
+         * calculates the precision
+         * @return precision
+         */
 		public double getPrecision() {
 			double precision = 0.0;
 
@@ -43,6 +51,10 @@ public class AlgoClassifier {
 			return precision;
 		}
 
+        /**
+         * calculates the recall
+         * @return recall
+         */
 		public double getRecall() {
 			double recall = 0.0;
 
@@ -52,10 +64,19 @@ public class AlgoClassifier {
 			return recall;
 		}
 
+        /**
+         * get the fmesure
+         * @return fmesure
+         */
 		public double getFMeasure() {
 			return getFMeasure(1.0);
 		}
 
+        /**
+         * calculates the fmesure and returns it
+         * @param beta
+         * @return the fmesure
+         */
 		public double getFMeasure(double beta) {
 			double precision = this.getPrecision();
 			double recall = this.getRecall();
@@ -72,6 +93,10 @@ public class AlgoClassifier {
 			return fMeasure;
 		}
 
+        /**
+         * calculates the accuracy and returns it
+         * @return the accuracy
+         */
 		public double getAccuracy() {
 			double accuracy = 0.0;
 			double denominator = truePos + trueNeg + falsePos + falseNeg;
