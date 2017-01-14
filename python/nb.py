@@ -1,8 +1,12 @@
 #!/bin/python
 
-from sklearn.naive_bayes import MultinomialNB
+from sklearn.naive_bayes import MultinomialNB, GaussianNB
 from sklearn.feature_extraction.text import CountVectorizer
+from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.pipeline import FeatureUnion
 from sklearn import metrics
+from nltk.stem import WordNetLemmatizer
+from nltk import word_tokenize
 import csv
 import random
 import math
@@ -16,11 +20,30 @@ random.shuffle(data)
 splitpoint = math.floor(len(data) * 0.8)
 train, test = data[:splitpoint], data[splitpoint:]
 
+
+class LemmaTokenizer(object):
+
+    def __init__(self):
+        self.wnl = WordNetLemmatizer()
+
+    def __call__(self, doc):
+        return [self.wnl.lemmatize(t) for t in word_tokenize(doc)]
+
+
 # Generate counts from text using a vectorizer.  There are other vectorizers available, and lots of options you can set.
 # This performs our step of computing word counts.
-vectorizer = CountVectorizer(stop_words='english')
-train_features = vectorizer.fit_transform([r[1] for r in train])
-test_features = vectorizer.transform([r[1] for r in test])
+count_feature = CountVectorizer(stop_words='english')
+lemma_feature = CountVectorizer(tokenizer=LemmaTokenizer())
+tfidf_feature = TfidfVectorizer(min_df=1)
+
+# Chain the features
+feature_pipeline = FeatureUnion([
+	('counter', count_feature),
+	('tfidf', tfidf_feature),
+        ('lemma', lemma_feature)],
+	n_jobs=1)
+train_features = feature_pipeline.fit_transform([r[1] for r in train])
+test_features = feature_pipeline.transform([r[1] for r in test])
 
 # Fit a naive bayes model to the training data.
 # This will train the model using the word counts we computer, and the existing classifications in the training set.
