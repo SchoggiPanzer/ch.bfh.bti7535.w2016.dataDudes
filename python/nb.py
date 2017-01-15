@@ -1,60 +1,48 @@
-#!/bin/python
-
-from sklearn.naive_bayes import MultinomialNB, GaussianNB
+from sklearn.naive_bayes import MultinomialNB
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.pipeline import FeatureUnion
+from sklearn.model_selection import train_test_split
 from sklearn import metrics
-from nltk.stem import WordNetLemmatizer
-from nltk import word_tokenize
-import csv
-import random
-import math
+from nltk.corpus import stopwords
+# import random
+import pandas as pd
+import nltk
+from stemmer import tokenize_and_stem
 
 
-with open("data.csv", 'r', encoding="ISO-8859-1") as file:
-    data = list(csv.reader(file, delimiter=';'))
+nltk.download('all')
 
-random.shuffle(data)
+data = pd.read_csv("data.csv", sep=';', names=['sentiment', 'text'], encoding='ISO-8859-1')
+# random.shuffle(data)
+# print(data)
 
-splitpoint = math.floor(len(data) * 0.8)
-train, test = data[:splitpoint], data[splitpoint:]
-
-
-class LemmaTokenizer(object):
-
-    def __init__(self):
-        self.wnl = WordNetLemmatizer()
-
-    def __call__(self, doc):
-        return [self.wnl.lemmatize(t) for t in word_tokenize(doc)]
-
-
-# Generate counts from text using a vectorizer.  There are other vectorizers available, and lots of options you can set.
-# This performs our step of computing word counts.
+# Feature definitions
 count_feature = CountVectorizer(stop_words='english')
-lemma_feature = CountVectorizer(tokenizer=LemmaTokenizer())
-tfidf_feature = TfidfVectorizer(min_df=1)
+stemmer_feature = CountVectorizer(tokenizer=tokenize_and_stem)
+
+stopset = set(stopwords.words('english'))
+tfidf_feature = TfidfVectorizer(use_idf=True, lowercase=True, stop_words=stopset)
 
 # Chain the features
 feature_pipeline = FeatureUnion([
-	('counter', count_feature),
-	('tfidf', tfidf_feature),
-        ('lemma', lemma_feature)],
-	n_jobs=1)
-train_features = feature_pipeline.fit_transform([r[1] for r in train])
-test_features = feature_pipeline.transform([r[1] for r in test])
+    ('count', count_feature),
+    ('stemmer', stemmer_feature),
+    ('tfidf', tfidf_feature),
+], n_jobs=1)
+
+x = feature_pipeline.fit_transform(data.text)
+y = data.sentiment
+
+# Split the data into test and training sets
+x_train, x_test, y_train, y_test = train_test_split(x, y, test_size=0.2, random_state=42)
 
 # Fit a naive bayes model to the training data.
 # This will train the model using the word counts we computer, and the existing classifications in the training set.
 nb = MultinomialNB()
-nb.fit(train_features, [int(r[0]) for r in train])
+nb.fit(x_train, y_train)
 
-# Now we can use the model to predict classifications for our test features.
-predictions = nb.predict(test_features)
-actual = [int(r[0]) for r in test]
-
-# Compute the error.  It is slightly different from our model because the internals of this process work differently from our implementation.
-fpr, tpr, thresholds = metrics.roc_curve(actual, predictions, pos_label=1)
-f1 = metrics.f1_score(actual, predictions)
-print("F1-Score: {0} %".format(f1 * 100))
+actual = y_test
+predictions = nb.predict(x_test)
+score = metrics.roc_auc_score(actual, predictions)
+print("Score: {0} %".format(score * 100))

@@ -1,2 +1,5 @@
 numpy
 nltk
+scipy
+pandas
+sklearn
