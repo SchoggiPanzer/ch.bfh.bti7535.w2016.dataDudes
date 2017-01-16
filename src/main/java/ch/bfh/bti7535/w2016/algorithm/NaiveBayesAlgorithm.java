@@ -3,6 +3,7 @@ package ch.bfh.bti7535.w2016.algorithm;
 import ch.bfh.bti7535.w2016.algorithm.features.AbstractFeature;
 import ch.bfh.bti7535.w2016.algorithm.features.BadWordSetFeature;
 import ch.bfh.bti7535.w2016.algorithm.features.GoodWordSetFeature;
+import ch.bfh.bti7535.w2016.algorithm.features.WordCount;
 import ch.bfh.bti7535.w2016.data.Classification;
 import ch.bfh.bti7535.w2016.data.Document;
 
@@ -76,6 +77,7 @@ public class NaiveBayesAlgorithm extends AbstractAlgorithm {
 		//features.add(new ExclamationSentenceFeature());
 		features.add(new GoodWordSetFeature());
 		features.add(new BadWordSetFeature());
+		features.add(new WordCount());
 
 		return features;
 	}
