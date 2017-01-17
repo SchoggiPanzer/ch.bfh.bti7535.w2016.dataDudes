@@ -11,7 +11,7 @@ from stemmer import tokenize_and_stem
 
 
 # Downloads the nltk data
-nltk.download('stopwords')
+nltk.download('all')
 
 # Import the review data with pandas
 data = pd.read_csv("data.csv", sep=';', names=['sentiment', 'text'], encoding='ISO-8859-1')
