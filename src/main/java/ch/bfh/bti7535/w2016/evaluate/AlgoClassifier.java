@@ -146,9 +146,9 @@ public class AlgoClassifier {
 	}
 
 	/**
-	 *
-	 * @param kFolding
-	 * @return
+	 * Method to execute and classify the algorithm
+	 * @param kFolding execute with (true) or without (false) kfolding
+	 * @return returns the confusion matrix
 	 * @throws FileNotFoundException
 	 */
 	public ConfusionMatrix executeAndClassifyAlgorithm(boolean kFolding)
@@ -167,9 +167,9 @@ public class AlgoClassifier {
 	}
 
 	/**
-	 *
-	 * @param inputdocs
-	 * @return
+	 * returns the confusion matrix with kfolding
+	 * @param inputdocs list of documents
+	 * @return confusion matrix
 	 */
 	private ConfusionMatrix kFold(List<Document> inputdocs) {
 		ConfusionMatrix result = new ConfusionMatrix();

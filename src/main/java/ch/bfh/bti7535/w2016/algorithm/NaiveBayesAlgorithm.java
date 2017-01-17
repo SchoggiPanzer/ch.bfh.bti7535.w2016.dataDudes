@@ -19,9 +19,9 @@ public class NaiveBayesAlgorithm extends AbstractAlgorithm {
 	private List<AbstractFeature> featurePipeline;
 
 	/**
-	 *
-	 * @param input
-	 * @return
+	 * execute naivebayes with list of documents
+	 * @param input list of documents
+	 * @return list of executed documents
 	 */
 	@Override
 	public List<Document> execute(List<Document> input) {
@@ -37,10 +37,10 @@ public class NaiveBayesAlgorithm extends AbstractAlgorithm {
 	}
 
 	/**
-	 *
-	 * @param trainingSet
-	 * @param testSet
-	 * @return
+	 * execute naivebayes with list of training documents and list of test documents
+	 * @param trainingSet list of training documents
+	 * @param testSet list of test documents
+	 * @return list of executed documents
 	 */
 	@Override
 	public List<Document> execute(List<Document> trainingSet, List<Document> testSet) {
@@ -60,8 +60,8 @@ public class NaiveBayesAlgorithm extends AbstractAlgorithm {
 	}
 
 	/**
-	 *
-	 * @param trainingSet
+	 * trains the algorithm with a training set with each feature in teh feature-pipeline
+	 * @param trainingSet list of documents
 	 */
 	private void train(List<Document> trainingSet) {
 		for (AbstractFeature feature : featurePipeline) {
@@ -70,9 +70,9 @@ public class NaiveBayesAlgorithm extends AbstractAlgorithm {
 	}
 
 	/**
-	 *
-	 * @param document
-	 * @return
+	 * test a document with the algorithm
+	 * @param document document to test
+	 * @return tested document
 	 */
 	private Document test(Document document) {
 		double classifiedPositive = 0.0;
@@ -88,6 +88,13 @@ public class NaiveBayesAlgorithm extends AbstractAlgorithm {
 		return document;
 	}
 
+	/**
+	 * test the document with a feature and returns the result
+	 * @param doc document to test
+	 * @param feature with which feature the test will executed
+	 * @param classification classification of the document
+	 * @return result value
+	 */
 	private double testFeature(Document doc, AbstractFeature feature, Classification classification) {
 		double probability = feature.getProbability(classification);
 		double testResult = feature.test(doc);
@@ -95,8 +102,8 @@ public class NaiveBayesAlgorithm extends AbstractAlgorithm {
 	}
 
 	/**
-	 *
-	 * @return
+	 * Get the pipeline of added features
+	 * @return list of features
 	 */
 	private List<AbstractFeature> getFeaturePipeline() {
 		List<AbstractFeature> features = new ArrayList<>();
