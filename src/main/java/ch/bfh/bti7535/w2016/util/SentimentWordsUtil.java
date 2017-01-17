@@ -13,6 +13,9 @@ import java.util.Collections;
 import java.util.List;
 import java.util.stream.Stream;
 
+/**
+ * Class to handle sentiment words
+ */
 public class SentimentWordsUtil {
 	private static Logger log = LoggerFactory.getLogger(SentimentWordsUtil.class);
 
@@ -29,6 +32,11 @@ public class SentimentWordsUtil {
 		//normalize();
 	}
 
+	/**
+	 * read all words from a target file and save them in a list
+	 * @param file file with the sentiment words
+	 * @return List with the sentiment words
+	 */
 	private List<String> readWords(String file) {
 		List<String> words = new ArrayList<>();
 		Path filePath = Paths.get(file);
@@ -50,10 +58,20 @@ public class SentimentWordsUtil {
 		negWords = negWords.subList(0, smallestSize);
 	}
 
+	/**
+	 * checks if a word is in positive wordlist
+	 * @param word word to search
+	 * @return true or false
+	 */
 	public boolean isPositiveWord(String word) {
 		return posWords.contains(word);
 	}
 
+	/**
+	 * checks if a word is in negative wordlist
+	 * @param word word to search
+	 * @return true or false
+	 */
 	public boolean isNegativeWord(String word) {
 		return negWords.contains(word);
 	}

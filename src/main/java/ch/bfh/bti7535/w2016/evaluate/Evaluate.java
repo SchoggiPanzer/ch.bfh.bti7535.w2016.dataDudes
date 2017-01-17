@@ -8,10 +8,18 @@ import org.slf4j.LoggerFactory;
 
 import java.io.FileNotFoundException;
 
+/**
+ * This class contains the main function and the function to evaluate the algorithms
+ */
 public class Evaluate {
 
 	private static Logger log = (Logger) LoggerFactory.getLogger(Evaluate.class);
 
+    /**
+     * this function evaluates a algorithm and print out the results
+     * @param clazz algorithm name to execute
+     * @param kfold with kfold or not
+     */
 	private static void evaluateByClassname(Class clazz, boolean kfold) {
 		try {
 			log.info("Using {} for sentiment analysis", clazz.getSimpleName());
@@ -24,6 +32,10 @@ public class Evaluate {
 		}
 	}
 
+	/**
+	 * Main function. In this function we declare which algorithm we will evaluate
+	 * @param args baseline or naivebayes
+	 */
 	public static void main(String[] args) {
 		if (args.length == 1) {
 			String arg0 = args[0];

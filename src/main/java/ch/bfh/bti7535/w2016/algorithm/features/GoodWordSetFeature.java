@@ -1,5 +1,8 @@
 package ch.bfh.bti7535.w2016.algorithm.features;
 
+/**
+ * this feature checks the documents of good words
+ */
 public class GoodWordSetFeature extends WordSetFeature {
 
 	public GoodWordSetFeature() {

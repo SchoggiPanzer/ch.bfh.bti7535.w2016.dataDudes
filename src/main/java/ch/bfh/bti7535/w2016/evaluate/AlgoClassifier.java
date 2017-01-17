@@ -11,6 +11,10 @@ import java.util.Collections;
 import java.util.LinkedList;
 import java.util.List;
 
+/**
+ * Classifies the algorithm on the basis of the results. It looks which results are true positive/negative and which one
+ * are false positive/negative.
+ */
 public class AlgoClassifier {
 
 	private static double DELTA = 0.0001;
@@ -18,6 +22,9 @@ public class AlgoClassifier {
 	private List<ConfusionMatrix> confusionMatrices = new LinkedList<>();
 	private AbstractAlgorithm algorithm;
 
+	/**
+	 * Class to build the confusion matrix
+	 */
 	class ConfusionMatrix {
 		private double truePos = 0;
 		private double trueNeg = 0;
@@ -34,6 +41,10 @@ public class AlgoClassifier {
 			this.falseNeg = falseNeg;
 		}
 
+        /**
+         * calculates the precision
+         * @return precision
+         */
 		public double getPrecision() {
 			double precision = 0.0;
 
@@ -43,6 +54,10 @@ public class AlgoClassifier {
 			return precision;
 		}
 
+        /**
+         * calculates the recall
+         * @return recall
+         */
 		public double getRecall() {
 			double recall = 0.0;
 
@@ -52,10 +67,19 @@ public class AlgoClassifier {
 			return recall;
 		}
 
+        /**
+         * get the fmesure
+         * @return fmesure
+         */
 		public double getFMeasure() {
 			return getFMeasure(1.0);
 		}
 
+        /**
+         * calculates the fmesure and returns it
+         * @param beta
+         * @return the fmesure
+         */
 		public double getFMeasure(double beta) {
 			double precision = this.getPrecision();
 			double recall = this.getRecall();
@@ -72,6 +96,10 @@ public class AlgoClassifier {
 			return fMeasure;
 		}
 
+        /**
+         * calculates the accuracy and returns it
+         * @return the accuracy
+         */
 		public double getAccuracy() {
 			double accuracy = 0.0;
 			double denominator = truePos + trueNeg + falsePos + falseNeg;
@@ -82,6 +110,10 @@ public class AlgoClassifier {
 			return accuracy;
 		}
 
+		/**
+		 * Converts the results to a String
+		 * @return string with results
+		 */
 		@Override
 		public String toString() {
 			String cm = String.format(
@@ -113,6 +145,12 @@ public class AlgoClassifier {
 		this.algorithm = algorithm;
 	}
 
+	/**
+	 * Method to execute and classify the algorithm
+	 * @param kFolding execute with (true) or without (false) kfolding
+	 * @return returns the confusion matrix
+	 * @throws FileNotFoundException
+	 */
 	public ConfusionMatrix executeAndClassifyAlgorithm(boolean kFolding)
 			throws FileNotFoundException {
 		List<Document> inputdocs = FileReaderUtil.readFilesFromPath(FileReaderUtil.FILE_PATH);
@@ -128,6 +166,11 @@ public class AlgoClassifier {
 		return result;
 	}
 
+	/**
+	 * returns the confusion matrix with kfolding
+	 * @param inputdocs list of documents
+	 * @return confusion matrix
+	 */
 	private ConfusionMatrix kFold(List<Document> inputdocs) {
 		ConfusionMatrix result = new ConfusionMatrix();
 		double denominator = 1 - AbstractAlgorithm.SPLIT_POINT;
@@ -152,6 +195,11 @@ public class AlgoClassifier {
 		return result;
 	}
 
+	/**
+	 * classifies a list of documents and return the confusion matrix
+	 * @param docs list of documents
+	 * @return confusion matrix
+	 */
 	protected ConfusionMatrix classify(List<Document> docs) {
 		double truePos = 0;
 		double trueNeg = 0;

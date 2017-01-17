@@ -6,8 +6,17 @@ import ch.bfh.bti7535.w2016.util.DocumentUtil;
 
 import java.util.List;
 
+/**
+ * this feature checks the documents of exclamation sentences
+ */
 public class ExclamationSentenceFeature extends SentenceFeature {
 
+	/**
+	 * count all exclamation sentences and calculate the probability
+	 * @param documents the list of documents
+	 * @param classification positive or negative
+	 * @return the probability
+	 */
 	@Override
 	public double train(List<Document> documents, Classification classification) {
 		double sentences = getSentences(documents, classification);
@@ -20,6 +29,11 @@ public class ExclamationSentenceFeature extends SentenceFeature {
 		return (sentences > 0) ? exclamations / sentences : 0;
 	}
 
+	/**
+	 * count all exclamation sentences of a document
+	 * @param document document to test
+	 * @return the amount of sentences
+	 */
 	@Override public double test(Document document) {
 		return DocumentUtil.countExclamationSenctences(document);
 	}
